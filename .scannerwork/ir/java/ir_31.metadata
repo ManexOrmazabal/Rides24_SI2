@@ -1,0 +1,3 @@
+domain.IntegerAdapter#marshal(Ljava/lang/Integer;)Ljava/lang/String;
+329d43f43bf680e9f4a2a26e6e7cfa4c
+java.lang.Integer#toString()Ljava/lang/String;

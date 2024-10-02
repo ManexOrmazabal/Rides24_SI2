@@ -1,0 +1,4 @@
+gui.TravelerGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+0301e2bc8cbbec3c796438cf6742faa5
+==
+setVisible java.awt.Window#setVisible(Z)V

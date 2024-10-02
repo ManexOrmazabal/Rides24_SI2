@@ -1,6 +1,0 @@
-businessLogic.BLFacadeImplementation#getAllDiscounts()Ljava/util/List;
-cb25d84516d809f28f4f83c49fdd98eb
-==
-getAllDiscounts dataAccess.DataAccess#getAllDiscounts()Ljava/util/List;
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V

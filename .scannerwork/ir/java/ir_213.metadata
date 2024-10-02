@@ -1,6 +1,0 @@
-businessLogic.BLFacadeImplementation#updateTraveler(Ldomain/Traveler;)V
-9f0e119f22ca1deeffae36c1cce46e61
-==
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
-updateTraveler dataAccess.DataAccess#updateTraveler(Ldomain/Traveler;)V

@@ -1,6 +1,0 @@
-testOperations.TestBusinessLogic#existRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Z
-b7e7dc7ce173404f6bad6a60ed08d5ce
-==
-close testOperations.TestDataAccess#close()V
-existRide testOperations.TestDataAccess#existRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Z
-open testOperations.TestDataAccess#open()V

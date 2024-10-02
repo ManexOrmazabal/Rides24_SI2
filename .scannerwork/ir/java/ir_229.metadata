@@ -1,6 +1,0 @@
-businessLogic.BLFacadeImplementation#getDiscount(Ljava/lang/String;)Ldomain/Discount;
-14a0cf9a235c1b673623117d06ebb56d
-==
-close dataAccess.DataAccess#close()V
-getDiscount dataAccess.DataAccess#getDiscount(Ljava/lang/String;)Ldomain/Discount;
-open dataAccess.DataAccess#open()V

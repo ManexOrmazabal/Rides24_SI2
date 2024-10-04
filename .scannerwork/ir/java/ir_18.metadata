@@ -1,0 +1,7 @@
+dataAccess.DataAccess#isAdded(Ljava/lang/String;Ljava/lang/String;)Z
+41239a1cd7d87e7707fd9f63917528fd
+java.lang.String#equals(Ljava/lang/Object;)Z
+==
+getMatrikula domain.Car#getMatrikula()Ljava/lang/String;
+getDriver dataAccess.DataAccess#getDriver(Ljava/lang/String;)Ldomain/Driver;
+getCars domain.Driver#getCars()Ljava/util/List;

@@ -1,0 +1,6 @@
+businessLogic.BLFacadeImplementation#addCar(Ljava/lang/String;Ldomain/Car;)Z
+f0cb3ddf92481bcb8b9362b1decba0e2
+==
+addCar dataAccess.DataAccess#addCar(Ljava/lang/String;Ldomain/Car;)Z
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V

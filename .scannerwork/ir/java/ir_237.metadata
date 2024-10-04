@@ -1,0 +1,6 @@
+businessLogic.BLFacadeImplementation#deleteUser(Ldomain/User;)V
+626c76fb259713349748284c132b23e0
+==
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V
+deleteUser dataAccess.DataAccess#deleteUser(Ldomain/User;)V

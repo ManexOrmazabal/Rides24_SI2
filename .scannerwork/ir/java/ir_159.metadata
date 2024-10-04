@@ -1,0 +1,6 @@
+testOperations.TestBusinessLogic#addDriverWithRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)Ldomain/Driver;
+952bfa06c639abef80fd9f666d51619f
+==
+addDriverWithRide testOperations.TestDataAccess#addDriverWithRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)Ldomain/Driver;
+close testOperations.TestDataAccess#close()V
+open testOperations.TestDataAccess#open()V

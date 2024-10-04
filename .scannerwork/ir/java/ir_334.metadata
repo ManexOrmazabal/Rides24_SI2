@@ -1,0 +1,6 @@
+configuration.UtilDate#datesAreEqualIgnoringTime(Ljava/util/Date;Ljava/util/Date;)Z
+196c0db03aee1de55190b78cbd72d83a
+java.util.Calendar#getInstance()Ljava/util/Calendar;
+java.util.Calendar#setTime(Ljava/util/Date;)V
+==
+get java.util.Calendar#get(I)I

@@ -1,5 +1,5 @@
 gui.RegisterGUI#<init>()V
-a83c0bf154d05ed0181df508452c12d8
+26681e7822facc5136d50fc24ba808e1
 java.awt.Dimension#<init>(II)V
 gui.RegisterGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
 java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;

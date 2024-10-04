@@ -1,9 +1,9 @@
 
 )domain.Driver#equals(Ljava/lang/Object;)ZI
-?C:/Users/manex/git/Rides24_SI2/src/main/java/domain/Driver.javaV V("startingBlock*Ñ
-startingBlockV V("ä
+?C:/Users/manex/git/Rides24_SI2/src/main/java/domain/Driver.javaX X("startingBlock*Ñ
+startingBlockX X("ä
 á
-U U(
+W W(
 
 %1"
 __annotate*2
@@ -15,16 +15,16 @@ __annotate*2
 
 objjava.lang.ObjectW
 U
-V V(!
+X X(!
 objjava.lang.Object"__annotation*"
 
 __unknown_file (
 
 %1*
 1*ƒ
-1W	 W(†
+1Y	 Y(†
 ù
-W	 W(
+Y	 Y(
 %0boolean"'domain.User#equals(Ljava/lang/Object;)Z*"
 
 __unknown_file (
@@ -33,8 +33,8 @@ U
 __unknown_file (
 
 objjava.lang.Object"
-W W(
+Y Y(
 "":#
-V V(!
+X X(!
 objjava.lang.ObjectB
 domain.DriverHX

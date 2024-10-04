@@ -431,13 +431,11 @@ setBooking.domain.Complaint#setBooking(Ldomain/Booking;)VF
 getUsername-domain.Admin2#getUsername()Ljava/lang/String;5
 setMota*domain.Admin2#setMota(Ljava/lang/String;)V9
 	setPasswd,domain.Admin2#setPasswd(Ljava/lang/String;)V=
-setUsername.domain.Admin2#setUsername(Ljava/lang/String;)Vjava.io.Serializablejava.lang.Object™
+setUsername.domain.Admin2#setUsername(Ljava/lang/String;)Vjava.io.Serializablejava.lang.Object—
 gui.AlertaSortuGUI8
-<init>.gui.AlertaSortuGUI#<init>(Ljava/lang/String;)VC
-field_Errors3gui.AlertaSortuGUI#field_Errors()Ljava/lang/String;n
-jButtonClose_actionPerformedNgui.AlertaSortuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame Y
-java.io.BufferedReader?
-readLine3java.io.BufferedReader#readLine()Ljava/lang/String;<
+<init>.gui.AlertaSortuGUI#<init>(Ljava/lang/String;)VA
+fieldErrors2gui.AlertaSortuGUI#fieldErrors()Ljava/lang/String;n
+jButtonClose_actionPerformedNgui.AlertaSortuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame <
 java.util.Scanner'
 nextIntjava.util.Scanner#nextInt()I«
 java.util.StringTokenizerH
@@ -477,4 +475,6 @@ setBooking.domain.Complaint#setBooking(Ldomain/Booking;)VF
 nextIntjava.util.Scanner#nextInt()I«
 java.util.StringTokenizerH
 nextElement9java.util.StringTokenizer#nextElement()Ljava/lang/Object;D
-	nextToken7java.util.StringTokenizer#nextToken()Ljava/lang/String;
+	nextToken7java.util.StringTokenizer#nextToken()Ljava/lang/String;Y
+java.io.BufferedReader?
+readLine3java.io.BufferedReader#readLine()Ljava/lang/String;

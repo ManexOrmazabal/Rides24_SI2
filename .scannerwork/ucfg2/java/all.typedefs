@@ -4849,10 +4849,10 @@ $isIgnoringElementContentWhitespace()Njavax.xml.parsers.DocumentBuilderFactory#
 getUsername()-domain.Admin2#getUsername()Ljava/lang/String;I
 setMota(Ljava/lang/String;)*domain.Admin2#setMota(Ljava/lang/String;)VM
 setPasswd(Ljava/lang/String;),domain.Admin2#setPasswd(Ljava/lang/String;)VQ
-setUsername(Ljava/lang/String;).domain.Admin2#setUsername(Ljava/lang/String;)V“
+setUsername(Ljava/lang/String;).domain.Admin2#setUsername(Ljava/lang/String;)V‘
 gui.AlertaSortuGUIjavax.swing.JFrameL
-<init>(Ljava/lang/String;).gui.AlertaSortuGUI#<init>(Ljava/lang/String;)VE
-field_Errors()3gui.AlertaSortuGUI#field_Errors()Ljava/lang/String;E
+<init>(Ljava/lang/String;).gui.AlertaSortuGUI#<init>(Ljava/lang/String;)VC
+fieldErrors()2gui.AlertaSortuGUI#fieldErrors()Ljava/lang/String;E
 getBusinessLogic()/gui.AlertaSortuGUI#getBusinessLogic()LBLFacade;Œ
 :jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Ngui.AlertaSortuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vé
 gui.AlertaSortuGUI$1java.awt.event.ActionListenerjava.lang.Object*

@@ -3590,7 +3590,79 @@ setRows(I)java.awt.GridLayout#setRows(I)V-
 
 setVgap(I)java.awt.GridLayout#setVgap(I)V>
 
-toString()0java.awt.GridLayout#toString()Ljava/lang/String;ó
+toString()0java.awt.GridLayout#toString()Ljava/lang/String;9
+java.util.Queuejava.lang.Objectjava.util.Collection4
+java.util.Dequejava.lang.Objectjava.util.Queueø
+ java.util.AbstractSequentialListjava.util.AbstractList6
+<init>()*java.util.AbstractSequentialList#<init>()VV
+add(ILjava/lang/Object;):java.util.AbstractSequentialList#add(ILjava/lang/Object;)Vd
+addAll(ILjava/util/Collection;)Ajava.util.AbstractSequentialList#addAll(ILjava/util/Collection;)ZC
+get(I)9java.util.AbstractSequentialList#get(I)Ljava/lang/Object;M
+
+iterator()?java.util.AbstractSequentialList#iterator()Ljava/util/Iterator;I
+	remove(I)<java.util.AbstractSequentialList#remove(I)Ljava/lang/Object;g
+set(ILjava/lang/Object;)Kjava.util.AbstractSequentialList#set(ILjava/lang/Object;)Ljava/lang/Object;ý#
+java.util.LinkedListjava.io.Serializablejava.lang.Cloneable java.util.AbstractSequentialListjava.util.Dequejava.util.List*
+<init>()java.util.LinkedList#<init>()VV
+<init>(Ljava/util/Collection;)4java.util.LinkedList#<init>(Ljava/util/Collection;)VJ
+add(ILjava/lang/Object;).java.util.LinkedList#add(ILjava/lang/Object;)VH
+add(Ljava/lang/Object;)-java.util.LinkedList#add(Ljava/lang/Object;)ZX
+addAll(ILjava/util/Collection;)5java.util.LinkedList#addAll(ILjava/util/Collection;)ZV
+addAll(Ljava/util/Collection;)4java.util.LinkedList#addAll(Ljava/util/Collection;)ZR
+addFirst(Ljava/lang/Object;)2java.util.LinkedList#addFirst(Ljava/lang/Object;)VP
+addLast(Ljava/lang/Object;)1java.util.LinkedList#addLast(Ljava/lang/Object;)VB
+checkElementIndex(I)*java.util.LinkedList#checkElementIndex(I)VD
+checkPositionIndex(I)+java.util.LinkedList#checkPositionIndex(I)V(
+clear()java.util.LinkedList#clear()V9
+clone().java.util.LinkedList#clone()Ljava/lang/Object;R
+contains(Ljava/lang/Object;)2java.util.LinkedList#contains(Ljava/lang/Object;)ZU
+descendingIterator()=java.util.LinkedList#descendingIterator()Ljava/util/Iterator;=
+	element()0java.util.LinkedList#element()Ljava/lang/Object;7
+get(I)-java.util.LinkedList#get(I)Ljava/lang/Object;?
+
+getFirst()1java.util.LinkedList#getFirst()Ljava/lang/Object;=
+	getLast()0java.util.LinkedList#getLast()Ljava/lang/Object;P
+indexOf(Ljava/lang/Object;)1java.util.LinkedList#indexOf(Ljava/lang/Object;)I<
+isElementIndex(I)'java.util.LinkedList#isElementIndex(I)Z>
+isPositionIndex(I)(java.util.LinkedList#isPositionIndex(I)ZX
+lastIndexOf(Ljava/lang/Object;)5java.util.LinkedList#lastIndexOf(Ljava/lang/Object;)IŒ
+9linkBefore(Ljava/lang/Object;Ljava/util/LinkedList$Node;)Ojava.util.LinkedList#linkBefore(Ljava/lang/Object;Ljava/util/LinkedList$Node;)VT
+linkFirst(Ljava/lang/Object;)3java.util.LinkedList#linkFirst(Ljava/lang/Object;)VR
+linkLast(Ljava/lang/Object;)2java.util.LinkedList#linkLast(Ljava/lang/Object;)VO
+listIterator(I)<java.util.LinkedList#listIterator(I)Ljava/util/ListIterator;B
+node(I)7java.util.LinkedList#node(I)Ljava/util/LinkedList$Node;L
+offer(Ljava/lang/Object;)/java.util.LinkedList#offer(Ljava/lang/Object;)ZV
+offerFirst(Ljava/lang/Object;)4java.util.LinkedList#offerFirst(Ljava/lang/Object;)ZT
+offerLast(Ljava/lang/Object;)3java.util.LinkedList#offerLast(Ljava/lang/Object;)ZM
+outOfBoundsMsg(I)8java.util.LinkedList#outOfBoundsMsg(I)Ljava/lang/String;7
+peek()-java.util.LinkedList#peek()Ljava/lang/Object;A
+peekFirst()2java.util.LinkedList#peekFirst()Ljava/lang/Object;?
+
+peekLast()1java.util.LinkedList#peekLast()Ljava/lang/Object;7
+poll()-java.util.LinkedList#poll()Ljava/lang/Object;A
+pollFirst()2java.util.LinkedList#pollFirst()Ljava/lang/Object;?
+
+pollLast()1java.util.LinkedList#pollLast()Ljava/lang/Object;5
+pop(),java.util.LinkedList#pop()Ljava/lang/Object;J
+push(Ljava/lang/Object;).java.util.LinkedList#push(Ljava/lang/Object;)Vh
+'readObject(Ljava/io/ObjectInputStream;)=java.util.LinkedList#readObject(Ljava/io/ObjectInputStream;)V;
+remove()/java.util.LinkedList#remove()Ljava/lang/Object;=
+	remove(I)0java.util.LinkedList#remove(I)Ljava/lang/Object;N
+remove(Ljava/lang/Object;)0java.util.LinkedList#remove(Ljava/lang/Object;)ZE
+removeFirst()4java.util.LinkedList#removeFirst()Ljava/lang/Object;l
+)removeFirstOccurrence(Ljava/lang/Object;)?java.util.LinkedList#removeFirstOccurrence(Ljava/lang/Object;)ZC
+removeLast()3java.util.LinkedList#removeLast()Ljava/lang/Object;j
+(removeLastOccurrence(Ljava/lang/Object;)>java.util.LinkedList#removeLastOccurrence(Ljava/lang/Object;)Z[
+set(ILjava/lang/Object;)?java.util.LinkedList#set(ILjava/lang/Object;)Ljava/lang/Object;&
+size()java.util.LinkedList#size()IJ
+spliterator()9java.util.LinkedList#spliterator()Ljava/util/Spliterator;G
+superClone()7java.util.LinkedList#superClone()Ljava/util/LinkedList;>
+	toArray()1java.util.LinkedList#toArray()[Ljava/lang/Object;d
+toArray([Ljava/lang/Object;)Djava.util.LinkedList#toArray([Ljava/lang/Object;)[Ljava/lang/Object;q
+#unlink(Ljava/util/LinkedList$Node;)Jjava.util.LinkedList#unlink(Ljava/util/LinkedList$Node;)Ljava/lang/Object;{
+(unlinkFirst(Ljava/util/LinkedList$Node;)Ojava.util.LinkedList#unlinkFirst(Ljava/util/LinkedList$Node;)Ljava/lang/Object;y
+'unlinkLast(Ljava/util/LinkedList$Node;)Njava.util.LinkedList#unlinkLast(Ljava/util/LinkedList$Node;)Ljava/lang/Object;l
+)writeObject(Ljava/io/ObjectOutputStream;)?java.util.LinkedList#writeObject(Ljava/io/ObjectOutputStream;)Vó
 java.util.Objectsjava.lang.Object'
 <init>()java.util.Objects#<init>()VE
 checkFromIndexSize(III)*java.util.Objects#checkFromIndexSize(III)IE

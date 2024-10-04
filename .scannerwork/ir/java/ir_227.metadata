@@ -1,5 +1,5 @@
 businessLogic.BLFacadeImplementation#erreklamazioaBidali(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;LBooking;Ljava/lang/String;Z)Z
-f734056159c9c38619782d516edd0a25
+f31d0fd56e17e57a79985d1b012427f6
 ==
 close dataAccess.DataAccess#close()V
 erreklamazioaBidali dataAccess.DataAccess#erreklamazioaBidali(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;LBooking;Ljava/lang/String;Z)Z

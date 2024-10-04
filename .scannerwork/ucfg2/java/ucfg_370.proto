@@ -1,15 +1,24 @@
 
-/domain.Booking#getComplaint()Ldomain/Complaint;J
-@C:/Users/manex/git/Rides24_SI2/src/main/java/domain/Booking.javaY Y("1*ž
-1Z	 Z(i
-g
-Z	 Z(
-%0domain.Complaint"__id*=
+"domain.Booking#prezioaKalkulatu()DJ
+@C:/Users/manex/git/Rides24_SI2/src/main/java/domain/Booking.javaU U("1*ô
+1V
+ V(_
+]
+V
+ V(
+%0domain.Ride"__id*8
 
-__unknown_file (!*
-domain.Booking"
-	complaint"$
-Z Z(
-
-%0domain.ComplaintB
-domain.BookingH
+__unknown_file (*
+domain.Booking"
+ridepn
+V
+ V(
+%1double"domain.Ride#getPrice()D*/
+
+__unknown_file (
+
+%0domain.Ride2
+getPrice()"
+V V(<
+""B
+domain.BookingHX

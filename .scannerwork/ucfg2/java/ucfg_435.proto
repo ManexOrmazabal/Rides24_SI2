@@ -1,9 +1,19 @@
 
-0configuration.ConfigXML#isDatabaseInitialized()ZU
-IC:/Users/manex/git/Rides24_SI2/src/main/java/configuration/ConfigXML.java£ £(%"1*%
+9configuration.ConfigXML#getDbFilename()Ljava/lang/String;U
+IC:/Users/manex/git/Rides24_SI2/src/main/java/configuration/ConfigXML.javaŸ Ÿ("1*®
 1
-¤	 ¤("
+ 	  (u
+s
 
-¤ ¤(
-""B
-configuration.ConfigXMLHX
+ 	  (
+%0java.lang.String"__id*G
+
+__unknown_file (+*)
+configuration.ConfigXML"
+
+dbFilename"&
+
+   (
+
+%0java.lang.StringB
+configuration.ConfigXMLH

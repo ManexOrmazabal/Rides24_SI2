@@ -1,5 +1,5 @@
 gui.AlertaSortuGUI#<init>(Ljava/lang/String;)V
-a4742054270feac47f72a89677b008a4
+14c7c3bb6fab3fb5cc548306c372adce
 java.awt.Dimension#<init>(II)V
 java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
 java.awt.Dimension#instance-init#

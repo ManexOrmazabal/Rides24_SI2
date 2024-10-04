@@ -1,16 +1,15 @@
 
-7configuration.ConfigXML#getPassword()Ljava/lang/String;S
-IC:/Users/manex/git/Rides24_SI2/src/main/java/configuration/ConfigXML.java= =("1*¦
-1>	 >(q
-o
->	 >(
-%0java.lang.String"__id*E
+3configuration.ConfigXML#getUser()Ljava/lang/String;S
+IC:/Users/manex/git/Rides24_SI2/src/main/java/configuration/ConfigXML.java9 9("1*¢
+1:	 :(m
+k
+:	 :(
+%0java.lang.String"__id*A
 
-__unknown_file ()*'
-configuration.ConfigXML"
-
-password"$
-> >(
+__unknown_file (%*#
+configuration.ConfigXML"
+user"$
+: :(
 
 %0java.lang.StringB
 configuration.ConfigXMLH

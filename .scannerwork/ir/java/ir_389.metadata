@@ -1,5 +1,5 @@
 gui.MoneyGUI#<init>(Ljava/lang/String;)V
-fc3d7374cc69307e18be5a4e8f70f190
+7f1357284c7c05c18e1b9675a5076dc9
 java.awt.Dimension#<init>(II)V
 java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
 java.awt.Dimension#instance-init#

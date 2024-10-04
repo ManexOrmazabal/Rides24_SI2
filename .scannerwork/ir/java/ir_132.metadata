@@ -1,5 +1,5 @@
 gui.RegisterGUI#instance-init#
-7de2f7a32539a99f2e84ffaf770d2e00
+869be04a0f5db7b72f31ae01985c76b4
 javax.swing.JPasswordField#<init>()V
 java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
 javax.swing.JButton#<init>(Ljava/lang/String;)V

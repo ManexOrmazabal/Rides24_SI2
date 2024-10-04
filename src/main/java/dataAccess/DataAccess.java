@@ -190,9 +190,7 @@ public class DataAccess {
 	 */
 	public List<String> getDepartCities() {
 		TypedQuery<String> query = db.createQuery("SELECT DISTINCT r.from FROM Ride r ORDER BY r.from", String.class);
-		List<String> cities = query.getResultList();
-		return cities;
-
+		 return query.getResultList();
 	}
 
 	/**

@@ -1,5 +1,5 @@
 gui.KotxeaGehituGUI#<init>(Ljava/lang/String;)V
-2abcf552513cc28d2a406e843454a8da
+941ab5667af594b3787026558a7970a9
 java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
 javax.swing.JPanel#<init>()V
 javax.swing.JButton#<init>(Ljava/lang/String;)V

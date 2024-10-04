@@ -1,5 +1,5 @@
 gui.LoginGUI#<init>()V
-3e085f6628c6c0813722b06e3f48bcb3
+6325ccd6919578fad928c1551103575d
 java.awt.Dimension#<init>(II)V
 gui.LoginGUI#setBusinessLogic(LbusinessLogic/BLFacade;)V
 java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;

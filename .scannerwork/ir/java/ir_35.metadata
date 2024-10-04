@@ -1,5 +1,5 @@
 gui.BookGUI#<init>(Ljava/lang/String;)V
-bcb262ed2f688acfd4c7c8860ca83c7b
+f9b6c0ab658644e7cf314af890b70e86
 gui.BookGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
 java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
 java.awt.Color#<init>(III)V

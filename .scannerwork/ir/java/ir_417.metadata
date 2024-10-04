@@ -1,5 +1,5 @@
 gui.AlertaSortuGUI#instance-init#
-6afb83d183b084540cf3ffd32af4d1a3
+b068cd91f12b85047d8a0ad09534274b
 null
 javax.swing.JLabel#<init>(Ljava/lang/String;)V
 javax.swing.JTextField#instance-init#

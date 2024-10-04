@@ -1,5 +1,5 @@
 businessLogic.BLFacadeImplementation#updateAlertaAurkituak(Ljava/lang/String;)Z
-312c3b2b66fc79bac838d1010c32173d
+a668b1246941cbc269b4cc9081c450c9
 ==
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V

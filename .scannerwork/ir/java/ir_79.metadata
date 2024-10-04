@@ -1,5 +1,5 @@
 gui.BaloraGUI#<init>(Ljava/lang/String;)V
-42145c62ab8d97a6f62172f7c65419a0
+04e71b0017bd5634934a9b653bd6b82e
 java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
 java.awt.Color#<init>(III)V
 java.awt.GridLayout#<init>(IIII)V

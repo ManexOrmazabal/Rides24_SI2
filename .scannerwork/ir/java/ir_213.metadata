@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#bookRide(Ljava/lang/String;LRide;ID)Z
-2790e1cb727012d364c91676f556cae9
+businessLogic.BLFacadeImplementation#getAllMovements(Ldomain/User;)Ljava/util/List;
+4864bd30df191bc3d8002586bd0dac40
 ==
+getAllMovements dataAccess.DataAccess#getAllMovements(Ldomain/User;)Ljava/util/List;
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V
-bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;LRide;ID)Z

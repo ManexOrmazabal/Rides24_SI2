@@ -1,4 +1,2 @@
-gui.BezeroGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-67ca0b125d075da19fc44567102cccd5
-==
-setVisible java.awt.Window#setVisible(Z)V
+exceptions.RideAlreadyExistException#instance-init#
+38fba9e761f679e39850a3b97dd780cc

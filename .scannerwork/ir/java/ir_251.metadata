@@ -1,4 +1,2 @@
-gui.AdminGUI#jButtonCloseActionPerformed(Ljava/awt/event/ActionEvent;)V
-bab3d6bd09e6619c7a62b42c6afe4816
-==
-setVisible java.awt.Window#setVisible(Z)V
+gui.AlertakKudeatuGUI#instance-init#
+9169c2153c0f42f2ae39e12f3003b4be

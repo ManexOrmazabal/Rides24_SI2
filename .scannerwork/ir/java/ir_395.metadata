@@ -1,2 +1,2 @@
-configuration.ConfigXML#getDatabasePort()I
-b469cb72bec0d2ef062df697d50b1491
+configuration.ConfigXML#getUser()Ljava/lang/String;
+9d09ad4af6404f79980e85d25cce7575

@@ -1,4 +1,4 @@
-gui.MoneyGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-adb7e0fb68b2aa27a863328dbd4c19c8
-==
-setVisible java.awt.Window#setVisible(Z)V
+businessLogic.BusinessLogicServer#instance-init#
+a83040999cbbf7d47ebcfc6b19f2ebff
+javax.swing.JPanel#<init>()V
+javax.swing.JPanel#instance-init#

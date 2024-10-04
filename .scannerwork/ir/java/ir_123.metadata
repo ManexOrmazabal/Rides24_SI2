@@ -1,3 +1,2 @@
-domain.User#equals(Ljava/lang/Object;)Z
-8a4d13cfdf338812ceedf18a7a589512
-java.lang.Object#getClass()Ljava/lang/Class;
+gui.DeskontuaGUI#instance-init#
+fecebfa274ed937e702182ff79656171

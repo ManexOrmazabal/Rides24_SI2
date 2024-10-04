@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#initializeBD()V
-104228c524a31bb625fe9d0aa7cbb5bc
+businessLogic.BLFacadeImplementation#getUser(Ljava/lang/String;)Ldomain/User;
+eac19a912a45a3ca61f643700c460e54
 ==
-initializeDB dataAccess.DataAccess#initializeDB()V
+getUser dataAccess.DataAccess#getUser(Ljava/lang/String;)Ldomain/User;
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V

@@ -1,2 +1,2 @@
-domain.Booking#instance-init#
-a6cc5bbdd5436ed6fcdb60f9a762de4d
+domain.Booking#<init>(Ldomain/Ride;LTraveler;I)V
+0480733bc14a8b74d9159ba31666579c

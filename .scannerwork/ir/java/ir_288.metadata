@@ -1,2 +1,2 @@
-domain.Ride#setTo(Ljava/lang/String;)V
-f808dd5008524924776377d6441eb2bc
+domain.Ride#getDate()Ljava/util/Date;
+9e3d6c5cf327eca02dce15c636010551

@@ -1,6 +1,2 @@
-gui.DriverGUI#instance-init#
-c27135ca9744a868202d5d312a65032c
-java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
-java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
-javax.swing.JButton#<init>(Ljava/lang/String;)V
-javax.swing.JButton#instance-init#
+gui.DriverGUI#getBusinessLogic()LbusinessLogic/BLFacade;
+15e60942e118eee0180b7b775c20c9dc

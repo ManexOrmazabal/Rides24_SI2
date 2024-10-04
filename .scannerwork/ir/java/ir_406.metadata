@@ -1,2 +1,2 @@
-configuration.ConfigXML#isDatabaseInitialized()Z
-d4db74e0c582ccc2cd762eedf92a4d2f
+configuration.ConfigXML#getDatabaseNode()Ljava/lang/String;
+44ed5907e3f5b404af5e3224feeb85fb

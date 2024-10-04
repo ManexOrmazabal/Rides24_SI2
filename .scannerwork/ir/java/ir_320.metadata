@@ -1,2 +1,2 @@
-domain.Alert#setFound(Z)V
-bd44fdc5b1b2d7bce5b240f495017ee0
+domain.Alert#isActive()Z
+d24b4cbc930e0ae683ee66b859305832

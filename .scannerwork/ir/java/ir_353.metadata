@@ -1,2 +1,4 @@
-domain.Booking#setDeskontua(D)V
-ea5f29eef526f70b89fef9667e12744b
+domain.Booking#prezioaKalkulatu()D
+53b27d7d7116153e5a6382060a0e966a
+==
+getPrice domain.Ride#getPrice()D

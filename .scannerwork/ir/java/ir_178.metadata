@@ -1,2 +1,2 @@
-gui.BezeroGUI#getBusinessLogic()LbusinessLogic/BLFacade;
-01862689ffdf963132326af030bcc77f
+gui.BezeroGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
+1ebe14e5f2fce281353a515ebe6f6ab2

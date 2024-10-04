@@ -1,4 +1,2 @@
-dataAccess.DataAccess#close()V
-89ad958590a0626953583b4c5fa15a42
-==
-println java.io.PrintStream#println(Ljava/lang/String;)V
+dataAccess.DataAccess#getUser(Ljava/lang/String;)Ldomain/User;
+defdc1aabdeb7cd1f4f14d7f84e79975

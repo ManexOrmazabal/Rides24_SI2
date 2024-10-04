@@ -1,5 +1,3 @@
-domain.Driver#addCar(Ldomain/Car;)V
-32ae7ba1c9c7a250806d8f2918f6b647
-==
-setDriver domain.Car#setDriver(Ldomain/Driver;)V
-add java.util.LinkedList#add(Ljava/lang/Object;)Z
+domain.Driver#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)LRide;
+c08e0017d3bc2736af355b3f36473b00
+null

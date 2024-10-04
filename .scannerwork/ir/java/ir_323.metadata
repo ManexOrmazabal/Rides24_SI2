@@ -1,2 +1,2 @@
-gui.ArazoaGUI#instance-init#
-7134121b2b4856f6436e1c69645cfae9
+gui.ArazoaGUI#getBusinessLogic()LBLFacade;
+abcbea6d8f7339554333182f4377ae92

@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#deleteUser(Ldomain/User;)V
-626c76fb259713349748284c132b23e0
+businessLogic.BLFacadeImplementation#getAlertsByUsername(Ljava/lang/String;)Ljava/util/List;
+c5129fa06399acfcf1c936bc42360dd3
 ==
+getAlertsByUsername dataAccess.DataAccess#getAlertsByUsername(Ljava/lang/String;)Ljava/util/List;
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V
-deleteUser dataAccess.DataAccess#deleteUser(Ldomain/User;)V

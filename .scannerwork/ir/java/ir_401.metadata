@@ -1,2 +1,2 @@
-configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;
-d11b0f81a2935b8ab2f5045cb95aa542
+configuration.ConfigXML#getBusinessLogicNode()Ljava/lang/String;
+bf2000dced07710983f08955e2440fa9

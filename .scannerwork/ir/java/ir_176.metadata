@@ -1,4 +1,2 @@
-gui.AlertaAurkituakGUI#closeButton_actionPerformed(Ljava/awt/event/ActionEvent;)V
-bcd1047fd1d6927c291c6f8ab9cb80b4
-==
-setVisible java.awt.Window#setVisible(Z)V
+gui.BezeroGUI#instance-init#
+ce23d7f9b2be574021458bbe2ce16dff

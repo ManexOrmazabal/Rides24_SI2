@@ -1,2 +1,2 @@
-domain.Traveler#getAlerts()Ljava/util/List;
-37b58490ad4f89ff4ae4747e38c440c4
+domain.Traveler#setAlerts(Ljava/util/List;)V
+7a7f91025c8096227547f6309a9ca7d7

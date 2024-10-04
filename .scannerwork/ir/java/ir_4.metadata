@@ -1,2 +1,5 @@
-dataAccess.DataAccess#getArrivalCities(Ljava/lang/String;)Ljava/util/List;
-0823378bfaae265729df4430cdc8d378
+dataAccess.DataAccess#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;
+75106dea6a4d6614eb2ca1a6bc6d81f1
+java.util.ArrayList#<init>()V
+==
+println java.io.PrintStream#println(Ljava/lang/String;)V

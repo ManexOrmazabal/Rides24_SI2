@@ -1,2 +1,2 @@
-domain.Movement#setEragiketa(Ljava/lang/String;)V
-cb0eaabb865db4196587320694b33803
+domain.Movement#getKopurua()D
+3a3f6cf5f528417890a2ccc7a6a30f22

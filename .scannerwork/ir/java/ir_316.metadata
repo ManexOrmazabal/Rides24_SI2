@@ -1,2 +1,2 @@
-domain.Alert#setDate(Ljava/util/Date;)V
-b365ec1d4d7c41a76074c4e48429947e
+domain.Alert#getTraveler()LTraveler;
+4976072c78a2d2dd222a19e4d4ea3704

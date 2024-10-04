@@ -1,23 +1,23 @@
 
 %dataAccess.DataAccess#deleteAlert(I)ZS
-GC:/Users/manex/git/Rides24_SI2/src/main/java/dataAccess/DataAccess.javaä ä("10*%
+GC:/Users/manex/git/Rides24_SI2/src/main/java/dataAccess/DataAccess.javaå å("10*%
 5
-ô
- ô("
+õ
+ õ("
 
-ô ô(
+õ õ(
 ""* 
 10
-í í(+U
+î î(+U
 S
 
-í í(+
+î î(+
 travelerdomain.Traveler"__id*"
 
 __unknown_file (
 ""±®
 
-î î(
+ï ï(
 %0"%domain.Traveler#removeAlert(LAlert;)V*9
 
 __unknown_file (

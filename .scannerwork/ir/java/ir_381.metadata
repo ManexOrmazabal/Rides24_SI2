@@ -1,2 +1,2 @@
-domain.Complaint#getBooking()Ldomain/Booking;
-c9e737c71f1ca5ebf23484266240e625
+domain.Complaint#setBooking(Ldomain/Booking;)V
+8b23034deeeb04f2132322c9b1c38423

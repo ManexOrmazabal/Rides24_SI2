@@ -1,4 +1,2 @@
-gui.TravelerGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-2efb5ee57b3c97cf5199d603a9f64241
-==
-setVisible java.awt.Window#setVisible(Z)V
+businessLogic.BLFacadeImplementation#instance-init#
+434c86953c2ecdf59dc78bcf7d685089

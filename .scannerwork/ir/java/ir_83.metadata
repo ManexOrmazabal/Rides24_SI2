@@ -1,4 +1,4 @@
-domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)V
-e1791721e064674d9feac640c247e434
+domain.Driver#toString()Ljava/lang/String;
+91b0f5449956184c689e3407570da0b8
 ==
-<init> domain.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+toString domain.User#toString()Ljava/lang/String;

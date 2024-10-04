@@ -1,2 +1,2 @@
-domain.Booking#setSeats(I)V
-2a518e3f4a87598d91e1e961d44b86de
+domain.Booking#getStatus()Ljava/lang/String;
+d7fdcf20afa6833c87aa259a89e4f76d

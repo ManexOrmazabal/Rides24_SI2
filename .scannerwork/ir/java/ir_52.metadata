@@ -1,7 +1,4 @@
-testOperations.TestDataAccess#open()V
-8d16510086929cc863f370453c7a124e
-java.util.HashMap#<init>()V
-java.util.HashMap#instance-init#
+testOperations.TestDataAccess#close()V
+a0dfbf1ad20233cfff8c4854da250170
 ==
-put java.util.Map#put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 println java.io.PrintStream#println(Ljava/lang/String;)V

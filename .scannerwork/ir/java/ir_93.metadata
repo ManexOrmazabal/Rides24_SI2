@@ -1,6 +1,4 @@
-domain.Driver#bilatumatrikula(Ljava/lang/String;)Ldomain/Car;
-5925531d6b4385b4921111e8ed5921a3
-java.lang.String#equals(Ljava/lang/Object;)Z
+domain.Driver#removeCar(Ldomain/Car;)V
+f58c1705d295fa04f1ca379f7b39a199
 ==
-getMatrikula domain.Car#getMatrikula()Ljava/lang/String;
-get java.util.LinkedList#get(I)Ljava/lang/Object;
+remove java.util.LinkedList#remove(Ljava/lang/Object;)Z

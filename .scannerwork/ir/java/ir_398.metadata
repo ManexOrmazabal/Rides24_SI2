@@ -1,2 +1,2 @@
-configuration.ConfigXML#isDatabaseLocal()Z
-466fa044fd0448c157d1fbe03ff2d5b3
+configuration.ConfigXML#isBusinessLogicLocal()Z
+21b75a7be511b686ff4364813e01c9c9

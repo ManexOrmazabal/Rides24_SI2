@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#getDiscount(Ljava/lang/String;)Ldomain/Discount;
-e13b4f10b5cf0086e8658a7fcf51005b
+businessLogic.BLFacadeImplementation#deleteCar(Ldomain/Car;)V
+3c41eac2fd125574455beaf93c520a5d
 ==
 close dataAccess.DataAccess#close()V
-getDiscount dataAccess.DataAccess#getDiscount(Ljava/lang/String;)Ldomain/Discount;
+deleteCar dataAccess.DataAccess#deleteCar(Ldomain/Car;)V
 open dataAccess.DataAccess#open()V

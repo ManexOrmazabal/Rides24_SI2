@@ -1,4 +1,10 @@
-gui.AlertakKudeatuGUI#closeButton_actionPerformed(Ljava/awt/event/ActionEvent;)V
-c9372cd08a6b64cf823aa2db9f6a691f
+gui.AlertakKudeatuGUI#refreshTable(Ljava/lang/String;)V
+5264031a714c2bb1825d8db6b52db9f5
+java.text.SimpleDateFormat#<init>(Ljava/lang/String;)V
+java.text.SimpleDateFormat#instance-init#
+java.text.DateFormat#format(Ljava/util/Date;)Ljava/lang/String;
 ==
-setVisible java.awt.Window#setVisible(Z)V
+getAlertsByUsername businessLogic.BLFacade#getAlertsByUsername(Ljava/lang/String;)Ljava/util/List;
+addRow javax.swing.table.DefaultTableModel#addRow([Ljava/lang/Object;)V
+getModel javax.swing.JTable#getModel()Ljavax/swing/table/TableModel;
+setRowCount javax.swing.table.DefaultTableModel#setRowCount(I)V

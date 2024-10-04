@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#deleteDiscount(Ldomain/Discount;)V
-26eb10c5a321e66e4a64bfbf8d8e17d2
+businessLogic.BLFacadeImplementation#updateDiscount(Ldomain/Discount;)V
+8eb11ff7d39cb123ea8aaf0a2ec30549
 ==
 close dataAccess.DataAccess#close()V
+updateDiscount dataAccess.DataAccess#updateDiscount(Ldomain/Discount;)V
 open dataAccess.DataAccess#open()V
-deleteDiscount dataAccess.DataAccess#deleteDiscount(Ldomain/Discount;)V

@@ -1,2 +1,2 @@
-domain.Movement#instance-init#
-bdcb65579c59acf0e10fdcfe7b3c7ea9
+domain.Movement#<init>(Ldomain/User;Ljava/lang/String;D)V
+8bd9b5e957444727fc912048e3fa62da

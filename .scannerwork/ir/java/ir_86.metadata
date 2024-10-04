@@ -1,2 +1,2 @@
-domain.Driver#setCreatedRides(Ljava/util/ArrayList;)V
-e3b364fbc7fad29ad0bbcfdbe11bb4c2
+domain.Driver#getCars()Ljava/util/List;
+6108bf3340bbbd7bb165ebd3aa063aef

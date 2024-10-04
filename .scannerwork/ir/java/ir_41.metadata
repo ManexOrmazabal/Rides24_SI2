@@ -1,4 +1,2 @@
-domain.Traveler#<init>(Ljava/lang/String;Ljava/lang/String;)V
-772541774be457e2d6bb4bd044298e4e
-==
-<init> domain.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+domain.Traveler#getBookedRides()Ljava/util/List;
+1f3319570919f01ec9ffb137570a5f3d

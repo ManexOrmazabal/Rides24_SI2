@@ -1,7 +1,5 @@
-dataAccess.DataAccess#isAdded(Ljava/lang/String;Ljava/lang/String;)Z
-4b62e45b9b401fa0636574f805041bd3
-java.lang.String#equals(Ljava/lang/Object;)Z
+dataAccess.DataAccess#getKotxeByMatrikula(Ljava/lang/String;)Ldomain/Car;
+286ec8ecde511fdf5c152642eaca5f8d
 ==
-getMatrikula domain.Car#getMatrikula()Ljava/lang/String;
-getDriver dataAccess.DataAccess#getDriver(Ljava/lang/String;)Ldomain/Driver;
-getCars domain.Driver#getCars()Ljava/util/List;
+isEmpty java.util.List#isEmpty()Z
+get java.util.List#get(I)Ljava/lang/Object;

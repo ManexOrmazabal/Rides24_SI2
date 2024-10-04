@@ -1,2 +1,2 @@
-domain.Alert#getFrom()Ljava/lang/String;
-2bedec258fe818f4ee6fb43f3aa29f5f
+domain.Alert#setFrom(Ljava/lang/String;)V
+b1c698b66643f499f0915893ebb6fdb3

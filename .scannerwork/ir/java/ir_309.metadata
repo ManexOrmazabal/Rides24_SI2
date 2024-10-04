@@ -1,2 +1,2 @@
-domain.Alert#getAlertNumber()Ljava/lang/Integer;
-380b4977f028ea426e6c63d898e07cda
+domain.Alert#setAlertNumber(Ljava/lang/Integer;)V
+c113a0549ea326938cc1ee0eb6e70a53

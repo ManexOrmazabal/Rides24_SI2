@@ -1,2 +1,2 @@
-domain.Ride#setDate(Ljava/util/Date;)V
-eb4c972550e85d8f8537ac0a64ec331d
+domain.Ride#getnPlaces()I
+173956a478c4127717fc7ab541aa43e4

@@ -1,7 +1,6 @@
-testOperations.TestBusinessLogic#<init>()V
-fe31ef3ebba83520e0cf6a7982a95e73
-testOperations.TestDataAccess#instance-init#
-testOperations.TestDataAccess#<init>()V
+testOperations.TestBusinessLogic#removeDriver(Ljava/lang/String;)Z
+4c36fc26c34affdf731c135ba1a65d86
 ==
-println java.io.PrintStream#println(Ljava/lang/String;)V
+removeDriver testOperations.TestDataAccess#removeDriver(Ljava/lang/String;)Z
 close testOperations.TestDataAccess#close()V
+open testOperations.TestDataAccess#open()V

@@ -1,2 +1,2 @@
-gui.TravelerGUI#getBusinessLogic()LbusinessLogic/BLFacade;
-f5aa1a3c4fd6efb192c33d2d0d640ba6
+gui.TravelerGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
+66f0fa16b92533d8881cfeaaa98fa916

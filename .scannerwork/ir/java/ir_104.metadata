@@ -1,2 +1,2 @@
-domain.User#instance-init#
-a6f69c871b8a5be4667f39caaa3fad3a
+domain.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+4f183cfada4e9efdc41be8e65a878e59

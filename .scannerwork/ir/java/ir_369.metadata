@@ -1,2 +1,4 @@
-domain.Complaint#instance-init#
-87ce3c459a86f4b5a23281bbe63a4e24
+domain.Complaint#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ldomain/Booking;Ljava/lang/String;Z)V
+82b7e134c3d551d33f99809d42911ce0
+==
+<init> java.lang.Object#<init>()V

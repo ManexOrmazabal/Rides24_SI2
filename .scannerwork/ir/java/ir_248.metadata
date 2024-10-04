@@ -1,2 +1,2 @@
-gui.AdminGUI#getBusinessLogic()LbusinessLogic/BLFacade;
-273eeb98e11ab7789eb3fbaebce73a56
+gui.AdminGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
+cd39f3d43f263c1c7f97f2522584fcd0

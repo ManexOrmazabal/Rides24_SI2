@@ -1,29 +1,29 @@
 
 %dataAccess.DataAccess#initializeDB()VQ
-GC:/Users/manex/git/Rides24_SI2/src/main/java/dataAccess/DataAccess.javaF F("99*≠
-69i i(ñì
-i i(+
+GC:/Users/manex/git/Rides24_SI2/src/main/java/dataAccess/DataAccess.javaG G("99*≠
+69j j(ñì
+j j(+
 %31java.util.Date",java.util.Calendar#getTime()Ljava/util/Date;*7
 
 __unknown_file (
 
 caljava.util.Calendar2	getTime()*
 67*ñ
-70f f(-O
+70g g(-O
 M
-f f(-
+g g(-
 date3java.util.Date"__id*"
 
 __unknown_file (
 ""B
 @
-h h(
+i i(
 
 %29int"__id*"
 
 __unknown_file (
 ""ÍÁ
-h h($
+i i($
 %30void"java.util.Calendar#set(III)V*7
 
 __unknown_file (
@@ -39,29 +39,29 @@ M
 
 __unknown_file (22set(III)*
 69*≠
-72f f(ñì
-f f(+
+72g g(ñì
+g g(+
 %28java.util.Date",java.util.Calendar#getTime()Ljava/util/Date;*7
 
 __unknown_file (
 
 caljava.util.Calendar2	getTime()*
 70*ñ
-73c c(-O
+73d d(-O
 M
-c c(-
+d d(-
 date2java.util.Date"__id*"
 
 __unknown_file (
 ""B
 @
-e e(
+f f(
 
 %26int"__id*"
 
 __unknown_file (
 ""ÍÁ
-e e("
+f f("
 %27void"java.util.Calendar#set(III)V*7
 
 __unknown_file (
@@ -79,10 +79,10 @@ M
 2set(III)*
 72*y
 30
-è è(9a
+ê ê(9a
 _
 
-è è(9
+ê ê(9
 m7domain.Movement"__id*4
 
 __unknown_file (
@@ -90,21 +90,21 @@ _
 %54domain.Movement*
 23*ƒ
 31
-é é(6a
+è è(6a
 _
 
-é é(6
+è è(6
 m6domain.Movement"__id*4
 
 __unknown_file (
 
 %52domain.Movement75
 
-è è(
+ê ê(
 %54domain.Movement"domain.Movementè
 å
 
-è è(8
+ê ê(8
 %55"9domain.Movement#<init>(Ldomain/User;Ljava/lang/String;D)V*4
 
 __unknown_file (
@@ -120,8 +120,8 @@ _
 
 __unknown_file (2®*
 30*≠
-75c c(ñì
-c c(+
+75d d(ñì
+d d(+
 %25java.util.Date",java.util.Calendar#getTime()Ljava/util/Date;*7
 
 __unknown_file (
@@ -129,21 +129,21 @@ _
 caljava.util.Calendar2	getTime()*
 73*ø
 32
-ç ç(:a
+é é(:a
 _
 
-ç ç(:
+é é(:
 m5domain.Movement"__id*4
 
 __unknown_file (
 
 %50domain.Movement75
 
-é é(
+è è(
 %52domain.Movement"domain.Movementä
 á
 
-é é(5
+è è(5
 %53"9domain.Movement#<init>(Ldomain/User;Ljava/lang/String;D)V*4
 
 __unknown_file (
@@ -159,21 +159,21 @@ _
 
 __unknown_file (2*
 31*ñ
-76` `(-O
+76a a(-O
 M
-` `(-
+a a(-
 date1java.util.Date"__id*"
 
 __unknown_file (
 ""B
 @
-b b(
+c c(
 
 %23int"__id*"
 
 __unknown_file (
 ""ÍÁ
-b b("
+c c("
 %24void"java.util.Calendar#set(III)V*7
 
 __unknown_file (
@@ -190,21 +190,21 @@ M
 __unknown_file (22set(III)*
 75*∆
 33
-å å(:a
+ç ç(:a
 _
 
-å å(:
+ç ç(:
 m4domain.Movement"__id*4
 
 __unknown_file (
 
 %48domain.Movement75
 
-ç ç(
+é é(
 %50domain.Movement"domain.Movementë
 é
 
-ç ç(9
+é é(9
 %51"9domain.Movement#<init>(Ldomain/User;Ljava/lang/String;D)V*4
 
 __unknown_file (
@@ -221,8 +221,8 @@ BookFreeze*
 
 __unknown_file (2*
 32*≠
-78` `(ñì
-` `(+
+78a a(ñì
+a a(+
 %22java.util.Date",java.util.Calendar#getTime()Ljava/util/Date;*7
 
 __unknown_file (
@@ -230,21 +230,21 @@ BookFreeze*
 caljava.util.Calendar2	getTime()*
 76*∆
 34
-ã ã(:a
+å å(:a
 _
 
-ã ã(:
+å å(:
 m3domain.Movement"__id*4
 
 __unknown_file (
 
 %46domain.Movement75
 
-å å(
+ç ç(
 %48domain.Movement"domain.Movementë
 é
 
-å å(9
+ç ç(9
 %49"9domain.Movement#<init>(Ldomain/User;Ljava/lang/String;D)V*4
 
 __unknown_file (
@@ -261,22 +261,22 @@ BookFreeze*
 
 __unknown_file (2*
 33*≠
-79^ ^()f
+79_ _()f
 d
-^ ^()
+_ _()
 caljava.util.Calendar"__id*7
 
 __unknown_file (
 
 %19java.util.CalendarB
 @
-_ _(
+` `(
 
 %20int"__id*"
 
 __unknown_file (
 ""ÍÁ
-_ _("
+` `("
 %21void"java.util.Calendar#set(III)V*7
 
 __unknown_file (
@@ -293,21 +293,21 @@ d
 __unknown_file (22set(III)*
 78*∆
 35
-ä ä(;a
+ã ã(;a
 _
 
-ä ä(;
+ã ã(;
 m2domain.Movement"__id*4
 
 __unknown_file (
 
 %44domain.Movement75
 
-ã ã(
+å å(
 %46domain.Movement"domain.Movementë
 é
 
-ã ã(9
+å å(9
 %47"9domain.Movement#<init>(Ldomain/User;Ljava/lang/String;D)V*4
 
 __unknown_file (
@@ -325,21 +325,21 @@ BookFreeze*
 __unknown_file (2*
 34*∆
 36
-â â(;a
+ä ä(;a
 _
 
-â â(;
+ä ä(;
 m1domain.Movement"__id*4
 
 __unknown_file (
 
 %42domain.Movement75
 
-ä ä(
+ã ã(
 %44domain.Movement"domain.Movementë
 é
 
-ä ä(:
+ã ã(:
 %45"9domain.Movement#<init>(Ldomain/User;Ljava/lang/String;D)V*4
 
 __unknown_file (
@@ -357,13 +357,13 @@ BookFreeze*
 __unknown_file (2(*
 35*„
 37
-â â('75
+ä ä('75
 
-â â(
+ä ä(
 %42domain.Movement"domain.Movementë
 é
 
-â â(:
+ä ä(:
 %43"9domain.Movement#<init>(Ldomain/User;Ljava/lang/String;D)V*4
 
 __unknown_file (
@@ -380,16 +380,16 @@ BookFreeze*
 
 __unknown_file (2*
 36*©
-80^ ^(í
+80_ _(í
 è
-^ ^((
+_ _((
 %19java.util.Calendar"4java.util.Calendar#getInstance()Ljava/util/Calendar;*2
 
 __unknown_file ("
 java.util.Calendar*
 79*∏
-83Z Z(°û
-Z Z(
+83[ [(°û
+[ [(
 %18void"domain.User#setBalkop(I)V*:
 
 __unknown_file (
@@ -398,15 +398,15 @@ BookFreeze*
 
 __unknown_file (22setBalkop(I)*
 80*®
-84X X(5f
+84Y Y(5f
 d
-X X(5
+Y Y(5
 	traveler2domain.Traveler"__id*4
 
 __unknown_file (
 
 %15domain.Traveler©¶
-Y Y(
+Z Z(
 %17void"domain.User#setBalorazioa(D)V*:
 
 __unknown_file (
@@ -415,11 +415,11 @@ d
 
 __unknown_file (22setBalorazioa(D)*
 83*£
-85X% X(,53
-X X($
+85Y% Y(,53
+Y Y($
 %15domain.Traveler"domain.Traveler’
 “
-X X(4
+Y Y(4
 %16"=domain.Traveler#<init>(Ljava/lang/String;Ljava/lang/String;)V*4
 
 __unknown_file (
@@ -432,8 +432,8 @@ d
 __unknown_file (
 abc*
 84*∏
-86W W(°û
-W W(
+86X X(°û
+X X(
 %14void"domain.User#setBalkop(I)V*:
 
 __unknown_file (
@@ -442,8 +442,8 @@ d
 
 __unknown_file (22setBalkop(I)*
 85*¿
-87V V(©¶
-V V(
+87W W(©¶
+W W(
 %13void"domain.User#setBalorazioa(D)V*:
 
 __unknown_file (
@@ -452,8 +452,8 @@ d
 
 __unknown_file (22setBalorazioa(D)*
 86*∂
-88U U(üú
-U U(
+88V V(üú
+V V(
 %12void"domain.User#setMoney(D)V*:
 
 __unknown_file (
@@ -462,15 +462,15 @@ d
 
 __unknown_file (2d2setMoney(D)*
 87*µ
-89S S(4e
+89T T(4e
 c
-S S(4
+T T(4
 	traveler1domain.Traveler"__id*3
 
 __unknown_file (
 
 %9domain.Traveler∑¥
-T T(%
+U U(%
 %11void"$domain.User#setIzoztatutakoDirua(D)V*:
 
 __unknown_file (
@@ -479,11 +479,11 @@ c
 
 __unknown_file (2D2setIzoztatutakoDirua(D)*
 88*†
-90S% S(+42
-S S($
+90T% T(+42
+T T($
 %9domain.Traveler"domain.Traveler”
 –
-S S(3
+T T(3
 %10"=domain.Traveler#<init>(Ljava/lang/String;Ljava/lang/String;)V*3
 
 __unknown_file (
@@ -496,9 +496,9 @@ c
 __unknown_file (
 789*
 89*≥
-93O O(
+93P P(
 úô
-O O(
+P P(
 
 %8void"domain.User#setBalkop(I)V*6
 
@@ -508,15 +508,15 @@ c
 
 __unknown_file (22setBalkop(I)*
 90*ú
-94M M(._
+94N N(._
 ]
-M M(.
+N N(.
 driver2domain.Driver"__id*1
 
 __unknown_file (
 
 %5domain.Driver§°
-N N(
+O O(
 
 %7void"domain.User#setBalorazioa(D)V*6
 
@@ -527,11 +527,11 @@ c
 __unknown_file (2
 2setBalorazioa(D)*
 93*ó
-95M M(%0.
-M M(
+95N N(%0.
+N N(
 %5domain.Driver"domain.DriverŒ
 À
-M M(-
+N N(-
 %6";domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)V*1
 
 __unknown_file (
@@ -544,9 +544,9 @@ c
 __unknown_file (
 456*
 94*≥
-96L L(
+96M M(
 úô
-L L(
+M M(
 
 %4void"domain.User#setBalkop(I)V*6
 
@@ -556,9 +556,9 @@ c
 
 __unknown_file (22setBalkop(I)*
 95*ª
-97K K(
+97L L(
 §°
-K K(
+L L(
 
 %3void"domain.User#setBalorazioa(D)V*6
 
@@ -568,15 +568,15 @@ c
 
 __unknown_file (22setBalorazioa(D)*
 96*í
-98I I(/_
+98J J(/_
 ]
-I I(/
+J J(/
 driver1domain.Driver"__id*1
 
 __unknown_file (
 
 %0domain.Driveröó
-J J(
+K K(
 
 %2void"domain.User#setMoney(D)V*6
 
@@ -586,19 +586,19 @@ c
 
 __unknown_file (22setMoney(D)*
 97*ß
-54t t(1êç
-u u()
+54u u(1êç
+v v()
 %41"/domain.Driver#getCreatedRides()Ljava/util/List;*6
 
 __unknown_file (
 
 driver2domain.Driver2getCreatedRides()*
 37*ò
-99I I(&0.
-I I(
+99J J(&0.
+J J(
 %0domain.Driver"domain.Driverœ
 Ã
-I I(.
+J J(.
 %1";domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)V*1
 
 __unknown_file (
@@ -612,10 +612,10 @@ c
 123*
 98*◊
 12
-• •(
+¶ ¶(
 øº
 
-• •(
+¶ ¶(
 %69void"#domain.Driver#addCar(Ldomain/Car;)V*6
 
 __unknown_file (
@@ -627,8 +627,8 @@ c
 c3
 domain.Car2addCar(Ldomain/Car;)*
 8*ß
-56s s(1êç
-t t()
+56t t(1êç
+u u()
 %40"/domain.Driver#getCreatedRides()Ljava/util/List;*6
 
 __unknown_file (
@@ -636,10 +636,10 @@ domain.Car2addCar(Ldomain/Car;)*
 driver1domain.Driver2getCreatedRides()*
 54*ÿ
 13
-§ §(
+• •(
 øº
 
-§ §(
+• •(
 %68void"#domain.Driver#addCar(Ldomain/Car;)V*6
 
 __unknown_file (
@@ -652,10 +652,10 @@ domain.Car2addCar(Ldomain/Car;)*
 domain.Car2addCar(Ldomain/Car;)*
 12*±
 14
-¢ ¢(*W
+£ £(*W
 U
 
-¢ ¢(*
+£ £(*
 c3
 domain.Car"__id*/
 
@@ -664,7 +664,7 @@ domain.Car"__id*/
 %65
 domain.Carøº
 
-£ £(
+§ §(
 %67void"#domain.Driver#addCar(Ldomain/Car;)V*6
 
 __unknown_file (
@@ -676,8 +676,8 @@ domain.Carøº
 c1
 domain.Car2addCar(Ldomain/Car;)*
 13*ß
-58r r(1êç
-s s()
+58s s(1êç
+t t()
 %39"/domain.Driver#getCreatedRides()Ljava/util/List;*6
 
 __unknown_file (
@@ -685,10 +685,10 @@ domain.Car2addCar(Ldomain/Car;)*
 driver1domain.Driver2getCreatedRides()*
 56*î
 15
-° °(-W
+¢ ¢(-W
 U
 
-° °(-
+¢ ¢(-
 c2
 domain.Car"__id*/
 
@@ -697,13 +697,13 @@ domain.Car"__id*/
 %63
 domain.Car-+
 
-¢ ¢(
+£ £(
 %65
 domain.Car"
 domain.CarÛ
 
 
-¢ ¢()
+£ £()
 %66"9domain.Car#<init>(Ljava/lang/String;Ljava/lang/String;I)V*/
 
 __unknown_file (
@@ -720,10 +720,10 @@ domain.Car*'
 __unknown_file (2*
 14*ó
 16
-† †(-W
+° °(-W
 U
 
-† †(-
+° °(-
 c1
 domain.Car"__id*/
 
@@ -732,13 +732,13 @@ domain.Car"__id*/
 %61
 domain.Car-+
 
-° °(
+¢ ¢(
 %63
 domain.Car"
 domain.Carˆ
 Û
 
-° °(,
+¢ ¢(,
 %64"9domain.Car#<init>(Ljava/lang/String;Ljava/lang/String;I)V*/
 
 __unknown_file (
@@ -755,15 +755,15 @@ domain.Car*'
 __unknown_file (2*
 15*æ
 17
-† †(-+
+° °(-+
 
-† †(
+° °(
 %61
 domain.Car"
 domain.Carˆ
 Û
 
-† †(,
+° °(,
 %62"9domain.Car#<init>(Ljava/lang/String;Ljava/lang/String;I)V*/
 
 __unknown_file (
@@ -780,9 +780,9 @@ domain.Car*'
 __unknown_file (2*
 16*‘
 19
-ù ù(ª∏
+û û(ª∏
 
-ù ù(!
+û û(!
 %60")domain.Traveler#addBookedRide(LBooking;)V*:
 
 __unknown_file (
@@ -794,19 +794,19 @@ domain.Car*'
 17*(
 0 "!
 
-∑ ∑(
+∏ ∏(
 implicit return*¬
 4
-± ±(	T
+≤ ≤(	T
 R
 
-± ±(
+≤ ≤(
 %72java.io.PrintStream"__id*"
 
 __unknown_file (
 ""’“
 
-± ±('
+≤ ≤('
 %73void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
 
 __unknown_file (
@@ -817,10 +817,10 @@ R
 Db initialized2println(Ljava/lang/String;)*
 0*x
 7
-≠ ≠(3b
+Æ Æ(3b
 `
 
-≠ ≠(3
+Æ Æ(3
 disdomain.Discount"__id*4
 
 __unknown_file (
@@ -828,13 +828,13 @@ R
 %70domain.Discount*
 4*∏
 8
-≠ ≠(&75
+Æ Æ(&75
 
-≠ ≠(
+Æ Æ(
 %70domain.Discount"domain.DiscountË
 Â
 
-≠ ≠(2
+Æ Æ(2
 %71"-domain.Discount#<init>(Ljava/lang/String;DZ)V*4
 
 __unknown_file (
@@ -849,25 +849,25 @@ R
 
 __unknown_file (2*
 7*ß
-60q q(1êç
-r r()
+60r r(1êç
+s s()
 %38"/domain.Driver#getCreatedRides()Ljava/util/List;*6
 
 __unknown_file (
 
 driver1domain.Driver2getCreatedRides()*
 58*ß
-62q q(êç
-q q()
+62r r(êç
+r r()
 %37"/domain.Driver#getCreatedRides()Ljava/util/List;*6
 
 __unknown_file (
 
 driver1domain.Driver2getCreatedRides()*
 60* 
-63o o(
+63p p(
 ≥∞
-o o(9
+p p(9
 %36"Sdomain.Driver#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)LRide;*6
 
 __unknown_file (
@@ -891,9 +891,9 @@ Hondarribi*5
 __unknown_file (22?addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)*
 62*‘
 20
-ú ú(ª∏
+ù ù(ª∏
 
-ú ú(!
+ù ù(!
 %59")domain.Traveler#addBookedRide(LBooking;)V*:
 
 __unknown_file (
@@ -903,9 +903,9 @@ Hondarribi*5
 __unknown_file (
 ""2addBookedRide(LBooking;)*
 19*≈
-64n n(
+64o o(
 Æ´
-n n(7
+o o(7
 %35"Sdomain.Driver#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)LRide;*6
 
 __unknown_file (
@@ -929,9 +929,9 @@ Hondarribi*5
 2?addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)*
 63*‘
 21
-õ õ(ª∏
+ú ú(ª∏
 
-õ õ(!
+ú ú(!
 %58")domain.Traveler#addBookedRide(LBooking;)V*:
 
 __unknown_file (
@@ -941,9 +941,9 @@ Hondarribi*5
 __unknown_file (
 ""2addBookedRide(LBooking;)*
 20*∆
-65m m(
+65n n(
 Ø¨
-m m(5
+n n(5
 %34"Sdomain.Driver#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)LRide;*6
 
 __unknown_file (
@@ -967,9 +967,9 @@ Hondarribi*5
 __unknown_file (22?addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)*
 64*‘
 22
-ö ö(ª∏
+õ õ(ª∏
 
-ö ö(!
+õ õ(!
 %57")domain.Traveler#addBookedRide(LBooking;)V*:
 
 __unknown_file (
@@ -979,9 +979,9 @@ Hondarribi*5
 __unknown_file (
 ""2addBookedRide(LBooking;)*
 21*ƒ
-66l l(
+66m m(
 ≠™
-l l(3
+m m(3
 %33"Sdomain.Driver#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)LRide;*6
 
 __unknown_file (
@@ -1004,9 +1004,9 @@ Hondarribi*5
 __unknown_file (22?addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)*
 65*‘
 23
-ô ô(ª∏
+ö ö(ª∏
 
-ô ô(!
+ö ö(!
 %56")domain.Traveler#addBookedRide(LBooking;)V*:
 
 __unknown_file (
@@ -1016,14 +1016,14 @@ Hondarribi*5
 __unknown_file (
 ""2addBookedRide(LBooking;)*
 22*ó
-67i i(-O
+67j j(-O
 M
-i i(-
+j j(-
 date4java.util.Date"__id*"
 
 __unknown_file (
 ""Ø¨
-k k(6
+l l(6
 %32"Sdomain.Driver#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)LRide;*6
 
 __unknown_file (

@@ -1,2 +1,2 @@
-gui.KotxeaGehituGUI#getBusinessLogic()LBLFacade;
-abe66fe79fa70959965e6b1e31d39ef9
+gui.KotxeaGehituGUI#setBussinessLogic(LBLFacade;)V
+f172e57fb14b58c7b773b25896886e33

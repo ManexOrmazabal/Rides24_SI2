@@ -1,2 +1,2 @@
-domain.Booking#getTraveler()LTraveler;
-91d546fd084191fadfe9765a2f157935
+domain.Booking#setTraveler(LTraveler;)V
+e320ac613c2d38cee96b0b4d84464337

@@ -1,2 +1,2 @@
-domain.User#setIzoztatutakoDirua(D)V
-02bec84eca0f3ab45c55095df0696c3b
+domain.User#toString()Ljava/lang/String;
+cad4c40fe0643029319a67b444b8a157

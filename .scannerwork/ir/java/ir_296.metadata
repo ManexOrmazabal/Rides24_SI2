@@ -1,2 +1,2 @@
-domain.Ride#setPrice(D)V
-bbe6166f11d3ca4042c4e33af0865dae
+domain.Ride#getBookings()Ljava/util/List;
+4076f4c7187e46272483a99f58abb269

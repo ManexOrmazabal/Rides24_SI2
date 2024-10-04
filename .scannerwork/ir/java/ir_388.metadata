@@ -1,2 +1,2 @@
-gui.MoneyGUI#getBusinessLogic()LBLFacade;
-93755a974b14693c4257c99cc01a5e26
+gui.MoneyGUI#setBussinessLogic(LBLFacade;)V
+70cda93010b35caaa813622e5ff7c142

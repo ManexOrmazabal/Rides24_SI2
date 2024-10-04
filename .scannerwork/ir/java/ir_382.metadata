@@ -1,2 +1,2 @@
-domain.Complaint#setBooking(Ldomain/Booking;)V
-a09d1ca9cad10c63c2510b806c2891d2
+domain.Complaint#getAurkeztua()Ljava/lang/Boolean;
+296be83323c95194c73badadd8ca0bca

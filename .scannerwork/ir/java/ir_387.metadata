@@ -1,10 +1,2 @@
-gui.MoneyGUI#instance-init#
-5524e503ede842195ed3072b31db968e
-javax.swing.JTextField#instance-init#
-javax.swing.JTextField#<init>()V
-java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
-javax.swing.JLabel#instance-init#
-java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
-javax.swing.JButton#<init>(Ljava/lang/String;)V
-javax.swing.JLabel#<init>()V
-javax.swing.JButton#instance-init#
+gui.MoneyGUI#getBusinessLogic()LBLFacade;
+93755a974b14693c4257c99cc01a5e26

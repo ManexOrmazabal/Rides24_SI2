@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#getDestinationCities(Ljava/lang/String;)Ljava/util/List;
-ab9ffc8646eb2c26d94dff2b533e52cc
+businessLogic.BLFacadeImplementation#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IFLjava/lang/String;)LRide;
+82a4b859e905242da0b3ac49fa3ef688
 ==
 close dataAccess.DataAccess#close()V
-getArrivalCities dataAccess.DataAccess#getArrivalCities(Ljava/lang/String;)Ljava/util/List;
+createRide dataAccess.DataAccess#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IFLjava/lang/String;)LRide;
 open dataAccess.DataAccess#open()V

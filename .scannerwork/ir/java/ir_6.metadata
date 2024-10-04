@@ -1,7 +1,7 @@
-dataAccess.DataAccess#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;
-0bd3041ad0a53d314356342c80b3965f
-java.util.ArrayList#<init>()V
-java.util.ArrayList#instance-init#
+dataAccess.DataAccess#open()V
+8abfe5a7b1aed1db1386999d6101307a
+java.util.HashMap#<init>()V
+java.util.HashMap#instance-init#
 ==
-addAll java.util.List#addAll(Ljava/util/Collection;)Z
-println java.io.PrintStream#println(Ljava/lang/String;)V
+put java.util.Map#put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+println java.io.PrintStream#println([C)V

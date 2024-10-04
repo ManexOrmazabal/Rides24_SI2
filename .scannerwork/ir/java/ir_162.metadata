@@ -1,4 +1,2 @@
-dataAccess.ObjectdbManagerServer#instance-init#
-0b30968b676b231a561430faf6cc00f1
-javax.swing.JPanel#<init>()V
-javax.swing.JPanel#instance-init#
+gui.EgoeraGUI#instance-init#
+f79d90bda9527e70374c967576d3c763

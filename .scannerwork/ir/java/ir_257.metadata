@@ -1,2 +1,4 @@
-domain.Car#instance-init#
-c169b5e0c8a082b4ba74004836187feb
+domain.Car#<init>(Ljava/lang/String;Ljava/lang/String;I)V
+46dd90aa241af495280b57e5dcf95f60
+==
+<init> java.lang.Object#<init>()V

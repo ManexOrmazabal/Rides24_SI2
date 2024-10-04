@@ -1,4 +1,2 @@
-exceptions.RideMustBeLaterThanTodayException#<init>(Ljava/lang/String;)V
-25dedad6fe46c7c7881225cc6e81ad7f
-==
-<init> java.lang.Exception#<init>(Ljava/lang/String;)V
+domain.Discount#instance-init#
+3127d622471519c32afffe3bf6a549cc

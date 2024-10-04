@@ -1,2 +1,2 @@
-gui.ErreklamazioakGUI#getBusinessLogic()LBLFacade;
-f5d55d56102db66dc34c18774b6609b4
+gui.ErreklamazioakGUI#setBussinessLogic(LBLFacade;)V
+ad0fb63d02f433aca67f0b7434dfab0b

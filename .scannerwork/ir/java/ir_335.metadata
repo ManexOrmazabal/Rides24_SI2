@@ -1,4 +1,2 @@
-gui.MainGUI#instance-init#
-12017844c6a4c085ffc1fb11027cfb2f
-javax.swing.ButtonGroup#instance-init#
-javax.swing.ButtonGroup#<init>()V
+gui.MainGUI#getBusinessLogic()LBLFacade;
+22f79e1276d0aebf4311ba398cf9af4a

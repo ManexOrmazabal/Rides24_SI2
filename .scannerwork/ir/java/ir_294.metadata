@@ -1,2 +1,2 @@
-domain.Ride#setDriver(LDriver;)V
-01cb88affb47901a65bfc85fed051470
+domain.Ride#getPrice()D
+4f7a36fc318800b7cc093f590c2edcbd

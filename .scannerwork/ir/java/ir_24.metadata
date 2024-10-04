@@ -1,2 +1,2 @@
-gui.CreateRideGUI#getBusinessLogic()LbusinessLogic/BLFacade;
-e1f834a2996972ff763b3e3c24f9bf72
+gui.CreateRideGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
+fe14b9717d9e50956aeec53a1190c02f

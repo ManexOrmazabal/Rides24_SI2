@@ -1,5 +1,6 @@
-domain.Driver#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)LRide;
-ed42db41a4ceeb8a1d809cb274e69cad
+domain.Driver#bilatumatrikula(Ljava/lang/String;)Ldomain/Car;
+1b6e1773f75064c0c38978e6a254f1b7
+java.lang.String#equals(Ljava/lang/Object;)Z
 ==
-println java.io.PrintStream#println([C)V
-println java.io.PrintStream#println(Ljava/lang/String;)V
+getMatrikula domain.Car#getMatrikula()Ljava/lang/String;
+get java.util.LinkedList#get(I)Ljava/lang/Object;

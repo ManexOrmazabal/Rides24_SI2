@@ -1,2 +1,2 @@
-gui.ArazoaGUI#getBusinessLogic()LBLFacade;
-abcbea6d8f7339554333182f4377ae92
+gui.ArazoaGUI#setBussinessLogic(LBLFacade;)V
+7a27e8e675438678d391816d489565aa

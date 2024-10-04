@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#getAlertsByUsername(Ljava/lang/String;)Ljava/util/List;
-50714969f2e619d6118352e6a34e9295
+businessLogic.BLFacadeImplementation#getAlert(I)LAlert;
+db9318d4397093d367644e26c2c977a3
 ==
-getAlertsByUsername dataAccess.DataAccess#getAlertsByUsername(Ljava/lang/String;)Ljava/util/List;
+getAlert dataAccess.DataAccess#getAlert(I)LAlert;
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V

@@ -1,2 +1,2 @@
-domain.Ride#getDriver()LDriver;
-a2963912d5310c9b01466924dc04b6a3
+domain.Ride#setDriver(LDriver;)V
+c344c4e005dd5c991004aeb8e41b3b65

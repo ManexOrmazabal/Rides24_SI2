@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#updateAlert(LAlert;)V
-377ba90196866232773cdf139531a488
+businessLogic.BLFacadeImplementation#updateAlertaAurkituak(Ljava/lang/String;)Z
+312c3b2b66fc79bac838d1010c32173d
 ==
-updateAlert dataAccess.DataAccess#updateAlert(LAlert;)V
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V
+updateAlertaAurkituak dataAccess.DataAccess#updateAlertaAurkituak(Ljava/lang/String;)Z

@@ -1,6 +1,4 @@
-testOperations.TestBusinessLogic#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)LRide;
-521f5c3110be0223a28e7b929a16018d
-==
-close testOperations.TestDataAccess#close()V
-removeRide testOperations.TestDataAccess#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)LRide;
-open testOperations.TestDataAccess#open()V
+dataAccess.ObjectdbManagerServer#instance-init#
+0b30968b676b231a561430faf6cc00f1
+javax.swing.JPanel#<init>()V
+javax.swing.JPanel#instance-init#

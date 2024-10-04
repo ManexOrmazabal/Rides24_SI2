@@ -1,2 +1,2 @@
-configuration.ConfigXML#getDbFilename()Ljava/lang/String;
-86d60ac8b3030853f9bcb6dfc2c709d5
+configuration.ConfigXML#isDatabaseInitialized()Z
+d4db74e0c582ccc2cd762eedf92a4d2f

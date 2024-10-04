@@ -1,4 +1,6 @@
-businessLogic.BLFacadeImplementation#<init>(LdataAccess/DataAccess;)V
-82e4b2705c41e7489463bf4c98dd27fc
+businessLogic.BLFacadeImplementation#getDepartCities()Ljava/util/List;
+d9bdf86612d93a095a75a159401a203d
 ==
-println java.io.PrintStream#println(Ljava/lang/String;)V
+getDepartCities dataAccess.DataAccess#getDepartCities()Ljava/util/List;
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V

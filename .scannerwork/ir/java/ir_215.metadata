@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#addMovement(Ldomain/User;Ljava/lang/String;D)V
-8f13cb271fa7c6b0334287486d96dd45
+businessLogic.BLFacadeImplementation#getBookedRides(Ljava/lang/String;)Ljava/util/List;
+c715eab8ccebef6be57bfb97fd5dca6e
 ==
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V
-addMovement dataAccess.DataAccess#addMovement(Ldomain/User;Ljava/lang/String;D)V
+getBookedRides dataAccess.DataAccess#getBookedRides(Ljava/lang/String;)Ljava/util/List;

@@ -1,4 +1,2 @@
-gui.ErreserbaOnartuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-86d3113f9104a98eb920ce0b78833e78
-==
-setVisible java.awt.Window#setVisible(Z)V
+gui.DeskontuKudeatuGUI#instance-init#
+ce1395d6fe3853c62aac7e96f8d1ab11

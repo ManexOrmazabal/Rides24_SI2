@@ -1,4 +1,2 @@
-domain.Car#<init>(Ljava/lang/String;Ljava/lang/String;I)V
-fbbb274ba99cf1a5f0e5e92a25ef3e95
-==
-<init> java.lang.Object#<init>()V
+domain.Car#getDriver()Ldomain/Driver;
+4a577e1382d221705ac3501351d0129f

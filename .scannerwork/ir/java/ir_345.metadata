@@ -1,2 +1,2 @@
-domain.Booking#setRide(Ldomain/Ride;)V
-06e16852200192600f104dbf3dc58c0d
+domain.Booking#getTraveler()LTraveler;
+91d546fd084191fadfe9765a2f157935

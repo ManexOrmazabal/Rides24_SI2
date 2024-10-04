@@ -1,6 +1,2 @@
-businessLogic.BLFacadeImplementation#getComplaintsByBook(LBooking;)LComplaint;
-4eebdbc982124e6e1792d72064319421
-==
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
-getComplaintsByBook dataAccess.DataAccess#getComplaintsByBook(LBooking;)LComplaint;
+CreateRideBDBlackTest#instance-init#
+10ef4198f894d01147ce7d9819c932dc

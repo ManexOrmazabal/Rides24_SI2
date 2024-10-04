@@ -1,2 +1,2 @@
-configuration.ConfigXML#getPassword()Ljava/lang/String;
-2bc7c7c8145f3a14bb0c221edb6d47f5
+configuration.ConfigXML#isDatabaseLocal()Z
+466fa044fd0448c157d1fbe03ff2d5b3

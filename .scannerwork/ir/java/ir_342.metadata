@@ -1,2 +1,2 @@
-domain.Booking#getBookNumber()I
-032e94f82a48e57553b7f7e83cf3a54c
+domain.Booking#setBookNumber(I)V
+490e240a53a8cd5e21992ad176d75ded

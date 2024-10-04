@@ -1,2 +1,4 @@
-exceptions.RideMustBeLaterThanTodayException#instance-init#
-e11df55113dc559c13c06f8cc896d642
+exceptions.RideMustBeLaterThanTodayException#<init>()V
+a62278e2d304e193493c63f61eef6cec
+==
+<init> java.lang.Exception#<init>()V

@@ -1,4 +1,15 @@
-gui.LoginGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-ae48d2970f9f36c61dd370c85a279017
-==
-setVisible java.awt.Window#setVisible(Z)V
+gui.RegisterGUI#instance-init#
+4e40cfa6c8bc27d58312e88c94ad3f7d
+javax.swing.JPasswordField#<init>()V
+java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
+javax.swing.JButton#<init>(Ljava/lang/String;)V
+javax.swing.JPasswordField#instance-init#
+javax.swing.JLabel#<init>()V
+javax.swing.JLabel#<init>(Ljava/lang/String;)V
+javax.swing.JTextField#instance-init#
+javax.swing.JTextField#<init>()V
+javax.swing.JLabel#instance-init#
+java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
+javax.swing.JComboBox#instance-init#
+javax.swing.JComboBox#<init>()V
+javax.swing.JButton#instance-init#

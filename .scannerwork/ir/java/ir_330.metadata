@@ -1,8 +1,8 @@
-configuration.UtilDate#trim(Ljava/util/Date;)Ljava/util/Date;
-007eff00dda451d26fddb13f461b163d
+configuration.UtilDate#newDate(III)Ljava/util/Date;
+9e598f46ae7cf77530b1cdacd3b808e8
 java.util.Calendar#getInstance()Ljava/util/Calendar;
 java.util.TimeZone#getTimeZone(Ljava/lang/String;)Ljava/util/TimeZone;
-java.util.Calendar#setTime(Ljava/util/Date;)V
+java.util.Calendar#set(IIIIII)V
 java.util.Calendar#getTime()Ljava/util/Date;
 ==
 setTimeZone java.util.Calendar#setTimeZone(Ljava/util/TimeZone;)V

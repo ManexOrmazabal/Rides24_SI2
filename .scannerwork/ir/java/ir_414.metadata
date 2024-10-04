@@ -1,3 +1,2 @@
-domain.Admin2#equals(Ljava/lang/Object;)Z
-15f9364c2c3c40d6469d862674dfe645
-java.lang.Object#getClass()Ljava/lang/Class;
+domain.Admin2#getMota()Ljava/lang/String;
+8e1453b31085ac4a83d1763c7c319f6e

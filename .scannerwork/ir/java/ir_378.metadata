@@ -1,2 +1,2 @@
-domain.Complaint#setNoiz(Ljava/util/Date;)V
-f7e555f01e04588d09384f5bb1beb30e
+domain.Complaint#getDeskripzioa()Ljava/lang/String;
+0ef8a46e1d5b9a5c3c7d9ff0da97ad01

@@ -1,2 +1,2 @@
-domain.Discount#<init>(Ljava/lang/String;DZ)V
-7654c25ae4555fb511bb376528d68a65
+domain.Discount#getKodea()Ljava/lang/String;
+afd770bab242638989e8fce7c07c7f30

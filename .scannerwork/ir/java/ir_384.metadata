@@ -1,2 +1,2 @@
-domain.Complaint#setAurkeztua(Ljava/lang/Boolean;)V
-8fb00bf0f5a259b97b85815685b1ac76
+domain.Complaint#getEgoera()Ljava/lang/String;
+0e7275596a46350fdb2b6db593c8ed81

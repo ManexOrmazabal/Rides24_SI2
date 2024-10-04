@@ -1,2 +1,2 @@
-gui.BezeroGUI#instance-init#
-ce23d7f9b2be574021458bbe2ce16dff
+gui.BezeroGUI#getBusinessLogic()LbusinessLogic/BLFacade;
+01862689ffdf963132326af030bcc77f

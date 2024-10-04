@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#createDiscount(Ldomain/Discount;)V
-e7f73bf64e5e30177b885249444b1001
+businessLogic.BLFacadeImplementation#getAllDiscounts()Ljava/util/List;
+3b4e7bd10a769535007d312b063766a4
 ==
+getAllDiscounts dataAccess.DataAccess#getAllDiscounts()Ljava/util/List;
 close dataAccess.DataAccess#close()V
-createDiscount dataAccess.DataAccess#createDiscount(Ldomain/Discount;)V
 open dataAccess.DataAccess#open()V

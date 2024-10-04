@@ -1,4 +1,5 @@
-domain.Driver#equals(Ljava/lang/Object;)Z
-828d703ecea1787cab6cfc81c3d9c2ed
+domain.Driver#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)LRide;
+2934b2f3d8f80a1d399aa71984ac32ba
 ==
-equals domain.User#equals(Ljava/lang/Object;)Z
+println java.io.PrintStream#println([C)V
+println java.io.PrintStream#println(Ljava/lang/String;)V

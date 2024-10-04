@@ -1,2 +1,2 @@
-gui.ErreklamazioakGUI#instance-init#
-5dceb20fa4e12a6f46d75b61a62ab7d6
+gui.ErreklamazioakGUI#getBusinessLogic()LBLFacade;
+f5d55d56102db66dc34c18774b6609b4

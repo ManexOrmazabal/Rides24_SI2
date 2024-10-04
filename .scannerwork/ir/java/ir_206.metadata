@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#isRegistered(Ljava/lang/String;Ljava/lang/String;)Z
-033e22538974e6cba642700cc61b90cc
+businessLogic.BLFacadeImplementation#getDriver(Ljava/lang/String;)Ldomain/Driver;
+10ed8c25602cc3fe9ec4b272874d4be9
 ==
+getDriver dataAccess.DataAccess#getDriver(Ljava/lang/String;)Ldomain/Driver;
 close dataAccess.DataAccess#close()V
-isRegistered dataAccess.DataAccess#isRegistered(Ljava/lang/String;Ljava/lang/String;)Z
 open dataAccess.DataAccess#open()V

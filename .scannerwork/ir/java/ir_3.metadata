@@ -1,2 +1,2 @@
-dataAccess.DataAccess#getDepartCities()Ljava/util/List;
-def7ca9b6dadf515143b5005a1d69c24
+dataAccess.DataAccess#getArrivalCities(Ljava/lang/String;)Ljava/util/List;
+c60838977433edd32bd81ab93d234cec

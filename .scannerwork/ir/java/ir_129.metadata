@@ -1,2 +1,2 @@
-gui.LoginGUI#getBusinessLogic()LbusinessLogic/BLFacade;
-101e40b5d6e0e3316c7eee59917b8d53
+gui.LoginGUI#setBusinessLogic(LbusinessLogic/BLFacade;)V
+6c13d5c75e698d0b2c7c1387a2e2a9ef

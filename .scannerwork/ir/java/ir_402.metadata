@@ -1,2 +1,2 @@
-configuration.ConfigXML#getBusinessLogicNode()Ljava/lang/String;
-bf2000dced07710983f08955e2440fa9
+configuration.ConfigXML#getBusinessLogicPort()Ljava/lang/String;
+4ab4f93a31f95f000dd09a7f076ca782

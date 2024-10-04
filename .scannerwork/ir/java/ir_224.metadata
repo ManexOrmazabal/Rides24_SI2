@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#cancelRide(LRide;)V
-eb7540c1fdca2a6eddbee716caadd7fa
+businessLogic.BLFacadeImplementation#addCar(Ljava/lang/String;Ldomain/Car;)Z
+854028eb927bb758196ed11742a57a7c
 ==
-cancelRide dataAccess.DataAccess#cancelRide(LRide;)V
+addCar dataAccess.DataAccess#addCar(Ljava/lang/String;Ldomain/Car;)Z
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V

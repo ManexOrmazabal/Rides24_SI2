@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#deleteAlert(I)Z
-f817ce21b669bdc21007294774941b3d
+businessLogic.BLFacadeImplementation#getComplaintsByBook(LBooking;)LComplaint;
+4eebdbc982124e6e1792d72064319421
 ==
 close dataAccess.DataAccess#close()V
-deleteAlert dataAccess.DataAccess#deleteAlert(I)Z
 open dataAccess.DataAccess#open()V
+getComplaintsByBook dataAccess.DataAccess#getComplaintsByBook(LBooking;)LComplaint;

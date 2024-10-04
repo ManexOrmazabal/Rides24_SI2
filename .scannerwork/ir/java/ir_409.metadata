@@ -1,4 +1,2 @@
-domain.Admin2#<init>(Ljava/lang/String;Ljava/lang/String;)V
-c1a1123be5b319fdb195668354084b2b
-==
-setMota domain.Admin2#setMota(Ljava/lang/String;)V
+domain.Admin2#getUsername()Ljava/lang/String;
+37c00ce8decfb8448b862699af225103

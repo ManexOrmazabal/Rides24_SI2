@@ -66,8 +66,10 @@ static DataAccess sut;
 		
 		//verify the results
 		Double d=sut.getActualMoney("jon");
-		if (d==null) fail();
-			else
+		if (d==null) {
+			fail();
+		}else {
 			assertTrue(d.compareTo(value)==0);
+		}
 	}
 }

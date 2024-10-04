@@ -1,2 +1,2 @@
-gui.AlertaSortuGUI#getBusinessLogic()LBLFacade;
-9f28ee74e5c6453ec0d92100f914eb92
+gui.AlertaSortuGUI#setBussinessLogic(LBLFacade;)V
+88f6542f15593d6dd8e9effe72f3497d

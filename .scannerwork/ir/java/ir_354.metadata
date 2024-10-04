@@ -1,4 +1,2 @@
-domain.Booking#prezioaKalkulatu()D
-6b9c70cf4d70cb91370999df04cf3926
-==
-getPrice domain.Ride#getPrice()D
+domain.Booking#getComplaint()Ldomain/Complaint;
+0f1ec7479bf2f2aea468ea574ca15990

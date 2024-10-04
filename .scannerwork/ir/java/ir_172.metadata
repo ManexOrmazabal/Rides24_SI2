@@ -1,8 +1,2 @@
-GetActualMoneyMockTest#test1()V
-9cc1aa1d4a7cc43412a4eab411d7489e
-java.util.ArrayList#<init>()V
-java.util.ArrayList#instance-init#
-java.lang.Double#compareTo(Ljava/lang/Double;)I
-==
-getActualMoney dataAccess.DataAccess#getActualMoney(Ljava/lang/String;)D
-add java.util.List#add(Ljava/lang/Object;)Z
+gui.AlertaAurkituakGUI#instance-init#
+09753b47351bb5e9f3f936f998905a74

@@ -1,6 +1,4 @@
-configuration.UtilDate#datesAreEqualIgnoringTime(Ljava/util/Date;Ljava/util/Date;)Z
-814aad982b08d5573daa143c62659d21
-java.util.Calendar#getInstance()Ljava/util/Calendar;
-java.util.Calendar#setTime(Ljava/util/Date;)V
-==
-get java.util.Calendar#get(I)I
+gui.MainGUI#instance-init#
+12017844c6a4c085ffc1fb11027cfb2f
+javax.swing.ButtonGroup#instance-init#
+javax.swing.ButtonGroup#<init>()V

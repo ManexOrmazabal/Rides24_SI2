@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#getPastBookedRides(Ljava/lang/String;)Ljava/util/List;
-e3971b2efad568495156f4b8e98dc6d0
+businessLogic.BLFacadeImplementation#updateTraveler(Ldomain/Traveler;)V
+0444aacc26344ea4139fd4b27d3c6c34
 ==
 close dataAccess.DataAccess#close()V
-getPastBookedRides dataAccess.DataAccess#getPastBookedRides(Ljava/lang/String;)Ljava/util/List;
 open dataAccess.DataAccess#open()V
+updateTraveler dataAccess.DataAccess#updateTraveler(Ldomain/Traveler;)V

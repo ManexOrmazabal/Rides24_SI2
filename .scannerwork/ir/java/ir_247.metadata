@@ -1,2 +1,2 @@
-gui.AdminGUI#instance-init#
-e5a94367d7d2da5c5ae186d808997b6f
+gui.AdminGUI#getBusinessLogic()LbusinessLogic/BLFacade;
+273eeb98e11ab7789eb3fbaebce73a56

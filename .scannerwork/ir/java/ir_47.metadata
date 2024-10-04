@@ -1,2 +1,2 @@
-domain.Traveler#addBookedRide(LBooking;)V
-b012b732f975f235eab9d53f9f9e8adb
+domain.Traveler#addAlert(LAlert;)V
+55d18988a2e62a497460b01a62472c06

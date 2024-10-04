@@ -1,2 +1,2 @@
-domain.Booking#setStatus(Ljava/lang/String;)V
-24c659c5863eaca3e37d5f95a528d4fa
+domain.Booking#getDeskontua()D
+2bb73c7c7636643efc7e017074756eae

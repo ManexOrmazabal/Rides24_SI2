@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#getAllMovements(Ldomain/User;)Ljava/util/List;
-2236fb71990cd3f2cc4c3a7b602b0ef2
+businessLogic.BLFacadeImplementation#addMovement(Ldomain/User;Ljava/lang/String;D)V
+2ac1051802bca45ebaa833284d216d62
 ==
-getAllMovements dataAccess.DataAccess#getAllMovements(Ldomain/User;)Ljava/util/List;
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V
+addMovement dataAccess.DataAccess#addMovement(Ldomain/User;Ljava/lang/String;D)V

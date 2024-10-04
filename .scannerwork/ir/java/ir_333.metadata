@@ -1,10 +1,6 @@
-configuration.UtilDate#lastDayMonth(Ljava/util/Date;)Ljava/util/Date;
-819a28ca65830a0b2684dc652facae15
+configuration.UtilDate#datesAreEqualIgnoringTime(Ljava/util/Date;Ljava/util/Date;)Z
+437e8813592902e7903d18e7e6282b8a
 java.util.Calendar#getInstance()Ljava/util/Calendar;
-java.util.TimeZone#getTimeZone(Ljava/lang/String;)Ljava/util/TimeZone;
 java.util.Calendar#setTime(Ljava/util/Date;)V
-java.util.Calendar#getTime()Ljava/util/Date;
 ==
-setTimeZone java.util.Calendar#setTimeZone(Ljava/util/TimeZone;)V
-set java.util.Calendar#set(II)V
-getActualMaximum java.util.Calendar#getActualMaximum(I)I
+get java.util.Calendar#get(I)I

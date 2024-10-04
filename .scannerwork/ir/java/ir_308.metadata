@@ -1,2 +1,2 @@
-domain.Alert#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;LTraveler;)V
-4b852de298c6b475433575c3e311805f
+domain.Alert#getAlertNumber()Ljava/lang/Integer;
+380b4977f028ea426e6c63d898e07cda

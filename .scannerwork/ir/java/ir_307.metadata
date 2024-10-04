@@ -1,2 +1,2 @@
-domain.Alert#instance-init#
-97f597e47ab8c38a2268355486bd70fa
+domain.Alert#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;LTraveler;)V
+3757ec671c6ddd35fd5bd475366cb007

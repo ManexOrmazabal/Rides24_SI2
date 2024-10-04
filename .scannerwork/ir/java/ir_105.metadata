@@ -1,2 +1,2 @@
-domain.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-572ea68397dde8b61b5b1eae258cacf4
+domain.User#getUsername()Ljava/lang/String;
+942e87d484cfae15c7cab79c998ecbb1

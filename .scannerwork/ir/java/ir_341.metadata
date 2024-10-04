@@ -1,2 +1,2 @@
-domain.Booking#<init>(Ldomain/Ride;LTraveler;I)V
-55a1736a149bc0d6d71e16c183b6b498
+domain.Booking#getBookNumber()I
+338ed40e134c13dc70e3933dd3c99fbd

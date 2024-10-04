@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#getUserList()Ljava/util/List;
-fb84df4a0bcf343c43c5a31d95e7dce3
+businessLogic.BLFacadeImplementation#deleteUser(Ldomain/User;)V
+e187b6ebf867e5a6ac747400e4ff5d9a
 ==
-getUserList dataAccess.DataAccess#getUserList()Ljava/util/List;
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V
+deleteUser dataAccess.DataAccess#deleteUser(Ldomain/User;)V

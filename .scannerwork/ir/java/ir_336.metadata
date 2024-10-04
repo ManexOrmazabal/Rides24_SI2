@@ -1,2 +1,2 @@
-gui.MainGUI#getBusinessLogic()LBLFacade;
-22f79e1276d0aebf4311ba398cf9af4a
+gui.MainGUI#setBussinessLogic(LBLFacade;)V
+a889e9c259164cfda30306fe3ff146b2

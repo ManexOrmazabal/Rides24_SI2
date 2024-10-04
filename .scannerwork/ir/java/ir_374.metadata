@@ -1,2 +1,2 @@
-domain.Complaint#setNor(Ljava/lang/String;)V
-23a0e4fed023828af1dc0ecc872e5c86
+domain.Complaint#getNori()Ljava/lang/String;
+aed58d601b7747e686cfd45a3e123a80

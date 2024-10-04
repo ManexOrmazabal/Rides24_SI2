@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#updateDriver(Ldomain/Driver;)V
-2e1ad9e0c81c40475142f9b93fe61e94
+businessLogic.BLFacadeImplementation#updateUser(Ldomain/User;)V
+7ac1aa507d6d8ed16d61076ff2fe65f6
 ==
-updateDriver dataAccess.DataAccess#updateDriver(Ldomain/Driver;)V
+updateUser dataAccess.DataAccess#updateUser(Ldomain/User;)V
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V

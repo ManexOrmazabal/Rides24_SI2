@@ -1,4 +1,2 @@
-gui.DeskontuKudeatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-a487257c0fee6a36f76e6e01e623fc6b
-==
-setVisible java.awt.Window#setVisible(Z)V
+domain.User#instance-init#
+a6f69c871b8a5be4667f39caaa3fad3a

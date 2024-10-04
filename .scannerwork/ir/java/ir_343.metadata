@@ -1,2 +1,2 @@
-domain.Booking#setBookNumber(I)V
-05be07c1227a53e76a08a033c6059a59
+domain.Booking#getRide()Ldomain/Ride;
+a86e80849847de46de9a90676b91885c

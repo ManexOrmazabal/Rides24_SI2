@@ -1,14 +1,2 @@
-gui.AlertaSortuGUI#instance-init#
-3adc0fbd879704ea1358f045a3eae2cc
-null
-javax.swing.JLabel#<init>(Ljava/lang/String;)V
-javax.swing.JTextField#instance-init#
-javax.swing.JTextField#<init>()V
-java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
-javax.swing.JLabel#instance-init#
-java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
-javax.swing.JButton#<init>(Ljava/lang/String;)V
-javax.swing.JScrollPane#instance-init#
-javax.swing.JLabel#<init>()V
-javax.swing.JButton#instance-init#
-javax.swing.JScrollPane#<init>()V
+gui.AlertaSortuGUI#getBusinessLogic()LBLFacade;
+9f28ee74e5c6453ec0d92100f914eb92

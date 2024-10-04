@@ -1,4 +1,2 @@
-domain.Traveler#toString()Ljava/lang/String;
-58e92863e837ea7b25460321dc93d801
-==
-toString domain.User#toString()Ljava/lang/String;
+domain.Traveler#addBookedRide(LBooking;)V
+b012b732f975f235eab9d53f9f9e8adb

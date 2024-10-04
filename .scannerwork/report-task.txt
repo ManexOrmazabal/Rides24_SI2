@@ -1,7 +1,7 @@
 organization=manexormazabal
 projectKey=manexormazabal_rides24
 serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.56901
+serverVersion=8.0.0.56940
 dashboardUrl=https://sonarcloud.io/dashboard?id=manexormazabal_rides24
-ceTaskId=AZJWiGzxZg6J2z63dIjj
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZJWiGzxZg6J2z63dIjj
+ceTaskId=AZJWj6JY1eLi-5lnydNk
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZJWj6JY1eLi-5lnydNk

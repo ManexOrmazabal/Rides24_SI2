@@ -1,2 +1,2 @@
-domain.Ride#setBetMinimum(I)V
-f7cb9146cab203f56509be0c80fb9958
+domain.Ride#getDriver()LDriver;
+a2963912d5310c9b01466924dc04b6a3

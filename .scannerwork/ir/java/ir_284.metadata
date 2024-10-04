@@ -1,2 +1,2 @@
-domain.Ride#setRideNumber(Ljava/lang/Integer;)V
-5ddffdc05d707ad05e5d02779e885f2b
+domain.Ride#getFrom()Ljava/lang/String;
+a2f85a5d2e7bc742fc998f8dafba368e

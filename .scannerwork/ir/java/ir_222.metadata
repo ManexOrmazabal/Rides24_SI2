@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#getBookingFromDriver(Ljava/lang/String;)Ljava/util/List;
-e1f0f1ea0adeb5606484588890eb86d1
+businessLogic.BLFacadeImplementation#getRidesByDriver(Ljava/lang/String;)Ljava/util/List;
+80c2e752ba1e99e2bea13069a2c70944
 ==
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V
-getBookingFromDriver dataAccess.DataAccess#getBookingFromDriver(Ljava/lang/String;)Ljava/util/List;
+getRidesByDriver dataAccess.DataAccess#getRidesByDriver(Ljava/lang/String;)Ljava/util/List;

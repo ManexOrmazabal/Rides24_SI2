@@ -1,2 +1,2 @@
-gui.ErreserbaOnartuGUI#instance-init#
-9493bb2f0bcc107ae3d933d15dd4c18c
+gui.ErreserbaOnartuGUI#getBusinessLogic()LbusinessLogic/BLFacade;
+a4a5b77efc11432f1a2af53e5c502ebe

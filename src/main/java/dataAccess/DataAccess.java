@@ -1,6 +1,10 @@
 package dataAccess;
 
 import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
@@ -32,29 +36,26 @@ public class DataAccess {
 	private String adminPass="admin";
 
 	public DataAccess() {
-		if (c.isDatabaseInitialized()) {
-			String fileName = c.getDbFilename();
+	    if (c.isDatabaseInitialized()) {
+	        String fileName = c.getDbFilename();
+	        Path filePath = Paths.get(fileName);
+	        try {
+	            Files.delete(filePath); // Improved file deletion with error handling
+	            Path tempFilePath = Paths.get(fileName + "$");
+	            Files.deleteIfExists(tempFilePath); // Deletes the temp file if it exists
 
-			File fileToDelete = new File(fileName);
-			if (fileToDelete.delete()) {
-				File fileToDeleteTemp = new File(fileName + "$");
-				fileToDeleteTemp.delete();
-
-				System.out.println("File deleted");
-			} else {
-				System.out.println("Operation failed");
-			}
-		}
-		open();
-		if (c.isDatabaseInitialized()) {
-			initializeDB();
-		}
-
-		System.out.println("DataAccess created => isDatabaseLocal: " + c.isDatabaseLocal() + " isDatabaseInitialized: "
-				+ c.isDatabaseInitialized());
-
-		close();
-
+	            System.out.println("File deleted");
+	        } catch (IOException e) {
+	            System.err.println("Failed to delete file: " + e.getMessage()); // Error handling
+	        }
+	    }
+	    open();
+	    if (c.isDatabaseInitialized()) {
+	        initializeDB();
+	    }
+	    System.out.println("DataAccess created => isDatabaseLocal: " + c.isDatabaseLocal() + " isDatabaseInitialized: "
+	            + c.isDatabaseInitialized());
+	    close();
 	}
 	//This constructor is used to mock the DB
 	public DataAccess(EntityManager db) {
@@ -103,11 +104,13 @@ public class DataAccess {
 
 			cal.set(2024, Calendar.APRIL, 20);
 			Date date4 = UtilDate.trim(cal.getTime());
+			
+			String MAD = "Madrid";
 
-			driver1.addRide("Donostia", "Madrid", date2, 5, 20); //ride1
+			driver1.addRide("Donostia", MAD, date2, 5, 20); //ride1
 			driver1.addRide("Irun", "Donostia", date2, 5, 2); //ride2
-			driver1.addRide("Madrid", "Donostia", date3, 5, 5); //ride3
-			driver1.addRide("Barcelona", "Madrid", date4, 0, 10); //ride4
+			driver1.addRide(MAD, "Donostia", date3, 5, 5); //ride3
+			driver1.addRide("Barcelona", MAD, date4, 0, 10); //ride4
 			driver2.addRide("Donostia", "Hondarribi", date1, 5, 3); //ride5
 
 			Ride ride1 = driver1.getCreatedRides().get(0);
@@ -189,9 +192,7 @@ public class DataAccess {
 	 */
 	public List<String> getDepartCities() {
 		TypedQuery<String> query = db.createQuery("SELECT DISTINCT r.from FROM Ride r ORDER BY r.from", String.class);
-		List<String> cities = query.getResultList();
-		return cities;
-
+		 return query.getResultList();
 	}
 
 	/**

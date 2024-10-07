@@ -1,7 +1,10 @@
 package domain;
 
 import java.io.Serializable;
+
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Vector;
 
@@ -21,15 +24,15 @@ public class Driver extends User implements Serializable {
 	private static final long serialVersionUID = 1L;
 	@XmlIDREF
 	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-	private List<Car> cars = new Vector<Car>();;
+	private LinkedList<Car> cars = new LinkedList<Car>();;
 	@XmlIDREF
 	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-	private List<Ride> createdRides = new Vector<Ride>();
+	private ArrayList<Ride> createdRides = new ArrayList<Ride>();
 
 	public Driver(String username, String passwd) {
 		super(username, passwd, "Driver");
 	}
-
+	@Override
 	public String toString() {
 		return (super.toString());
 	}
@@ -38,7 +41,7 @@ public class Driver extends User implements Serializable {
 		return createdRides;
 	}
 
-	public void setCreatedRides(List<Ride> createdRides) {
+	public void setCreatedRides(ArrayList<Ride> createdRides) {
 		this.createdRides = createdRides;
 	}
 

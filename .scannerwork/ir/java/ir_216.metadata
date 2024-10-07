@@ -1,0 +1,6 @@
+businessLogic.BLFacadeImplementation#getPastBookedRides(Ljava/lang/String;)Ljava/util/List;
+e3971b2efad568495156f4b8e98dc6d0
+==
+close dataAccess.DataAccess#close()V
+getPastBookedRides dataAccess.DataAccess#getPastBookedRides(Ljava/lang/String;)Ljava/util/List;
+open dataAccess.DataAccess#open()V

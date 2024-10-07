@@ -51,7 +51,7 @@ public class BezeroGUI extends JFrame {
 
 		// Lista
 		taula = new JTable();
-		List<Booking> TravelsList = appFacadeInterface.getBookingFromDriver(username);
+		List<Booking> travelslist = appFacadeInterface.getBookingFromDriver(username);
 		List<Booking> BezeroLista = new ArrayList<>();
 
 		scrollPane = new JScrollPane(taula);
@@ -66,8 +66,8 @@ public class BezeroGUI extends JFrame {
 		DefaultTableModel model = new DefaultTableModel(columnNames, 0);
 		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
 
-		if (TravelsList != null) {
-			for (Booking bo : TravelsList) {
+		if (travelslist != null) {
+			for (Booking bo : travelslist) {
 				
 				String status;
 				switch (bo.getStatus()) {

@@ -1,0 +1,6 @@
+businessLogic.BLFacadeImplementation#deleteAlert(I)Z
+9dc9749e161c93624d21a0b400d11520
+==
+close dataAccess.DataAccess#close()V
+deleteAlert dataAccess.DataAccess#deleteAlert(I)Z
+open dataAccess.DataAccess#open()V

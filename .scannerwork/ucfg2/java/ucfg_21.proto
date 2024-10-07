@@ -1,0 +1,82 @@
+
+=dataAccess.DataAccess#addCar(Ljava/lang/String;Ldomain/Car;)ZS
+GC:/Users/manex/git/Rides24_SI2/src/main/java/dataAccess/DataAccess.javaÄ Ä("15*Ø
+14
+Æ Æ(6¼¹
+
+Æ Æ(6
+%1boolean"DdataAccess.DataAccess#isAdded(Ljava/lang/String;Ljava/lang/String;)Z*5
+
+__unknown_file (
+dataAccess.DataAccess*:
+
+__unknown_file (
+
+usernamejava.lang.String*4
+
+__unknown_file (
+
+%0java.lang.String2-isAdded(Ljava/lang/String;Ljava/lang/String;)*
+5
+10*°
+15
+Æ Æ(—”
+
+Æ! Æ(5
+%0java.lang.String"+domain.Car#getMatrikula()Ljava/lang/String;*1
+
+__unknown_file (
+
+kotxe
+domain.Car2getMatrikula()*
+14*%
+5
+Î Î("
+
+Î Î(
+""*³
+9
+É É(%]
+[
+
+É É(%
+dridomain.Driver"__id*1
+
+__unknown_file (
+
+%2domain.Driver½º
+
+Ê Ê(
+
+%3void"#domain.Driver#addCar(Ldomain/Car;)V*2
+
+__unknown_file (
+
+dridomain.Driver*1
+
+__unknown_file (
+
+kotxe
+domain.Car2addCar(Ldomain/Car;)*
+5*’
+10
+É É(ú÷
+
+É É($
+%2domain.Driver"BdataAccess.DataAccess#getDriver(Ljava/lang/String;)Ldomain/Driver;*5
+
+__unknown_file (
+dataAccess.DataAccess*:
+
+__unknown_file (
+
+usernamejava.lang.String2getDriver(Ljava/lang/String;)*
+9:*
+
+Ä Ä('
+usernamejava.lang.String:!
+
+Ä( Ä(1
+kotxe
+domain.CarB
+dataAccess.DataAccessHX

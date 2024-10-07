@@ -75,6 +75,7 @@ public class ConfigXML {
 		
 		  try {
 			  DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+			  dbFactory.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
 			  DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 			  Document doc = dBuilder.parse(new File(configFile));
 			  doc.getDocumentElement().normalize();
@@ -134,7 +135,7 @@ public class ConfigXML {
 	private static String getTagValue(String sTag, Element eElement)
 	 {
 		  NodeList nlList= eElement.getElementsByTagName(sTag).item(0).getChildNodes();
-		  Node nValue = (Node) nlList.item(0);
+		  Node nValue = nlList.item(0);
 
 		  return nValue.getNodeValue();
 

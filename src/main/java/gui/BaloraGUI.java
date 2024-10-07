@@ -1,5 +1,7 @@
 package gui;
 
+import javax.swing.SwingConstants;
+
 import javax.swing.JButton;
 
 import javax.swing.JFrame;
@@ -47,7 +49,7 @@ public class BaloraGUI extends JFrame {
 
 		lbltxt = new JLabel(ResourceBundle.getBundle("Etiquetas").getString("BaloraGUI.Izena") + ": " + username);
 
-		slider = new JSlider(JSlider.HORIZONTAL, 1, 5, 1);
+		JSlider slider = new JSlider(JSlider.HORIZONTAL, 1, 5, 1);
 		slider.setForeground(new Color(100, 100, 100));
 		slider.setMinorTickSpacing(1);
 		slider.setMajorTickSpacing(1);

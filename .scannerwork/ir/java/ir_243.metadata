@@ -1,0 +1,6 @@
+businessLogic.BLFacadeImplementation#getComplaintsByBook(LBooking;)LComplaint;
+bda42338922450011d502ca2b87b5b71
+==
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V
+getComplaintsByBook dataAccess.DataAccess#getComplaintsByBook(LBooking;)LComplaint;

@@ -1,0 +1,92 @@
+
+=domain.Driver#bilatumatrikula(Ljava/lang/String;)Ldomain/Car;I
+?C:/Users/manex/git/Rides24_SI2/src/main/java/domain/Driver.javau u("5*‚
+2{ {(g
+e
+{ {(
+%4java.util.LinkedList"__id*7
+
+__unknown_file (*
+domain.Driver"
+carsâ
+Ü
+{ {(
+%5
+domain.Car"
+__arrayGet*8
+
+__unknown_file (
+
+%4java.util.LinkedList*"
+
+__unknown_file (
+""V
+T
+{ {(
+kotx
+domain.Car"__id*.
+
+__unknown_file (
+
+%5
+domain.Car*
+3
+1*˙
+3z z(g
+e
+z z(
+%0java.util.LinkedList"__id*7
+
+__unknown_file (*
+domain.Driver"
+carsâ
+Ü
+z z(
+%1
+domain.Car"
+__arrayGet*8
+
+__unknown_file (
+
+%0java.util.LinkedList*"
+
+__unknown_file (
+""íè
+z z(#
+%2java.lang.String"+domain.Car#getMatrikula()Ljava/lang/String;*.
+
+__unknown_file (
+
+%1
+domain.Car2getMatrikula()’“
+z z(1
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%2java.lang.String*7
+
+__unknown_file (
+
+matrijava.lang.String2equals(Ljava/lang/Object;)*	
+2
+3
+1*a
+5v v(J
+H
+w w(
+kotx
+domain.Car"__id*"
+
+__unknown_file (
+""*
+3
+1*/
+1	 (" 
+ (
+
+kotx
+domain.Car:%
+u u((
+matrijava.lang.StringB
+domain.DriverH

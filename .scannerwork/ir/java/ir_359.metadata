@@ -1,5 +1,5 @@
 gui.ErreklamazioakGUI#<init>(Ljava/lang/String;Ljava/lang/String;Ldomain/Booking;)V
-3b659361d6b0f8203c490473cacfb72b
+520d90385e42deed5ce4a099607b037f
 java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
 java.util.Date#<init>()V
 java.text.SimpleDateFormat#instance-init#

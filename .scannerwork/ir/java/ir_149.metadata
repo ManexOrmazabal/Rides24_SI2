@@ -1,5 +1,5 @@
 gui.BidaiakKudeatuGUI#<init>(Ljava/lang/String;)V
-ead514c4b2f626de9042bb4a1f6c74e3
+02153146a107750404dc1185c80f8c8d
 javax.swing.JTable#<init>()V
 java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
 java.text.SimpleDateFormat#instance-init#

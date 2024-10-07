@@ -299,4 +299,5 @@ public class CreateRideBDWhiteTest {
 		   
 	@Test
 	public void test6() {}  
+	//metodo hau ez dago inplementatuta oraindik, baina etorkizunera begira dago egina
 }

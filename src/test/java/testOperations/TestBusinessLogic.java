@@ -5,6 +5,7 @@ import java.util.Date;
 import configuration.ConfigXML;
 import domain.Driver;
 import domain.Ride;
+import domain.User;
 
 public class TestBusinessLogic {
 	TestDataAccess dbManagerTest;
@@ -62,6 +63,19 @@ public class TestBusinessLogic {
 			Ride r=dbManagerTest.removeRide( email, from,  to,  date );
 			dbManagerTest.close();
 			return r;
+		}
+		
+		public User getuser(String username) {
+			dbManagerTest.open();
+			User u = dbManagerTest.getUser(username);
+			dbManagerTest.close();
+			return u;
+		}
+
+		public void createUser(User user) {
+			dbManagerTest.open();
+		    dbManagerTest.createUser(user);
+			dbManagerTest.close();
 		}
 		
 

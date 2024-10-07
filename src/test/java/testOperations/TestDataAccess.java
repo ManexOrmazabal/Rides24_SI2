@@ -11,6 +11,7 @@ import javax.persistence.Persistence;
 import configuration.ConfigXML;
 import domain.Driver;
 import domain.Ride;
+import domain.User;
 
 
 public class TestDataAccess {
@@ -133,6 +134,50 @@ public class TestDataAccess {
 			return null;
 
 		}
+		
+	    public void createUser(User user) {
+	        try {
+	            db.getTransaction().begin();
+	            db.persist(user); // Usar persist para crear el nuevo usuario
+	            db.getTransaction().commit();
+	        } catch (Exception e) {
+	            e.printStackTrace();
+	            db.getTransaction().rollback();
+	        }
+	    }
+
+	    public User getUser(String username) {
+	        User user = null;
+	        try {
+	            db.getTransaction().begin();
+	            user = db.find(User.class, username); // Busca el usuario en la base de datos usando el username
+	            db.getTransaction().commit();
+	        } catch (Exception e) {
+	            e.printStackTrace();
+	            db.getTransaction().rollback();
+	        }
+	        return user; // Devuelve el usuario encontrado, o null si no se encontró
+	    }
+	    
+		public boolean removeUser(String name) {
+			System.out.println(">> TestDataAccess: removeDriver");
+			User u = db.find(User.class, name);
+			if (u!=null) {
+				db.getTransaction().begin();
+				db.remove(u);
+				db.getTransaction().commit();
+				return true;
+			} else 
+			return false;
+	    }
+
+
+
+
+
+
+
+
 
 
 		

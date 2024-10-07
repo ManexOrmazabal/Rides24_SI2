@@ -27,7 +27,7 @@ public class GetRidesByDriverDBWhiteTest {
 	private Driver driver;
 	
 
-	
+	//Driver ez da existitzen datubasean
 	@Test
 	public void test1() {
 	    String driverUsername = "NonExistentDriver";
@@ -39,7 +39,7 @@ public class GetRidesByDriverDBWhiteTest {
 	    // Emaitza null dela ziurtatu, driver ez bai da existitzen
 	    assertNull(rides);
 	}
-	
+	//Driver- ak ez du ride-ik
 	@Test
 	public void test2() {
 	    String driverUsername = "DriverNoRides";
@@ -62,7 +62,7 @@ public class GetRidesByDriverDBWhiteTest {
 	    testDA.removeDriver(driverUsername);
 	    testDA.close();
 	}
-	
+	//Driver-ak ez du ride aktiborik
 	@Test
 	public void test3() {
         String driverUsername = "Driver No Active Rides";
@@ -77,7 +77,7 @@ public class GetRidesByDriverDBWhiteTest {
         assertNotNull(rides);
         assertEquals(0, rides.size()); // No active rides should be returned
 	}
-	
+	//Driver-ak ride aktiboa du
 	@Test
 	public void test4() {
         String driverUsername = "ValidDriver";

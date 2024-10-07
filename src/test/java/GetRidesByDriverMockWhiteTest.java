@@ -1,10 +1,12 @@
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import javax.persistence.EntityManager;
@@ -53,7 +55,7 @@ public class GetRidesByDriverMockWhiteTest {
     public  void tearDown() {
 		persistenceMock.close();
     }
-	
+	//Driver ez da existitzen datubasean
 	@Test
 	public void test1() {
         String driverUsername = "NonExistentDriver";
@@ -72,27 +74,85 @@ public class GetRidesByDriverMockWhiteTest {
         // Verify the results
         assertNull(result); // Non-existent driver should return null
 	}
-	
+	//Driver- ak ez du ride-ik
 	@Test
 	public void test2() {
-        String driverUsername = "ValidDriverWithoutRides";
-        Driver driver = new Driver(driverUsername, "password");
-        driver.setCreatedRides(new ArrayList<>()); // No rides
+	       String driverUsername = "ValidDriverWithoutRides";
+	        Driver driver = new Driver(driverUsername, "password");
+	        driver.setCreatedRides(new ArrayList<>()); // No rides
 
-        // Configurando el mock para devolver el conductor
+	        // Configurar el mock para devolver el conductor
+	        TypedQuery<Driver> mockedQuery = mock(TypedQuery.class);
+	        when(db.createQuery("SELECT d FROM Driver d WHERE d.username = :username", Driver.class))
+	                .thenReturn(mockedQuery);
+	        when(mockedQuery.setParameter("username", driverUsername))
+	                .thenReturn(mockedQuery);
+	        when(mockedQuery.getSingleResult())
+	                .thenReturn(driver);
+
+	        // Ejecutar SUT
+	        List<Ride> result = sut.getRidesByDriver(driverUsername);
+
+	        // Verificar los resultados
+	        assertNotNull(result);
+	        assertEquals(0, result.size()); // No debería haber viajes, lista vacía
+	}
+	//Driver-ak ez du ride aktiborik
+	@Test
+	public void test3() {
+	    
+	        String driverUsername = "DriverWithNoActiveRides";
+	        Driver driver = new Driver(driverUsername, "password");
+	        ArrayList<Ride> rides = new ArrayList<>();
+	        Ride r = new Ride("Origin2", "Destination2", new Date(), 2, 10, null);
+	        if(!r.isActive()) {
+	        	rides.add(r); // Inactive ride
+	        }
+	        
+	        
+	        driver.setCreatedRides(rides);
+
+	        // Configurar el mock para devolver el conductor
+	        TypedQuery<Driver> mockedQuery = mock(TypedQuery.class);
+	        when(db.createQuery("SELECT d FROM Driver d WHERE d.username = :username", Driver.class))
+	                .thenReturn(mockedQuery);
+	        when(mockedQuery.setParameter("username", driverUsername))
+	                .thenReturn(mockedQuery);
+	        when(mockedQuery.getSingleResult())
+	                .thenReturn(driver);
+
+	        // Ejecutar SUT
+	        List<Ride> result = sut.getRidesByDriver(driverUsername);
+
+	        // Verificar los resultados
+	        assertNotNull(result);
+	        assertEquals(0, result.size()); // No debería haber viajes activos, por lo tanto
+	}
+	//Driver-ak ride aktiboa du
+	@Test
+	public void test4() {
+        String driverUsername = "ValidDriver";
+        Driver driver = new Driver(driverUsername, "password");
+        ArrayList<Ride> rides = new ArrayList<>();
+        rides.add(new Ride("Origin1", "Destination1", new Date(), 2, 10, driver)); // Active ride
+        driver.setCreatedRides(rides);
+
+        // Configurar el mock para devolver el conductor
+        TypedQuery<Driver> mockedQuery = mock(TypedQuery.class);
         when(db.createQuery("SELECT d FROM Driver d WHERE d.username = :username", Driver.class))
-                .thenReturn(mock(TypedQuery.class));
-        when(db.createQuery("SELECT d FROM Driver d WHERE d.username = :username", Driver.class).setParameter("username", driverUsername))
-                .thenReturn(mock(TypedQuery.class));
-        when(db.createQuery("SELECT d FROM Driver d WHERE d.username = :username", Driver.class).setParameter("username", driverUsername).getSingleResult())
+                .thenReturn(mockedQuery);
+        when(mockedQuery.setParameter("username", driverUsername))
+                .thenReturn(mockedQuery);
+        when(mockedQuery.getSingleResult())
                 .thenReturn(driver);
 
-        // Invoke SUT
+        // Ejecutar SUT
         List<Ride> result = sut.getRidesByDriver(driverUsername);
 
-        // Verify the results
+        // Verificar los resultados
         assertNotNull(result);
-        assertEquals(0, result.size()); // Should return an empty list since the driver has no rides
+        assertEquals(1, result.size()); // Asegurar que se devuelva el viaje activo
+        assertTrue(result.get(0).isActive()); // Verificar que el viaje sea activo
 	}
 
 }

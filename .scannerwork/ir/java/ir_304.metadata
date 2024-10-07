@@ -1,5 +1,5 @@
 gui.KotxeakKudeatuGUI#<init>(Ljava/lang/String;)V
-45c8977db20284d11cb1b97754b9469b
+9fe3fcde6ac85b7c793f7512472ce0b8
 javax.swing.JTable#<init>()V
 java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
 javax.swing.JButton#<init>(Ljava/lang/String;)V

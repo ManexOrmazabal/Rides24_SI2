@@ -1,5 +1,6 @@
 package businessLogic;
 
+import java.util.logging.Logger;
 import java.util.Date;
 import java.util.List;
 
@@ -28,9 +29,12 @@ import exceptions.RideAlreadyExistException;
 @WebService(endpointInterface = "businessLogic.BLFacade")
 public class BLFacadeImplementation implements BLFacade {
 	DataAccess dbManager;
+	
+	Logger logger = Logger.getLogger(getClass().getName());
+
 
 	public BLFacadeImplementation() {
-		System.out.println("Creating BLFacadeImplementation instance");
+		logger.info("Creating BLFacadeImplementation instance");
 
 		dbManager = new DataAccess();
 
@@ -40,7 +44,7 @@ public class BLFacadeImplementation implements BLFacade {
 
 	public BLFacadeImplementation(DataAccess da) {
 
-		System.out.println("Creating BLFacadeImplementation instance with DataAccess parameter");
+		logger.info("Creating BLFacadeImplementation instance with DataAccess parameter");
 		@SuppressWarnings("unused")
 		ConfigXML c = ConfigXML.getInstance();
 

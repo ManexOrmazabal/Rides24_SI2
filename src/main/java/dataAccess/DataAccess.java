@@ -104,11 +104,13 @@ public class DataAccess {
 
 			cal.set(2024, Calendar.APRIL, 20);
 			Date date4 = UtilDate.trim(cal.getTime());
+			
+			String MAD = "Madrid";
 
-			driver1.addRide("Donostia", "Madrid", date2, 5, 20); //ride1
+			driver1.addRide("Donostia", MAD, date2, 5, 20); //ride1
 			driver1.addRide("Irun", "Donostia", date2, 5, 2); //ride2
-			driver1.addRide("Madrid", "Donostia", date3, 5, 5); //ride3
-			driver1.addRide("Barcelona", "Madrid", date4, 0, 10); //ride4
+			driver1.addRide(MAD, "Donostia", date3, 5, 5); //ride3
+			driver1.addRide("Barcelona", MAD, date4, 0, 10); //ride4
 			driver2.addRide("Donostia", "Hondarribi", date1, 5, 3); //ride5
 
 			Ride ride1 = driver1.getCreatedRides().get(0);

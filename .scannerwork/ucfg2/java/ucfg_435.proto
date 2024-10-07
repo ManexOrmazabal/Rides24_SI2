@@ -1,11 +1,11 @@
 
 9configuration.ConfigXML#getDbFilename()Ljava/lang/String;U
-IC:/Users/manex/git/Rides24_SI2/src/main/java/configuration/ConfigXML.javaŸ Ÿ("1*®
+IC:/Users/manex/git/Rides24_SI2/src/main/java/configuration/ConfigXML.java   ("1*®
 1
- 	  (u
+¡	 ¡(u
 s
 
- 	  (
+¡	 ¡(
 %0java.lang.String"__id*G
 
 __unknown_file (+*)
@@ -13,7 +13,7 @@ s
 
 dbFilename"&
 
-   (
+¡ ¡(
 
 %0java.lang.StringB
 configuration.ConfigXMLH

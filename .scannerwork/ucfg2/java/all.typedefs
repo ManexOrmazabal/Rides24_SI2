@@ -3510,9 +3510,9 @@ HtranslatePattern(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)ujava.
 <init>(Ljava/lang/String;))gui.BaloraGUI#<init>(Ljava/lang/String;)VN
 getBusinessLogic()8gui.BaloraGUI#getBusinessLogic()LbusinessLogic/BLFacade;‡
 :jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Igui.BaloraGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vi
-+setBussinessLogic(LbusinessLogic/BLFacade;):gui.BaloraGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V’
-gui.BaloraGUI$1java.awt.event.ActionListenerjava.lang.Object]
-$<init>(Lgui/BaloraGUI;Ldomain/User;)5gui.BaloraGUI$1#<init>(Lgui/BaloraGUI;Ldomain/User;)Vo
++setBussinessLogic(LbusinessLogic/BLFacade;):gui.BaloraGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V½
+gui.BaloraGUI$1java.awt.event.ActionListenerjava.lang.Object‡
+9<init>(Lgui/BaloraGUI;Ljavax/swing/JSlider;Ldomain/User;)Jgui.BaloraGUI$1#<init>(Lgui/BaloraGUI;Ljavax/swing/JSlider;Ldomain/User;)Vo
 -actionPerformed(Ljava/awt/event/ActionEvent;)>gui.BaloraGUI$1#actionPerformed(Ljava/awt/event/ActionEvent;)VŽ 
 javax.swing.JSliderjavax.accessibility.Accessiblejavax.swing.JComponentjavax.swing.SwingConstants)
 <init>()javax.swing.JSlider#<init>()V+

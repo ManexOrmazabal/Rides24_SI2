@@ -1,2 +1,2 @@
-domain.Ride#setDate(Ljava/util/Date;)V
-b5b482eb5f0f1f63dd75cefa53169205
+domain.Car#getModeloa()Ljava/lang/String;
+708acba59abba526a5d3695cb28b313e

@@ -1,2 +1,6 @@
-gui.AdminGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
-cd39f3d43f263c1c7f97f2522584fcd0
+businessLogic.BLFacadeImplementation#getAlertsByUsername(Ljava/lang/String;)Ljava/util/List;
+e1e11d629e96cbefa306b5d51235175e
+==
+getAlertsByUsername dataAccess.DataAccess#getAlertsByUsername(Ljava/lang/String;)Ljava/util/List;
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V

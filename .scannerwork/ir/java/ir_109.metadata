@@ -1,2 +1,2 @@
-domain.User#getMota()Ljava/lang/String;
-0470a9fc4ae47e2630e342fba9a70bdb
+domain.User#setUsername(Ljava/lang/String;)V
+cc4b8fa6895ee67f51b2865354b77c60

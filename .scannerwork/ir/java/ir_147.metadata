@@ -1,2 +1,4 @@
-gui.BidaiakKudeatuGUI#instance-init#
-8b584ab0a82f97b3c1220c666d897ad0
+gui.RegisterGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+2fa8fa4c65996c72d990c6c26f4d7042
+==
+setVisible java.awt.Window#setVisible(Z)V

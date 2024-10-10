@@ -1,6 +1,2 @@
-businessLogic.BLFacadeImplementation#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;
-79579756085e6a6b47b407ecfb338e1c
-==
-getThisMonthDatesWithRides dataAccess.DataAccess#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
+gui.TravelerGUI#getBusinessLogic()LbusinessLogic/BLFacade;
+9c28f5686dc621342dbaad8e0c87b8f3

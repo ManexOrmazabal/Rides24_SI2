@@ -1,2 +1,2 @@
-domain.Alert#setActive(Z)V
-be6a9fe7888b1d708f359f7f9861b8df
+domain.Ride#getRideNumber()Ljava/lang/Integer;
+8a06a0922bd1697e449073baf6901aea

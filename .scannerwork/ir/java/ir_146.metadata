@@ -1,4 +1,18 @@
-gui.MovementsGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-60119a6be28596c22a7b4e2459e9220e
+gui.RegisterGUI#<init>()V
+7a5604a40eca8e0a026ed2d90fdd8633
+java.awt.Dimension#<init>(II)V
+gui.RegisterGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
+java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
+java.awt.Dimension#instance-init#
+java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
 ==
-setVisible java.awt.Window#setVisible(Z)V
+add java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;
+setHorizontalAlignment javax.swing.JLabel#setHorizontalAlignment(I)V
+setTitle java.awt.Frame#setTitle(Ljava/lang/String;)V
+addItem javax.swing.JComboBox#addItem(Ljava/lang/Object;)V
+getContentPane javax.swing.JFrame#getContentPane()Ljava/awt/Container;
+setLayout java.awt.Container#setLayout(Ljava/awt/LayoutManager;)V
+setResizable java.awt.Frame#setResizable(Z)V
+addActionListener javax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V
+setBounds java.awt.Component#setBounds(IIII)V
+setSize java.awt.Window#setSize(Ljava/awt/Dimension;)V

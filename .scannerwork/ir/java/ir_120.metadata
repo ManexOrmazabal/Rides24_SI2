@@ -1,2 +1,2 @@
-domain.User#getErreklamaKop()I
-a5eb01f0096b8f6bb496ea77a6d2fb42
+domain.User#toString()Ljava/lang/String;
+d6c519675f1b1bdb89e06b68d26bee1e

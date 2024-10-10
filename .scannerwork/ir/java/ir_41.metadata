@@ -1,2 +1,3 @@
-domain.Traveler#getBookedRides()Ljava/util/List;
-1f3319570919f01ec9ffb137570a5f3d
+domain.Traveler#instance-init#
+15f54ed14cfa852960585dc79e9338a3
+java.util.Vector#<init>()V

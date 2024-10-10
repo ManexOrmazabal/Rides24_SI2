@@ -1,11 +1,11 @@
 
-SbusinessLogic.BLFacadeImplementation#isAdded(Ljava/lang/String;Ljava/lang/String;)Zb
-VC:/Users/manex/git/Rides24_SI2/src/main/java/businessLogic/BLFacadeImplementation.java∫ ∫("startingBlock*Ä
+WbusinessLogic.BLFacadeImplementation#addTraveler(Ljava/lang/String;Ljava/lang/String;)Zl
+`C:/Users/Roman/workspace-si2/Rides24_SI2/src/main/java/businessLogic/BLFacadeImplementation.java» »("startingBlock*à
 startingBlock
-∫ ∫(5ë
+» »(=ë
 é
 
-π π(
+« «(
 
 %6"
 __annotate*2
@@ -18,46 +18,46 @@ __annotate*2
 usernamejava.lang.String^
 \
 
-∫ ∫('
+»# »(+
 usernamejava.lang.String"__annotation*"
 
 __unknown_file (
 
-%6ç
-ä
+%6ë
+é
 
-π π(
+« «(
 
 %7"
 __annotate*2
 
 __unknown_file (
-java.lang.Override*6
+java.lang.Override*:
 
-__unknown_file (
-
-matrjava.lang.StringZ
-X
+__unknown_file (
+
+passwordjava.lang.String^
+\
 
-∫0 ∫(4
-matrjava.lang.String"__annotation*"
+»4 »(<
+passwordjava.lang.String"__annotation*"
 
 __unknown_file (
 
 %7*
-1*Ü
+1*í
 1
-ª ª(á
+… …(á
 Ñ
 
-ª ª(
+… …(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager|z
 
-ª ª(
+… …(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -66,15 +66,15 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()á
 Ñ
 
-º º( 
+   (
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManager¬ø
+	dbManagerŒÀ
 
-º º(8
-%3boolean"DdataAccess.DataAccess#isAdded(Ljava/lang/String;Ljava/lang/String;)Z*9
+   (:
+%3boolean"HdataAccess.DataAccess#addTraveler(Ljava/lang/String;Ljava/lang/String;)Z*9
 
 __unknown_file (
 
@@ -82,21 +82,21 @@ $businessLogic.BLFacadeImplementation"
 
 __unknown_file (
 
-usernamejava.lang.String*6
+usernamejava.lang.String*:
 
-__unknown_file (
-
-matrjava.lang.String2-isAdded(Ljava/lang/String;Ljava/lang/String;)á
+__unknown_file (
+
+passwordjava.lang.String21addTraveler(Ljava/lang/String;Ljava/lang/String;)á
 Ñ
 
-Ω Ω(
+À À(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager~|
 
-Ω Ω(
+À À(
 
 %5void"dataAccess.DataAccess#close()V*9
 
@@ -104,12 +104,12 @@ $businessLogic.BLFacadeImplementation"
 
 %4dataAccess.DataAccess2close()"
 
-æ æ(
+Ã Ã(
 "":*
 
-∫ ∫((
-usernamejava.lang.String:&
+» »(,
+usernamejava.lang.String:*
 
-∫) ∫(4
-matrjava.lang.StringB(&
+»- »(<
+passwordjava.lang.StringB(&
 $businessLogic.BLFacadeImplementationHX

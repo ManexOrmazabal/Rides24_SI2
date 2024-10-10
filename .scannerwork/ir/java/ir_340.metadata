@@ -1,2 +1,2 @@
-domain.Booking#<init>(Ldomain/Ride;LTraveler;I)V
-4bf56736e9c676b760887841701e97d7
+domain.Ride#setActive(Z)V
+c53f6d1881fccdcb1d938a5cdcfdbed2

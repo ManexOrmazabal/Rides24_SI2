@@ -1,2 +1,2 @@
-configuration.UtilDate#instance-init#
-9831c3009cce6a83a457b3aac7cee07a
+domain.Ride#getDate()Ljava/util/Date;
+f3cca8a5bc12c10d5f416054a09d16aa

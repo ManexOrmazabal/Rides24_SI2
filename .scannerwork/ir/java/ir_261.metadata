@@ -1,2 +1,4 @@
-domain.Car#setMatrikula(Ljava/lang/String;)V
-c02c3feced30c65c1bc0868911e507f4
+BookRideMockWhiteTest#testBookRideNotEnoughSeats()V
+c5bd770079d6109bd5ba0a3464afe03b
+==
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;LRide;ID)Z

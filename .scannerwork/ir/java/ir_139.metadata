@@ -1,2 +1,6 @@
-gui.DriverGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
-653028b2ec882417026c615c37b7d4d7
+GetRidesByDriverMockWhiteTest#test1()V
+b8075444068f326a5f61a5eda2f19253
+java.lang.RuntimeException#<init>(Ljava/lang/String;)V
+java.lang.RuntimeException#instance-init#
+==
+getRidesByDriver dataAccess.DataAccess#getRidesByDriver(Ljava/lang/String;)Ljava/util/List;

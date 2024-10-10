@@ -1,4 +1,4 @@
-domain.Driver#toString()Ljava/lang/String;
-91b0f5449956184c689e3407570da0b8
+gui.BaloraGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+b35266f70da32515fc0e0c804c9beaf2
 ==
-toString domain.User#toString()Ljava/lang/String;
+setVisible java.awt.Window#setVisible(Z)V

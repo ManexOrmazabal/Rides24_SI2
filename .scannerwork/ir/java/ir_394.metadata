@@ -1,2 +1,8 @@
-configuration.ConfigXML#getDatabasePort()I
-38fc03f4798c395cd9443965eaac1870
+gui.MainGUI#paintAgain()V
+4ecb16bcf1aa2a450aef32068b3eeaf7
+java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
+java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
+==
+setText javax.swing.JLabel#setText(Ljava/lang/String;)V
+setText javax.swing.AbstractButton#setText(Ljava/lang/String;)V
+setTitle java.awt.Frame#setTitle(Ljava/lang/String;)V

@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#updateAlertaAurkituak(Ljava/lang/String;)Z
-a668b1246941cbc269b4cc9081c450c9
+businessLogic.BLFacadeImplementation#createDiscount(Ldomain/Discount;)V
+4dbdbb80827f74e07a70371df628f2d6
 ==
 close dataAccess.DataAccess#close()V
+createDiscount dataAccess.DataAccess#createDiscount(Ldomain/Discount;)V
 open dataAccess.DataAccess#open()V
-updateAlertaAurkituak dataAccess.DataAccess#updateAlertaAurkituak(Ljava/lang/String;)Z

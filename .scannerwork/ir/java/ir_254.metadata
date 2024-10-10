@@ -1,4 +1,6 @@
-gui.AlertakKudeatuGUI#closeButton_actionPerformed(Ljava/awt/event/ActionEvent;)V
-c9372cd08a6b64cf823aa2db9f6a691f
+businessLogic.BLFacadeImplementation#getComplaintsByBook(LBooking;)LComplaint;
+04f8d352bece6cd164b6d40734bf598b
 ==
-setVisible java.awt.Window#setVisible(Z)V
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V
+getComplaintsByBook dataAccess.DataAccess#getComplaintsByBook(LBooking;)LComplaint;

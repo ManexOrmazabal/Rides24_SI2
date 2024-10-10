@@ -1,2 +1,2 @@
-gui.ArazoaGUI#setBussinessLogic(LBLFacade;)V
-7a27e8e675438678d391816d489565aa
+domain.Ride#setFrom(Ljava/lang/String;)V
+857ea673892df3248947770c8d723562

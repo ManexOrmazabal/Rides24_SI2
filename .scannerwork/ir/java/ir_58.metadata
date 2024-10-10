@@ -1,2 +1,7 @@
-gui.EzabatuGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
-c39c1fb24514a6c13ecfa15ccfad0d2d
+testOperations.TestDataAccess#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)LRide;
+8b88be10c1548f3486f5e2457f8781a9
+==
+println java.io.PrintStream#println([C)V
+println java.io.PrintStream#println(Ljava/lang/String;)V
+removeRide domain.Driver#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)LRide;
+getCreatedRides domain.Driver#getCreatedRides()Ljava/util/List;

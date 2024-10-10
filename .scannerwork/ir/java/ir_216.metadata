@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#getPastBookedRides(Ljava/lang/String;)Ljava/util/List;
-e3971b2efad568495156f4b8e98dc6d0
+businessLogic.BLFacadeImplementation#isRegistered(Ljava/lang/String;Ljava/lang/String;)Z
+483f0e0e94a784716693f415bbff550c
 ==
 close dataAccess.DataAccess#close()V
-getPastBookedRides dataAccess.DataAccess#getPastBookedRides(Ljava/lang/String;)Ljava/util/List;
+isRegistered dataAccess.DataAccess#isRegistered(Ljava/lang/String;Ljava/lang/String;)Z
 open dataAccess.DataAccess#open()V

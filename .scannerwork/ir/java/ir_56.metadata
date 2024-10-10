@@ -1,7 +1,2 @@
-testOperations.TestDataAccess#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)LRide;
-02928196336c6606399b075d2014255a
-==
-println java.io.PrintStream#println([C)V
-println java.io.PrintStream#println(Ljava/lang/String;)V
-removeRide domain.Driver#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)LRide;
-getCreatedRides domain.Driver#getCreatedRides()Ljava/util/List;
+testOperations.TestDataAccess#existDriver(Ljava/lang/String;)Z
+9c34f051669524d2dfe81e5551167657

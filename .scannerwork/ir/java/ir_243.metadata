@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#getComplaintsByBook(LBooking;)LComplaint;
-bda42338922450011d502ca2b87b5b71
+businessLogic.BLFacadeImplementation#updateDiscount(Ldomain/Discount;)V
+fcb7ff3632e554e0913ec423e408ba9b
 ==
 close dataAccess.DataAccess#close()V
+updateDiscount dataAccess.DataAccess#updateDiscount(Ldomain/Discount;)V
 open dataAccess.DataAccess#open()V
-getComplaintsByBook dataAccess.DataAccess#getComplaintsByBook(LBooking;)LComplaint;

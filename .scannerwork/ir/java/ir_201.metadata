@@ -1,6 +1,2 @@
-businessLogic.BLFacadeImplementation#close()V
-a2f7860f14084f6399665d55966524f2
-dataAccess.DataAccess#instance-init#
-dataAccess.DataAccess#<init>()V
-==
-close dataAccess.DataAccess#close()V
+gui.TravelerGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
+a83a21c5991ff4e22f280f2705f325c8

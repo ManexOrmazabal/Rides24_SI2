@@ -1,2 +1,6 @@
-GetActualMoneyMockTest#tearDown()V
-2a1f1c14d9b34f84508c1e2dea03851c
+testOperations.TestBusinessLogic#existRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Z
+9d32a19704fc0b0a19ac1f59a82dbff0
+==
+close testOperations.TestDataAccess#close()V
+existRide testOperations.TestDataAccess#existRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Z
+open testOperations.TestDataAccess#open()V

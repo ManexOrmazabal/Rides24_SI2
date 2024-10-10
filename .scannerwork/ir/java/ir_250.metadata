@@ -1,4 +1,6 @@
-gui.AdminGUI#jButtonCloseActionPerformed(Ljava/awt/event/ActionEvent;)V
-bab3d6bd09e6619c7a62b42c6afe4816
+businessLogic.BLFacadeImplementation#updateAlert(LAlert;)V
+721fdd613cbd904df60db803e041822b
 ==
-setVisible java.awt.Window#setVisible(Z)V
+updateAlert dataAccess.DataAccess#updateAlert(LAlert;)V
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V

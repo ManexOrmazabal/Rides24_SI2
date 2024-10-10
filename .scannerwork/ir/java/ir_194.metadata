@@ -1,6 +1,4 @@
-businessLogic.BLFacadeImplementation#<init>()V
-b18d443c344d39f171263f2b27f40146
-dataAccess.DataAccess#instance-init#
-dataAccess.DataAccess#<init>()V
+exceptions.RideAlreadyExistException#<init>(Ljava/lang/String;)V
+e2706786d300e572bf0edc1e13b8ee73
 ==
-println java.io.PrintStream#println(Ljava/lang/String;)V
+<init> java.lang.Exception#<init>(Ljava/lang/String;)V

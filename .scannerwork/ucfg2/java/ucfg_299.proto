@@ -1,7 +1,17 @@
 
-domain.Movement#getKopurua()DK
-AC:/Users/manex/git/Rides24_SI2/src/main/java/domain/Movement.java. .("1*!
-1/ /("
-/ /(
-""B
-domain.MovementHX
++domain.Car#getMatrikula()Ljava/lang/String;P
+FC:/Users/Roman/workspace-si2/Rides24_SI2/src/main/java/domain/Car.java$ $("1*š
+1%	 %(e
+c
+%	 %(
+%0java.lang.String"__id*9
+
+__unknown_file (*
+
+domain.Car"
+	matrikula"$
+% %(
+
+%0java.lang.StringB
+
+domain.CarH

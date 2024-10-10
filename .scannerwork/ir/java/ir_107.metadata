@@ -1,2 +1,2 @@
-domain.User#getPassword()Ljava/lang/String;
-a3fae21b3d88f574d395e843f57cc7cc
+domain.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+0d7a24ab77192a0e4792a9de9b69ea38

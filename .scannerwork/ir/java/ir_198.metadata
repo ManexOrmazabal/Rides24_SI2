@@ -1,6 +1,4 @@
-businessLogic.BLFacadeImplementation#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IFLjava/lang/String;)LRide;
-3123179cd7413122fe9ecc970b1e17ff
+gui.FindRidesGUI#jButton2_actionPerformed(Ljava/awt/event/ActionEvent;)V
+2e45ebacff6335b0b85d4a663e2cf648
 ==
-close dataAccess.DataAccess#close()V
-createRide dataAccess.DataAccess#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IFLjava/lang/String;)LRide;
-open dataAccess.DataAccess#open()V
+setVisible java.awt.Window#setVisible(Z)V

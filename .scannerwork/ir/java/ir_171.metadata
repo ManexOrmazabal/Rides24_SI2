@@ -1,8 +1,6 @@
-GetActualMoneyMockTest#test1()V
-6e9ec4aa56b0e0cbff57a9ab1291f7a4
-java.util.ArrayList#<init>()V
-java.util.ArrayList#instance-init#
-java.lang.Double#compareTo(Ljava/lang/Double;)I
+testOperations.TestBusinessLogic#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)LRide;
+3872e81f12b4bbe54c544dae75315a06
 ==
-getActualMoney dataAccess.DataAccess#getActualMoney(Ljava/lang/String;)D
-add java.util.List#add(Ljava/lang/Object;)Z
+close testOperations.TestDataAccess#close()V
+removeRide testOperations.TestDataAccess#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)LRide;
+open testOperations.TestDataAccess#open()V

@@ -1,2 +1,4 @@
-CreateRideBDWhiteTest#instance-init#
-676861ec2382daebbfb8e4014997463a
+gui.ArazoaGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+5c2ea87ba972946c9270931beacd7341
+==
+setVisible java.awt.Window#setVisible(Z)V

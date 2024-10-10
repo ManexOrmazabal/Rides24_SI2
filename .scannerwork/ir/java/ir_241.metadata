@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#createAlert(LAlert;)Z
-e73d31a9bca5042524b119ac2566c4a7
+businessLogic.BLFacadeImplementation#getAllDiscounts()Ljava/util/List;
+7b7bec5ccd81595357d3b003c65605d6
 ==
+getAllDiscounts dataAccess.DataAccess#getAllDiscounts()Ljava/util/List;
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V
-createAlert dataAccess.DataAccess#createAlert(LAlert;)Z

@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#getAlert(I)LAlert;
-a0543363696a548983f853282f155661
+businessLogic.BLFacadeImplementation#erreklamazioaBidali(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;LBooking;Ljava/lang/String;Z)Z
+7eacc105c71ea2d806ba575c8bc9b52b
 ==
-getAlert dataAccess.DataAccess#getAlert(I)LAlert;
 close dataAccess.DataAccess#close()V
+erreklamazioaBidali dataAccess.DataAccess#erreklamazioaBidali(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;LBooking;Ljava/lang/String;Z)Z
 open dataAccess.DataAccess#open()V

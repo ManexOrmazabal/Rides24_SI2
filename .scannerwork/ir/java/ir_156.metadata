@@ -1,6 +1,35 @@
-testOperations.TestBusinessLogic#createDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;
-793cc06b3687f9e718a3e63c9bb44c6b
+gui.MovementsGUI#<init>(Ljava/lang/String;)V
+b409cb3f5d9c2a5de204e35b714bc1df
+javax.swing.JTable#<init>()V
+java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
+javax.swing.JButton#<init>(Ljava/lang/String;)V
+javax.swing.table.DefaultTableModel#<init>([Ljava/lang/Object;I)V
+javax.swing.JScrollPane#instance-init#
+gui.MovementsGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
+java.awt.BorderLayout#<init>()V
+java.awt.Dimension#<init>(II)V
+gui.LoginGUI#getBusinessLogic()LbusinessLogic/BLFacade;
+java.awt.Dimension#instance-init#
+java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
+javax.swing.JTable#instance-init#
+java.awt.BorderLayout#instance-init#
+javax.swing.JButton#instance-init#
+javax.swing.JScrollPane#<init>(Ljava/awt/Component;)V
+javax.swing.table.DefaultTableModel#instance-init#
 ==
-createDriver testOperations.TestDataAccess#createDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;
-close testOperations.TestDataAccess#close()V
-open testOperations.TestDataAccess#open()V
+add java.awt.Container#add(Ljava/awt/Component;Ljava/lang/Object;)V
+getTableHeader javax.swing.JTable#getTableHeader()Ljavax/swing/table/JTableHeader;
+getAllMovements businessLogic.BLFacade#getAllMovements(Ldomain/User;)Ljava/util/List;
+getContentPane javax.swing.JFrame#getContentPane()Ljava/awt/Container;
+setResizable java.awt.Frame#setResizable(Z)V
+setModel javax.swing.JTable#setModel(Ljavax/swing/table/TableModel;)V
+setColumnSelectionAllowed javax.swing.JTable#setColumnSelectionAllowed(Z)V
+setSize java.awt.Window#setSize(Ljava/awt/Dimension;)V
+setRowSelectionAllowed javax.swing.JTable#setRowSelectionAllowed(Z)V
+getUser businessLogic.BLFacade#getUser(Ljava/lang/String;)Ldomain/User;
+setTitle java.awt.Frame#setTitle(Ljava/lang/String;)V
+setReorderingAllowed javax.swing.table.JTableHeader#setReorderingAllowed(Z)V
+setLayout java.awt.Container#setLayout(Ljava/awt/LayoutManager;)V
+addActionListener javax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V
+addRow javax.swing.table.DefaultTableModel#addRow([Ljava/lang/Object;)V
+setDefaultEditor javax.swing.JTable#setDefaultEditor(Ljava/lang/Class;Ljavax/swing/table/TableCellEditor;)V

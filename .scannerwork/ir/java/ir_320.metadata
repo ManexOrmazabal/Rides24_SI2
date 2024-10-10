@@ -1,2 +1,4 @@
-domain.Alert#isActive()Z
-d24b4cbc930e0ae683ee66b859305832
+domain.Ride#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IDLDriver;)V
+aa0b6ba66273858922889df93b709c7c
+==
+<init> java.lang.Object#<init>()V

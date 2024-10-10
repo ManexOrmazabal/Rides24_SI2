@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#getAllDiscounts()Ljava/util/List;
-3b4e7bd10a769535007d312b063766a4
+businessLogic.BLFacadeImplementation#updateUser(Ldomain/User;)V
+f808fb53ad937b47343db3fea20d664a
 ==
-getAllDiscounts dataAccess.DataAccess#getAllDiscounts()Ljava/util/List;
+updateUser dataAccess.DataAccess#updateUser(Ldomain/User;)V
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V

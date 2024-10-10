@@ -1,6 +1,4 @@
-businessLogic.BLFacadeImplementation#getUser(Ljava/lang/String;)Ldomain/User;
-a5cbf93629c8dcdaea31862e8d36632e
+gui.TravelerGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+d9093deffef1ba148ce6a1959fecd5d5
 ==
-getUser dataAccess.DataAccess#getUser(Ljava/lang/String;)Ldomain/User;
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
+setVisible java.awt.Window#setVisible(Z)V

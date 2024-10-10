@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#getRidesByDriver(Ljava/lang/String;)Ljava/util/List;
-5a47b9bf09c163eee9fd41cf94810e77
+businessLogic.BLFacadeImplementation#gauzatuEragiketa(Ljava/lang/String;DZ)Z
+f05341b08923802768ce82ae121ca759
 ==
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V
-getRidesByDriver dataAccess.DataAccess#getRidesByDriver(Ljava/lang/String;)Ljava/util/List;
+gauzatuEragiketa dataAccess.DataAccess#gauzatuEragiketa(Ljava/lang/String;DZ)Z

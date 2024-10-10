@@ -1,42 +1,42 @@
 
-SbusinessLogic.BLFacadeImplementation#getAllMovements(Ldomain/User;)Ljava/util/List;b
-VC:/Users/manex/git/Rides24_SI2/src/main/java/businessLogic/BLFacadeImplementation.java‡ ‡(&"startingBlock*Ç
+HbusinessLogic.BLFacadeImplementation#getActualMoney(Ljava/lang/String;)Dl
+`C:/Users/Roman/workspace-si2/Rides24_SI2/src/main/java/businessLogic/BLFacadeImplementation.javaê ê("startingBlock*å
 startingBlock
-‡& ‡(1à
-Ö
+ê ê(*ç
+ä
 
-ﬂ ﬂ(
+è è(
 
 %6"
 __annotate*2
 
 __unknown_file (
-java.lang.Override*1
+java.lang.Override*6
 
-__unknown_file (
-
-userdomain.UserU
-S
+__unknown_file (
+
+erabjava.lang.StringZ
+X
 
-‡, ‡(0
-userdomain.User"__annotation*"
+ê% ê()
+erabjava.lang.String"__annotation*"
 
 __unknown_file (
 
 %6*
-1*≥
+1*≥
 1
-· ·(á
+ë ë(á
 Ñ
 
-· ·(
+ë ë(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager|z
 
-· ·(
+ë ë(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -45,52 +45,43 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()á
 Ñ
 
-‚ ‚("
+í í(
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManager˘ˆ
+	dbManagerÔÏ
 
-‚ ‚(8
-%3java.util.List"DdataAccess.DataAccess#getAllMovements(Ldomain/User;)Ljava/util/List;*9
+í í(/
+%3double"9dataAccess.DataAccess#getActualMoney(Ljava/lang/String;)D*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess*1
+%2dataAccess.DataAccess*6
 
-__unknown_file (
-
-userdomain.User2getAllMovements(Ldomain/User;)a
-_
-
-‚ ‚(9
-movesjava.util.List"__id*2
+__unknown_file (
 
-__unknown_file (
-
-%3java.util.Listá
+erabjava.lang.String2"getActualMoney(Ljava/lang/String;)á
 Ñ
 
-„ „(
+ì ì(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager~|
 
-„ „(
+ì ì(
 
 %5void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%4dataAccess.DataAccess2close()"'
+%4dataAccess.DataAccess2close()"
 
-‰ ‰(
-
-movesjava.util.List:!
+î î(
+"":&
 
-‡' ‡(0
-userdomain.UserB(&
-$businessLogic.BLFacadeImplementationH
+ê ê()
+erabjava.lang.StringB(&
+$businessLogic.BLFacadeImplementationHX

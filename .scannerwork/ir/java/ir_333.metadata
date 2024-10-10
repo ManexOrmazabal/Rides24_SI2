@@ -1,6 +1,2 @@
-configuration.UtilDate#datesAreEqualIgnoringTime(Ljava/util/Date;Ljava/util/Date;)Z
-c0b279296fae6832da6423fd063f99f8
-java.util.Calendar#getInstance()Ljava/util/Calendar;
-java.util.Calendar#setTime(Ljava/util/Date;)V
-==
-get java.util.Calendar#get(I)I
+domain.Ride#getPrice()D
+382af7ca79cd81ddadf6d4b8d93de9e7

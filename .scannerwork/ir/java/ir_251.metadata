@@ -1,2 +1,6 @@
-gui.AlertakKudeatuGUI#instance-init#
-9169c2153c0f42f2ae39e12f3003b4be
+businessLogic.BLFacadeImplementation#updateAlertaAurkituak(Ljava/lang/String;)Z
+eb7fbd6c09717d4fa703920d990ecda2
+==
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V
+updateAlertaAurkituak dataAccess.DataAccess#updateAlertaAurkituak(Ljava/lang/String;)Z

@@ -1,7 +1,2 @@
-testOperations.TestBusinessLogic#<init>()V
-fe31ef3ebba83520e0cf6a7982a95e73
-testOperations.TestDataAccess#instance-init#
-testOperations.TestDataAccess#<init>()V
-==
-println java.io.PrintStream#println(Ljava/lang/String;)V
-close testOperations.TestDataAccess#close()V
+gui.MovementsGUI#getBusinessLogic()LbusinessLogic/BLFacade;
+2cf046a777d3c1f7f1ac674c428ea84e

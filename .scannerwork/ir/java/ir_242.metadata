@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#deleteAlert(I)Z
-9dc9749e161c93624d21a0b400d11520
+businessLogic.BLFacadeImplementation#deleteDiscount(Ldomain/Discount;)V
+c78219802de22789ec5f8fe06281c3b7
 ==
 close dataAccess.DataAccess#close()V
-deleteAlert dataAccess.DataAccess#deleteAlert(I)Z
 open dataAccess.DataAccess#open()V
+deleteDiscount dataAccess.DataAccess#deleteDiscount(Ldomain/Discount;)V

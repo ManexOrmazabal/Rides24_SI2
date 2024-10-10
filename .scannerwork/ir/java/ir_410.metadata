@@ -1,2 +1,2 @@
-domain.Admin2#setUsername(Ljava/lang/String;)V
-2f6239fb3637d7aea13327cb70a8cea9
+domain.Booking#getComplaint()Ldomain/Complaint;
+3b5b5ad0468690f7ca2646bd2dbe87e7

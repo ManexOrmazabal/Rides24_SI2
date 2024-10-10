@@ -1,4 +1,6 @@
-exceptions.RideAlreadyExistException#<init>()V
-09340eaa103babeaadcc4f453ba45445
+GetRidesByDriverDBBlackTest#test1()V
+0d0cb31500f75cc988db0213d24f6060
 ==
-<init> java.lang.Exception#<init>()V
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V
+getRidesByDriver dataAccess.DataAccess#getRidesByDriver(Ljava/lang/String;)Ljava/util/List;

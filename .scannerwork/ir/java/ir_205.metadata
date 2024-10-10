@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#isRegistered(Ljava/lang/String;Ljava/lang/String;)Z
-61f8bf5815ff9fedee5683cbc416ac5c
+businessLogic.BLFacadeImplementation#<init>()V
+1016b2e8a04214f7d398e13d237549e3
+dataAccess.DataAccess#instance-init#
+dataAccess.DataAccess#<init>()V
 ==
-close dataAccess.DataAccess#close()V
-isRegistered dataAccess.DataAccess#isRegistered(Ljava/lang/String;Ljava/lang/String;)Z
-open dataAccess.DataAccess#open()V
+info java.util.logging.Logger#info(Ljava/lang/String;)V

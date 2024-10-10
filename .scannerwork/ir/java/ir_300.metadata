@@ -1,2 +1,14 @@
-domain.Ride#isActive()Z
-5f982e9aab1206465be51f1c39f4c238
+GetRidesByDriverMockBlackTest#test4()V
+efebdb93fde15cfdfc56e477a7a84872
+null
+java.util.ArrayList#<init>()V
+domain.Ride#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IDLDriver;)V
+domain.Ride#instance-init#
+java.util.Date#<init>()V
+java.util.ArrayList#instance-init#
+java.util.Date#instance-init#
+==
+add java.util.ArrayList#add(Ljava/lang/Object;)Z
+get java.util.List#get(I)Ljava/lang/Object;
+isActive domain.Ride#isActive()Z
+size java.util.List#size()I

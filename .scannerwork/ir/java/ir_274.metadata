@@ -1,2 +1,4 @@
-domain.Movement#setKopurua(D)V
-b71cef445cd1887fd94d4abbe2cbc1f4
+BookRideBDWhiteTest#testBookRideSuccess()V
+e47b1d7deed03963ec372fbbdecc9d33
+==
+getnPlaces domain.Ride#getnPlaces()I

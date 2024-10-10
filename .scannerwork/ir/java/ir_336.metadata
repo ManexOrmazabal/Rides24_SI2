@@ -1,2 +1,2 @@
-gui.MainGUI#setBussinessLogic(LBLFacade;)V
-a889e9c259164cfda30306fe3ff146b2
+domain.Ride#setBookings(Ljava/util/List;)V
+c230734560826b311e12fc44425b4319

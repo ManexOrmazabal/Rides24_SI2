@@ -1,2 +1,6 @@
-gui.AdminGUI#instance-init#
-e5a94367d7d2da5c5ae186d808997b6f
+businessLogic.BLFacadeImplementation#getUserList()Ljava/util/List;
+90c7a1ea8a7bcbc9326daf7093e9ff88
+==
+getUserList dataAccess.DataAccess#getUserList()Ljava/util/List;
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V

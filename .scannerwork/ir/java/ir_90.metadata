@@ -1,4 +1,2 @@
-domain.Driver#equals(Ljava/lang/Object;)Z
-828d703ecea1787cab6cfc81c3d9c2ed
-==
-equals domain.User#equals(Ljava/lang/Object;)Z
+domain.Driver#addCar(LCar;)V
+d6600c64e8432eb3a1c80e4498ba856e

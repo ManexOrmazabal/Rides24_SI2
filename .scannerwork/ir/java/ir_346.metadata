@@ -1,2 +1,2 @@
-domain.Booking#setTraveler(LTraveler;)V
-d22876110b8eb3038935db76d50ff212
+domain.Alert#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;LTraveler;)V
+dadc7d47acdcd8479ee6a03c3e41e254

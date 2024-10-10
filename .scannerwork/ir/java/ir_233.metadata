@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#getDiscount(Ljava/lang/String;)Ldomain/Discount;
-e13b4f10b5cf0086e8658a7fcf51005b
+businessLogic.BLFacadeImplementation#getRidesByDriver(Ljava/lang/String;)Ljava/util/List;
+863d7eeef2c032cfb1d909822d3248f6
 ==
 close dataAccess.DataAccess#close()V
-getDiscount dataAccess.DataAccess#getDiscount(Ljava/lang/String;)Ldomain/Discount;
 open dataAccess.DataAccess#open()V
+getRidesByDriver dataAccess.DataAccess#getRidesByDriver(Ljava/lang/String;)Ljava/util/List;

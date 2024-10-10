@@ -1,2 +1,4 @@
-domain.Traveler#addAlert(LAlert;)V
-55d18988a2e62a497460b01a62472c06
+domain.Traveler#toString()Ljava/lang/String;
+0c356d8272ab335767af12b75c43ff6f
+==
+toString domain.User#toString()Ljava/lang/String;

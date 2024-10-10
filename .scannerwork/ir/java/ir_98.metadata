@@ -1,4 +1,2 @@
-gui.ErreserbaOnartuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-86d3113f9104a98eb920ce0b78833e78
-==
-setVisible java.awt.Window#setVisible(Z)V
+gui.ErreserbaOnartuGUI#getBusinessLogic()LbusinessLogic/BLFacade;
+146611e639eb941931fe257ca7e5d924

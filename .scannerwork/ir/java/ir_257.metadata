@@ -1,4 +1,11 @@
-domain.Car#<init>(Ljava/lang/String;Ljava/lang/String;I)V
-c3b1924328aa12af1f3c5b6420a0216c
-==
-<init> java.lang.Object#<init>()V
+BookRideMockWhiteTest#init()V
+a125916335c43a71f7a316191f042ba2
+null
+domain.Traveler#<init>(Ljava/lang/String;Ljava/lang/String;)V
+java.time.LocalDate#now()Ljava/time/LocalDate;
+dataAccess.DataAccess#instance-init#
+java.sql.Date#valueOf(Ljava/time/LocalDate;)Ljava/sql/Date;
+domain.Traveler#instance-init#
+domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)V
+domain.Driver#instance-init#
+dataAccess.DataAccess#<init>(LEntityManager;)V

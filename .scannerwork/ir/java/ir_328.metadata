@@ -1,4 +1,2 @@
-configuration.UtilDate#<init>()V
-7aa1340188106065449fb5e33286fd6b
-java.lang.IllegalStateException#instance-init#
-java.lang.IllegalStateException#<init>(Ljava/lang/String;)V
+domain.Ride#setDate(Ljava/util/Date;)V
+60f2190577b248c59d481bf4b5b81868

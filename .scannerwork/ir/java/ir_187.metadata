@@ -1,4 +1,2 @@
-gui.FindRidesGUI#jButton2_actionPerformed(Ljava/awt/event/ActionEvent;)V
-d404afc2660cc2759e31338a5d92abb8
-==
-setVisible java.awt.Window#setVisible(Z)V
+gui.BezeroGUI#instance-init#
+135477ee19ea459db0b32638eb1e5bf3

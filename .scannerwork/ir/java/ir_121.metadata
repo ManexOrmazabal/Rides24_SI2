@@ -1,2 +1,2 @@
-domain.User#setErreklamaKop(I)V
-c137e1340a1f5997f499ba4fabd79097
+domain.User#getBalkop()I
+fd3ab21501430ccd1931bbe57f7f3b79

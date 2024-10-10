@@ -1,15 +1,7 @@
 
-'domain.User#getMota()Ljava/lang/String;G
-=C:/Users/manex/git/Rides24_SI2/src/main/java/domain/User.java: :("1*–
-1;	 ;(a
-_
-;	 ;(
-%0java.lang.String"__id*5
-
-__unknown_file (*
-domain.User"
-mota"$
-; ;(
-
-%0java.lang.StringB
-domain.UserH
+domain.User#getMoney()DQ
+GC:/Users/Roman/workspace-si2/Rides24_SI2/src/main/java/domain/User.javaB B("1*!
+1C	 C("
+C C(
+""B
+domain.UserHX

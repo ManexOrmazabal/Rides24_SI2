@@ -1,2 +1,2 @@
-domain.Discount#instance-init#
-3127d622471519c32afffe3bf6a549cc
+exceptions.RideMustBeLaterThanTodayException#instance-init#
+994e55fe1a7ec9ddab132c97ed828163

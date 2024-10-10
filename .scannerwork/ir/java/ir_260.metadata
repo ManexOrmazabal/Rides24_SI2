@@ -1,2 +1,5 @@
-domain.Car#getMatrikula()Ljava/lang/String;
-cfa283d3e71f62a34e66c3c34c1ac2ee
+BookRideMockWhiteTest#testBookRideInsufficientFunds()V
+5288c7df8d70abcc339459cb726b7158
+==
+setMoney domain.User#setMoney(D)V
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;LRide;ID)Z

@@ -1,2 +1,2 @@
-configuration.ConfigXML#instance-init#
-674b45a0de08f188057bac1844b9eea1
+gui.MainGUI#setBussinessLogic(LBLFacade;)V
+193a9ca8d7558fcef7a7efca0e5ca01e

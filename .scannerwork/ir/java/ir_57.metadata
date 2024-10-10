@@ -1,4 +1,5 @@
-gui.EzabatuGUI#instance-init#
-6cdd1229dad62f5aa9a5db6eaa1dc268
-java.text.DecimalFormat#instance-init#
-java.text.DecimalFormat#<init>(Ljava/lang/String;)V
+testOperations.TestDataAccess#existRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Z
+ca09c2745923f42f962315450d80fb0e
+==
+doesRideExists domain.Driver#doesRideExists(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Z
+println java.io.PrintStream#println(Ljava/lang/String;)V

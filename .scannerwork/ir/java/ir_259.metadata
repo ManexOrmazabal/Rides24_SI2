@@ -1,2 +1,6 @@
-domain.Car#setDriver(Ldomain/Driver;)V
-f2d06996cd871a94ffe3a1cdf4ca69c4
+BookRideMockWhiteTest#testBookRideSuccess()V
+37e78d6f1aae8e418850bed7b162cfe4
+==
+setMoney domain.User#setMoney(D)V
+getMoney domain.User#getMoney()D
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;LRide;ID)Z

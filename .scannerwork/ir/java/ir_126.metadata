@@ -1,4 +1,2 @@
-gui.DeskontuaGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-01d48337e01e717b6b0316e60c70eb49
-==
-setVisible java.awt.Window#setVisible(Z)V
+gui.DeskontuaGUI#instance-init#
+512b18c1fbe920c2cc1a8fd3f291f403

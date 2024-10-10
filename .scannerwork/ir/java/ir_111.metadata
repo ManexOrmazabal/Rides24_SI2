@@ -1,2 +1,2 @@
-domain.User#getMoney()D
-91778a956a0abe99edc9fe5b6873ed6d
+domain.User#setPassword(Ljava/lang/String;)V
+720f3cb9a6af98771305995ac89406dd

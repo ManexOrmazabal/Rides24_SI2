@@ -1,2 +1,7 @@
-domain.Ride#toString()Ljava/lang/String;
-e54f44764fd73e84714b22cf645040ed
+GetRidesByDriverMockBlackTest#test2()V
+a46ea165259bedf6c4c53f97901a2a57
+null
+java.util.ArrayList#<factory>()Ljava/util/ArrayList;
+java.util.ArrayList#instance-init#
+==
+size java.util.List#size()I

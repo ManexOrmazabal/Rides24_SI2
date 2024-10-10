@@ -1,2 +1,4 @@
-domain.User#getUsername()Ljava/lang/String;
-942e87d484cfae15c7cab79c998ecbb1
+gui.DeskontuKudeatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+9244ad61b0ddf413228e594bae140695
+==
+setVisible java.awt.Window#setVisible(Z)V

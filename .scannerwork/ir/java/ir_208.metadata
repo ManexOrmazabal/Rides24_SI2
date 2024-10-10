@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#getMotaByUsername(Ljava/lang/String;)Ljava/lang/String;
-0ee4e186f45aa530a44b25573bca0ae6
+businessLogic.BLFacadeImplementation#getDestinationCities(Ljava/lang/String;)Ljava/util/List;
+c064d7ff1db2399051c56f597fbb2fa0
 ==
-getMotabyUsername dataAccess.DataAccess#getMotabyUsername(Ljava/lang/String;)Ljava/lang/String;
 close dataAccess.DataAccess#close()V
+getArrivalCities dataAccess.DataAccess#getArrivalCities(Ljava/lang/String;)Ljava/util/List;
 open dataAccess.DataAccess#open()V

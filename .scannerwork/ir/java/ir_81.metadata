@@ -1,5 +1,2 @@
-domain.Driver#instance-init#
-5f1b1a77060a8020bcacc79133911839
-java.util.ArrayList#<init>()V
-java.util.LinkedList#<init>()V
-java.util.LinkedList#instance-init#
+gui.BaloraGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
+5f6af7d0ef62a75821976de5e9088e07

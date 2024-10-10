@@ -1,2 +1,2 @@
-configuration.ConfigXML#getBusinessLogicNode()Ljava/lang/String;
-a3c4584c9b099b0ea064ccd12a1c92d5
+domain.Booking#getTraveler()LTraveler;
+8dccf1f4cb4ffbdd592076c83d300d28

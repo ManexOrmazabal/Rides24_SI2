@@ -1,2 +1,2 @@
-domain.Admin2#getPasswd()Ljava/lang/String;
-7447f1c5c0771627bd216ca5b6176edc
+domain.Booking#setComplaint(Ldomain/Complaint;)V
+c3cec7274625d0b3a5e6a4636799d66a

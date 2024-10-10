@@ -1,2 +1,6 @@
-CreateRideBDBlackTest#instance-init#
-10ef4198f894d01147ce7d9819c932dc
+businessLogic.BLFacadeImplementation#getDiscount(Ljava/lang/String;)Ldomain/Discount;
+4fd39edb508825eb7145bf4d5f690efb
+==
+close dataAccess.DataAccess#close()V
+getDiscount dataAccess.DataAccess#getDiscount(Ljava/lang/String;)Ldomain/Discount;
+open dataAccess.DataAccess#open()V

@@ -1,4 +1,2 @@
-gui.BaloraGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-e08b8c1ed0af69a93805ea347964e646
-==
-setVisible java.awt.Window#setVisible(Z)V
+gui.BaloraGUI#getBusinessLogic()LbusinessLogic/BLFacade;
+82246090cfc30ccfcc14f2a3f78db0b9

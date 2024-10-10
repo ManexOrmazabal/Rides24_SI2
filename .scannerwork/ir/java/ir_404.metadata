@@ -1,2 +1,2 @@
-configuration.ConfigXML#getDbFilename()Ljava/lang/String;
-8dbb81a2f705ae732ecb2725845e662b
+domain.Booking#setSeats(I)V
+75bf3067ff202a572fbbc339fa7a27bb

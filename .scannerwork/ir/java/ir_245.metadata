@@ -1,2 +1,6 @@
-CreateRideBDBlackTest#<init>()V
-5c5e727451e5ef2e53370eed5cdd47f4
+businessLogic.BLFacadeImplementation#deleteCar(LCar;)V
+95502f9c989398fb503bef3fa17f53aa
+==
+deleteCar dataAccess.DataAccess#deleteCar(LCar;)V
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V

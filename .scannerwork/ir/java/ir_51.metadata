@@ -1,7 +1,2 @@
-testOperations.TestDataAccess#open()V
-0a0cc2e689f7aa959af20f6034ea6b7b
-java.util.HashMap#<init>()V
-java.util.HashMap#instance-init#
-==
-put java.util.Map#put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-println java.io.PrintStream#println(Ljava/lang/String;)V
+testOperations.TestDataAccess#instance-init#
+ceb4743a7462e3be9a3d93b567bfc018

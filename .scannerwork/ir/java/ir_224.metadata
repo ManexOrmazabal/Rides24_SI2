@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#addCar(Ljava/lang/String;Ldomain/Car;)Z
-a5fa3289b06509c71721eb1d630b5ed0
+businessLogic.BLFacadeImplementation#getAllMovements(Ldomain/User;)Ljava/util/List;
+cde58eac558734ac2c440ff1b5cc9454
 ==
-addCar dataAccess.DataAccess#addCar(Ljava/lang/String;Ldomain/Car;)Z
+getAllMovements dataAccess.DataAccess#getAllMovements(Ldomain/User;)Ljava/util/List;
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V

@@ -1,4 +1,2 @@
-domain.Booking#prezioaKalkulatu()D
-0531f1346eaf259d6f205bb864c79104
-==
-getPrice domain.Ride#getPrice()D
+domain.Alert#getDate()Ljava/util/Date;
+62abe9922b6c23fc2bb673949e7eaa3f

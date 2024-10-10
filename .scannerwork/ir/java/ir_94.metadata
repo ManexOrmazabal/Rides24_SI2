@@ -1,2 +1,5 @@
-gui.ErreserbaOnartuGUI#instance-init#
-9493bb2f0bcc107ae3d933d15dd4c18c
+domain.Driver#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)LRide;
+62f39abed2bfa7690baffe4ffb52406b
+==
+println java.io.PrintStream#println([C)V
+println java.io.PrintStream#println(Ljava/lang/String;)V

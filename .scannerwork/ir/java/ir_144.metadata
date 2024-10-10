@@ -1,2 +1,2 @@
-gui.MovementsGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
-bdf6852ef99a7cda11a6d6cebeef5f64
+gui.RegisterGUI#getBusinessLogic()LbusinessLogic/BLFacade;
+1f3df0d1cfa380ef6687c5a187d41724

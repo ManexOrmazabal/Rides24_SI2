@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#erreklamazioaBidali(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;LBooking;Ljava/lang/String;Z)Z
-77c4e39612bb7ab5f81adbac2b0452ab
+businessLogic.BLFacadeImplementation#getPastBookedRides(Ljava/lang/String;)Ljava/util/List;
+709c41b272f0cba3930b2c56ae3cdad2
 ==
 close dataAccess.DataAccess#close()V
-erreklamazioaBidali dataAccess.DataAccess#erreklamazioaBidali(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;LBooking;Ljava/lang/String;Z)Z
+getPastBookedRides dataAccess.DataAccess#getPastBookedRides(Ljava/lang/String;)Ljava/util/List;
 open dataAccess.DataAccess#open()V

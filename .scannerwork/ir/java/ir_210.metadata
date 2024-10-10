@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#addTraveler(Ljava/lang/String;Ljava/lang/String;)Z
-494eff5329b2380c26f2bc5fb0e6cfd6
+businessLogic.BLFacadeImplementation#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;
+470435dc7e925ed5364545dac3569f6a
 ==
-addTraveler dataAccess.DataAccess#addTraveler(Ljava/lang/String;Ljava/lang/String;)Z
+getRides dataAccess.DataAccess#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V

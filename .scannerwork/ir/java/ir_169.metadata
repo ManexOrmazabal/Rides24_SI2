@@ -1,4 +1,6 @@
-GetActualMoneyMockTest#init()V
-8043ca59d3ce29c3ff03ffa869f114ea
-dataAccess.DataAccess#instance-init#
-dataAccess.DataAccess#<init>(LEntityManager;)V
+testOperations.TestBusinessLogic#addDriverWithRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)Ldomain/Driver;
+a21b7bb2574a20f5b7cc15622db80487
+==
+addDriverWithRide testOperations.TestDataAccess#addDriverWithRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)Ldomain/Driver;
+close testOperations.TestDataAccess#close()V
+open testOperations.TestDataAccess#open()V

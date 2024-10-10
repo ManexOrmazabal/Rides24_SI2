@@ -1,6 +1,2 @@
-testOperations.TestBusinessLogic#removeDriver(Ljava/lang/String;)Z
-0944d9bec5c80aa1617159ff81aeeeee
-==
-removeDriver testOperations.TestDataAccess#removeDriver(Ljava/lang/String;)Z
-close testOperations.TestDataAccess#close()V
-open testOperations.TestDataAccess#open()V
+gui.MovementsGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
+bf67eca6c558d3eb4a9be488400d5202

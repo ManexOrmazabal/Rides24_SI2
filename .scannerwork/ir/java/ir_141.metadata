@@ -1,4 +1,11 @@
-gui.DriverGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-69aded3077a44ca3c6c1241889b1a2a4
+GetRidesByDriverMockWhiteTest#test3()V
+e09ac18a90158b33f5b4274ef2b3b758
+java.util.ArrayList#<init>()V
+null
+java.util.Date#<init>()V
+domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)V
+domain.Driver#instance-init#
+java.util.Date#instance-init#
 ==
-setVisible java.awt.Window#setVisible(Z)V
+setCreatedRides domain.Driver#setCreatedRides(Ljava/util/ArrayList;)V
+getRidesByDriver dataAccess.DataAccess#getRidesByDriver(Ljava/lang/String;)Ljava/util/List;

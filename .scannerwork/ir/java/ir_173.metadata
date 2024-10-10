@@ -1,2 +1,6 @@
-gui.AlertaAurkituakGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
-4a6a1e3d396dbe1430b322a3da84d015
+testOperations.TestBusinessLogic#createUser(Ldomain/User;)V
+7ea38cb0c9f560f0a5e724ca87f71629
+==
+close testOperations.TestDataAccess#close()V
+createUser testOperations.TestDataAccess#createUser(Ldomain/User;)V
+open testOperations.TestDataAccess#open()V

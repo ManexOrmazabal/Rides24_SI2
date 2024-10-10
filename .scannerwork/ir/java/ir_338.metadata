@@ -1,8 +1,2 @@
-gui.MainGUI#paintAgain()V
-19078b07ec7ad291e1961fef11c0581d
-java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
-java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
-==
-setText javax.swing.JLabel#setText(Ljava/lang/String;)V
-setText javax.swing.AbstractButton#setText(Ljava/lang/String;)V
-setTitle java.awt.Frame#setTitle(Ljava/lang/String;)V
+domain.Ride#setnPlaces(I)V
+5ceccea19ee2fbb8e7553a5576067109

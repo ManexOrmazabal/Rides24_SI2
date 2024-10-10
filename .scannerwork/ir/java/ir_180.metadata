@@ -1,4 +1,2 @@
-gui.BezeroGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-ffe5d9c29699439a0133411f32e578f9
-==
-setVisible java.awt.Window#setVisible(Z)V
+GetRidesByDriverDBBlackTest#instance-init#
+1b18f0da78cb56e22220ef0c09b9b77d

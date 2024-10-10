@@ -1,0 +1,14 @@
+GetRidesByDriverDBWhiteTest#test4()V
+c5eb38dcd09ffa6188ec9a7c8957b516
+null
+java.util.ArrayList#<init>()V
+domain.Ride#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IDLDriver;)V
+domain.Ride#instance-init#
+java.util.Date#<init>()V
+java.util.ArrayList#instance-init#
+java.util.Date#instance-init#
+==
+add java.util.ArrayList#add(Ljava/lang/Object;)Z
+get java.util.List#get(I)Ljava/lang/Object;
+isActive domain.Ride#isActive()Z
+size java.util.List#size()I

@@ -1,2 +1,4 @@
-domain.Car#getModeloa()Ljava/lang/String;
-2494a9808dca66cb8f8192ef6f5ad77f
+BookRideMockWhiteTest#testBookRideInvalidTraveler()V
+4989b691d99387c3d98ec33732e536dd
+==
+bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;LRide;ID)Z

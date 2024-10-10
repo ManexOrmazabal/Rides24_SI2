@@ -1,2 +1,4 @@
-domain.Driver#getCreatedRides()Ljava/util/List;
-403de37a70ee97d92c2bab874aec6b10
+domain.Driver#instance-init#
+828660d83212b4f52376a3d362d2a2e7
+java.util.ArrayList#<init>()V
+java.util.LinkedList#<init>()V

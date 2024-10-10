@@ -1,2 +1,11 @@
-gui.MovementsGUI#instance-init#
-298f1d20a9752b4f0d91ffb6861b224a
+GetRidesByDriverMockWhiteTest#test4()V
+10286bb7352b4b00da50a57702f35895
+java.util.ArrayList#<init>()V
+null
+java.util.Date#<init>()V
+domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)V
+domain.Driver#instance-init#
+java.util.Date#instance-init#
+==
+setCreatedRides domain.Driver#setCreatedRides(Ljava/util/ArrayList;)V
+getRidesByDriver dataAccess.DataAccess#getRidesByDriver(Ljava/lang/String;)Ljava/util/List;

@@ -1,3 +1,2 @@
-domain.Driver#doesRideExists(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Z
-2f12c7f79a9a7e0f23a2a3fd9c210fcc
-java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+domain.Driver#getCars()Ljava/util/List;
+7c82edfdf71b3b0235fafaec2d7f06bc

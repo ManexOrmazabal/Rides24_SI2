@@ -1,4 +1,2 @@
-businessLogic.BusinessLogicServer#instance-init#
-a83040999cbbf7d47ebcfc6b19f2ebff
-javax.swing.JPanel#<init>()V
-javax.swing.JPanel#instance-init#
+gui.MainGUI#getBusinessLogic()LBLFacade;
+3f3079a1da12da33146b23e5d9defc41

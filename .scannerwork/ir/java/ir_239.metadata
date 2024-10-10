@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#updateAlert(LAlert;)V
-ec348e26a241113db2ce7ddbe9f59c7b
+businessLogic.BLFacadeImplementation#updateComplaint(LComplaint;)V
+888df19cd79786e1c3082476347c61ce
 ==
-updateAlert dataAccess.DataAccess#updateAlert(LAlert;)V
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V
+updateComplaint dataAccess.DataAccess#updateComplaint(LComplaint;)V

@@ -1,9 +1,15 @@
 
-3dataAccess.DataAccess#getUserList()Ljava/util/List;S
-GC:/Users/manex/git/Rides24_SI2/src/main/java/dataAccess/DataAccess.javaÏ Ï("1*%
-1
-Ð Ð("
-
-Ñ Ñ(
-""B
-dataAccess.DataAccessH
+<gui.CreateRideGUI#getBusinessLogic()LbusinessLogic/BLFacade;W
+MC:/Users/Roman/workspace-si2/Rides24_SI2/src/main/java/gui/CreateRideGUI.java? ?(("1*¶
+1@	 @({
+y
+@	 @(
+%0businessLogic.BLFacade"__id*I
+
+__unknown_file (-*+
+gui.CreateRideGUI"
+appFacadeInterface"*
+@ @(
+
+%0businessLogic.BLFacadeB"
+gui.CreateRideGUIH

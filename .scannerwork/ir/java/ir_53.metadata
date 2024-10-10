@@ -1,4 +1,7 @@
-testOperations.TestDataAccess#removeDriver(Ljava/lang/String;)Z
-b52686f4ed9a7c27012075b9e25c2971
+testOperations.TestDataAccess#open()V
+710c98d7e3f5df344f9e68a8c585a31b
+java.util.HashMap#<init>()V
+java.util.HashMap#instance-init#
 ==
+put java.util.Map#put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 println java.io.PrintStream#println(Ljava/lang/String;)V

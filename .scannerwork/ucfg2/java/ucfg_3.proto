@@ -1,20 +1,20 @@
 
-JdataAccess.DataAccess#getArrivalCities(Ljava/lang/String;)Ljava/util/List;S
-GC:/Users/manex/git/Rides24_SI2/src/main/java/dataAccess/DataAccess.javaÀ À(%"1*ù
+JdataAccess.DataAccess#getArrivalCities(Ljava/lang/String;)Ljava/util/List;]
+QC:/Users/Roman/workspace-si2/Rides24_SI2/src/main/java/dataAccess/DataAccess.javaÕ Õ(%"1*ù
 1
-Ã Ã(Z
+Œ Œ(Z
 X
 
-œ œ(6 
+— —(6 
 arrivingCitiesjava.util.List"__id*"
 
 __unknown_file (
 """0
 
-– –("
+“ “("
  
 arrivingCitiesjava.util.List:&
 
-À& À(1
+Õ& Õ(1
 fromjava.lang.StringB
 dataAccess.DataAccessH

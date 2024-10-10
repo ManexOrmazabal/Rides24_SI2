@@ -1,6 +1,2 @@
-testOperations.TestBusinessLogic#addDriverWithRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)Ldomain/Driver;
-c6062bfee9ff937fd54d9ba6dd899c89
-==
-addDriverWithRide testOperations.TestDataAccess#addDriverWithRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)Ldomain/Driver;
-close testOperations.TestDataAccess#close()V
-open testOperations.TestDataAccess#open()V
+gui.BidaiakKudeatuGUI#instance-init#
+66229364dbdff23f29e0eca4ee3d20af

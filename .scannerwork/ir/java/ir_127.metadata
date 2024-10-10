@@ -1,12 +1,2 @@
-gui.LoginGUI#instance-init#
-623bbc63ac0e1b2ff0ab65a5d7c33e7b
-javax.swing.JPasswordField#<init>()V
-javax.swing.JLabel#<init>(Ljava/lang/String;)V
-javax.swing.JTextField#instance-init#
-javax.swing.JTextField#<init>()V
-java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
-javax.swing.JLabel#instance-init#
-java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
-javax.swing.JButton#<init>(Ljava/lang/String;)V
-javax.swing.JPasswordField#instance-init#
-javax.swing.JButton#instance-init#
+gui.DeskontuaGUI#setBusinessLogic(LbusinessLogic/BLFacade;)V
+6e21700c14617c735731be397cd4e92c

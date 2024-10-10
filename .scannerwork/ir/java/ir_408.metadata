@@ -1,4 +1,2 @@
-domain.Admin2#<init>(Ljava/lang/String;Ljava/lang/String;)V
-520ec91525ec033bff1215153b534110
-==
-setMota domain.Admin2#setMota(Ljava/lang/String;)V
+domain.Booking#setDeskontua(D)V
+97ff805c79ea4136f6336dfbbfe202a2

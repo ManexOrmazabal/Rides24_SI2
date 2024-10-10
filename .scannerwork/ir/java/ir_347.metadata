@@ -1,2 +1,2 @@
-domain.Booking#getSeats()I
-98a9a3a841b63a0d611fecaedeac2f28
+domain.Alert#getAlertNumber()Ljava/lang/Integer;
+9c9a31a65bd3830be637b56849715c44

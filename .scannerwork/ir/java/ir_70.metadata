@@ -1,2 +1,4 @@
-domain.Discount#getKodea()Ljava/lang/String;
-afd770bab242638989e8fce7c07c7f30
+exceptions.RideMustBeLaterThanTodayException#<init>(Ljava/lang/String;)V
+4d9cd1c20c1db2167f11cc4050494c90
+==
+<init> java.lang.Exception#<init>(Ljava/lang/String;)V

@@ -1,2 +1,2 @@
-gui.BaloraGUI#getBusinessLogic()LbusinessLogic/BLFacade;
-b066d6b2b6b6dd367ac5055b1b9ee6bb
+domain.Discount#isActive()Z
+d3d5f65332d3ff5aa952fbab3cf7ad0e

@@ -1,15 +1,7 @@
 
-8gui.BaloraGUI#getBusinessLogic()LbusinessLogic/BLFacade;I
-?C:/Users/manex/git/Rides24_SI2/src/main/java/gui/BaloraGUI.java   (("1*²
-1!	 !(w
-u
-!	 !(
-%0businessLogic.BLFacade"__id*E
-
-__unknown_file ()*'
-gui.BaloraGUI"
-appFacadeInterface"*
-! !(
-
-%0businessLogic.BLFacadeB"
-gui.BaloraGUIH
+domain.Discount#isActive()ZU
+KC:/Users/Roman/workspace-si2/Rides24_SI2/src/main/java/domain/Discount.java+ +("1*!
+1,	 ,("
+, ,(
+""B
+domain.DiscountHX

@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#updateUser(Ldomain/User;)V
-146f853c81c0f499386e887accc4775d
+businessLogic.BLFacadeImplementation#getMotaByUsername(Ljava/lang/String;)Ljava/lang/String;
+6ac04c7a9cd23cd827b885fb3642d655
 ==
-updateUser dataAccess.DataAccess#updateUser(Ldomain/User;)V
+getMotabyUsername dataAccess.DataAccess#getMotabyUsername(Ljava/lang/String;)Ljava/lang/String;
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V

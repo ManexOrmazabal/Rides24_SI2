@@ -1,2 +1,4 @@
-domain.Driver#getCars()Ljava/util/List;
-6108bf3340bbbd7bb165ebd3aa063aef
+domain.Driver#toString()Ljava/lang/String;
+af419dddbdd76aaadad257ad357d0d47
+==
+toString domain.User#toString()Ljava/lang/String;

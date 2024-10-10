@@ -1,3 +1,2 @@
-domain.User#equals(Ljava/lang/Object;)Z
-8a4d13cfdf338812ceedf18a7a589512
-java.lang.Object#getClass()Ljava/lang/Class;
+domain.User#setBalkop(I)V
+db9745edd09079be244e29460bffaf4f

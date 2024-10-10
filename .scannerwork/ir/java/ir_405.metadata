@@ -1,2 +1,2 @@
-configuration.ConfigXML#isDatabaseInitialized()Z
-b0566c82545730722d2907957b877c26
+domain.Booking#getStatus()Ljava/lang/String;
+6a8a457f79f78bae4755c30fc1b5bee9

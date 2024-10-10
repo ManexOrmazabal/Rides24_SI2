@@ -1,2 +1,2 @@
-configuration.ConfigXML#getBusinessLogicName()Ljava/lang/String;
-e5f0ff48b9f86522432f009b2fb37b8c
+domain.Booking#getSeats()I
+059b5742f9348f73d781aa5884a8523a

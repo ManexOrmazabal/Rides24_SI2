@@ -1,4 +1,4 @@
-gui.AlertaSortuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-3f56cb6a6e46b1663ecc6f8f9ac2ada0
+GetRidesByDriverDBWhiteTest#test2()V
+0e95d4c448ae4ea82633a58fb09eb8c0
 ==
-setVisible java.awt.Window#setVisible(Z)V
+isEmpty java.util.List#isEmpty()Z

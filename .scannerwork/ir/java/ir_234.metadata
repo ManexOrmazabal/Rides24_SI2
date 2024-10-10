@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#deleteCar(Ldomain/Car;)V
-3f3e17e2917cfdf5fa881529e1432868
+businessLogic.BLFacadeImplementation#cancelRide(LRide;)V
+6d0d81fb7cacae9878bb1778668a2ccd
 ==
+cancelRide dataAccess.DataAccess#cancelRide(LRide;)V
 close dataAccess.DataAccess#close()V
-deleteCar dataAccess.DataAccess#deleteCar(Ldomain/Car;)V
 open dataAccess.DataAccess#open()V

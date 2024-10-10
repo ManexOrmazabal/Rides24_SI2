@@ -1,2 +1,15 @@
-domain.Ride#getRideNumber()Ljava/lang/Integer;
-410b605c95dbefd6900f7eb6d2220bbc
+gui.AlertakKudeatuGUI#refreshTable(Ljava/lang/String;)V
+146c6bd30a7ce0ca6d3883eb0ac8a2e6
+java.text.SimpleDateFormat#<init>(Ljava/lang/String;)V
+java.text.SimpleDateFormat#instance-init#
+java.text.DateFormat#format(Ljava/util/Date;)Ljava/lang/String;
+==
+getAlertNumber domain.Alert#getAlertNumber()Ljava/lang/Integer;
+addRow javax.swing.table.DefaultTableModel#addRow([Ljava/lang/Object;)V
+isActive domain.Alert#isActive()Z
+getModel javax.swing.JTable#getModel()Ljavax/swing/table/TableModel;
+setRowCount javax.swing.table.DefaultTableModel#setRowCount(I)V
+getTo domain.Alert#getTo()Ljava/lang/String;
+isFound domain.Alert#isFound()Z
+getDate domain.Alert#getDate()Ljava/util/Date;
+getFrom domain.Alert#getFrom()Ljava/lang/String;

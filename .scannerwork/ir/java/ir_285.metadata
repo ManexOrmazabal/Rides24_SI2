@@ -1,2 +1,2 @@
-domain.Ride#setFrom(Ljava/lang/String;)V
-cce6985f8eeae2bf174c75cec47227c4
+domain.Car#getDriver()LDriver;
+844fd02f3d877b11f21f33cebe6f4f81

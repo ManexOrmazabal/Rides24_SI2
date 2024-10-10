@@ -1,2 +1,2 @@
-gui.MainGUI#getBusinessLogic()LBLFacade;
-22f79e1276d0aebf4311ba398cf9af4a
+domain.Ride#getBookings()Ljava/util/List;
+bc2bbc855355a829ab2cbec0bf844bf9

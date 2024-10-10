@@ -1,0 +1,8 @@
+BookRideMockBlackTest#test3()V
+cd647b6b9f7105df1db5567abad372d3
+null
+domain.Ride#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IDLDriver;)V
+domain.Ride#instance-init#
+java.time.LocalDate#now()Ljava/time/LocalDate;
+java.time.LocalDate#plusDays(J)Ljava/time/LocalDate;
+java.sql.Date#valueOf(Ljava/time/LocalDate;)Ljava/sql/Date;

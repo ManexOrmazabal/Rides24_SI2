@@ -1,2 +1,6 @@
-gui.AlertaAurkituakGUI#instance-init#
-09753b47351bb5e9f3f936f998905a74
+testOperations.TestBusinessLogic#getuser(Ljava/lang/String;)Ldomain/User;
+bb334a3783d8eb5743f51fc00942ad4b
+==
+getUser testOperations.TestDataAccess#getUser(Ljava/lang/String;)Ldomain/User;
+close testOperations.TestDataAccess#close()V
+open testOperations.TestDataAccess#open()V

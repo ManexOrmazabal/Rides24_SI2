@@ -1,2 +1,14 @@
-domain.Movement#setEragiketa(Ljava/lang/String;)V
-cb0eaabb865db4196587320694b33803
+BookRideBDWhiteTest#setUp()V
+0b13237ce18709ff963ccc17d143381f
+null
+domain.Ride#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IDLDriver;)V
+domain.Ride#instance-init#
+java.time.LocalDate#now()Ljava/time/LocalDate;
+java.sql.Date#valueOf(Ljava/time/LocalDate;)Ljava/sql/Date;
+==
+setRideNumber domain.Ride#setRideNumber(Ljava/lang/Integer;)V
+getRideNumber domain.Ride#getRideNumber()Ljava/lang/Integer;
+getnPlaces domain.Ride#getnPlaces()I
+getDate domain.Ride#getDate()Ljava/util/Date;
+getFrom domain.Ride#getFrom()Ljava/lang/String;
+getTo domain.Ride#getTo()Ljava/lang/String;

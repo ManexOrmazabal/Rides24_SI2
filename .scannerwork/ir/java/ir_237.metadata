@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#getAlertsByUsername(Ljava/lang/String;)Ljava/util/List;
-50714969f2e619d6118352e6a34e9295
+businessLogic.BLFacadeImplementation#getKotxeByMatrikula(Ljava/lang/String;)LCar;
+d27537412b5b2d062bef0fa8d426f3b9
 ==
-getAlertsByUsername dataAccess.DataAccess#getAlertsByUsername(Ljava/lang/String;)Ljava/util/List;
 close dataAccess.DataAccess#close()V
+getKotxeByMatrikula dataAccess.DataAccess#getKotxeByMatrikula(Ljava/lang/String;)LCar;
 open dataAccess.DataAccess#open()V

@@ -1,3 +1,2 @@
-domain.Admin2#equals(Ljava/lang/Object;)Z
-9e5e7c332c7bab279a545b60607ae5ea
-java.lang.Object#getClass()Ljava/lang/Class;
+gui.ErreklamazioakGUI#getBusinessLogic()LBLFacade;
+4b17463275f7ff9b90b897122b3fa5c1

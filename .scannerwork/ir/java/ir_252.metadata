@@ -1,2 +1,6 @@
-gui.AlertakKudeatuGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
-5fa1415ddeb1f1a729f5c548f6e2e106
+businessLogic.BLFacadeImplementation#createAlert(LAlert;)Z
+358a6292bb83ab24a20c62213c7a0b27
+==
+close dataAccess.DataAccess#close()V
+open dataAccess.DataAccess#open()V
+createAlert dataAccess.DataAccess#createAlert(LAlert;)Z

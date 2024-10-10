@@ -1,2 +1,4 @@
-domain.Ride#getFrom()Ljava/lang/String;
-a2f85a5d2e7bc742fc998f8dafba368e
+domain.Car#<init>(Ljava/lang/String;Ljava/lang/String;I)V
+55e033342047e09df9373516ff52099d
+==
+<init> java.lang.Object#<init>()V

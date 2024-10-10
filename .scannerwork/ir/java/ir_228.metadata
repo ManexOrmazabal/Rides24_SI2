@@ -1,6 +1,6 @@
-businessLogic.BLFacadeImplementation#updateComplaint(LComplaint;)V
-13d11a339e015eec10c8ee2e37fac3fd
+businessLogic.BLFacadeImplementation#updateTraveler(Ldomain/Traveler;)V
+82e9a8879f0f5880d21a1256d27897ca
 ==
 close dataAccess.DataAccess#close()V
 open dataAccess.DataAccess#open()V
-updateComplaint dataAccess.DataAccess#updateComplaint(LComplaint;)V
+updateTraveler dataAccess.DataAccess#updateTraveler(Ldomain/Traveler;)V

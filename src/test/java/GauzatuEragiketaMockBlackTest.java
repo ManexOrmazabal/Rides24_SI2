@@ -1,4 +1,4 @@
-/*
+
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
@@ -119,4 +119,3 @@ public class GauzatuEragiketaMockBlackTest {
         verify(db, never()).merge(any(User.class));
     }
 }
-**/

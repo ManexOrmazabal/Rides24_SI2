@@ -10,6 +10,7 @@ import javax.jws.WebService;
 import configuration.ConfigXML;
 import dataAccess.DataAccess;
 import domain.Ride;
+import domain.RideDetails;
 import domain.Traveler;
 import domain.User;
 //import domain.Admin;
@@ -85,11 +86,11 @@ public class BLFacadeImplementation implements BLFacade {
 	 * {@inheritDoc}
 	 */
 	@WebMethod
-	public Ride createRide(String from, String to, Date date, int nPlaces, float price, String driverName)
+	public Ride createRide(RideDetails rideDetails, String driverName)
 			throws RideMustBeLaterThanTodayException, RideAlreadyExistException {
 
 		dbManager.open();
-		Ride ride = dbManager.createRide(from, to, date, nPlaces, price, driverName);
+		Ride ride = dbManager.createRide(rideDetails, driverName);
 		dbManager.close();
 		return ride;
 	}

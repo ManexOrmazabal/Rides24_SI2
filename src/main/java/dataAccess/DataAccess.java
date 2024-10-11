@@ -225,6 +225,40 @@ public class DataAccess {
 	 * @throws RideAlreadyExistException         if the same ride already exists for
 	 *                                           the driver
 	 */
+	
+	public Ride createRide(RideDetails rideDetails, String driverName)
+	        throws RideAlreadyExistException, RideMustBeLaterThanTodayException {
+	    System.out.println(">> DataAccess: createRide=> from= " + rideDetails.getFrom() +
+	            " to= " + rideDetails.getTo() + " driver=" + driverName + " date " + rideDetails.getDate());
+
+	    if (driverName == null) return null;
+
+	    try {
+	        if (new Date().compareTo(rideDetails.getDate()) > 0) {
+	            throw new RideMustBeLaterThanTodayException(
+	                    ResourceBundle.getBundle("Etiquetas").getString("CreateRideGUI.ErrorRideMustBeLaterThanToday"));
+	        }
+
+	        db.getTransaction().begin();
+	        Driver driver = db.find(Driver.class, driverName);
+	        if (driver.doesRideExists(rideDetails.getFrom(), rideDetails.getTo(), rideDetails.getDate())) {
+	            db.getTransaction().commit();
+	            throw new RideAlreadyExistException(
+	                    ResourceBundle.getBundle("Etiquetas").getString("DataAccess.RideAlreadyExist"));
+	        }
+
+	        Ride ride = driver.addRide(rideDetails.getFrom(), rideDetails.getTo(), rideDetails.getDate(),
+	                rideDetails.getNPlaces(), rideDetails.getPrice());
+
+	        db.persist(driver);
+	        db.getTransaction().commit();
+
+	        return ride;
+	    } catch (NullPointerException e) {
+	        return null;
+	    }
+	}
+	/*
 	public Ride createRide(String from, String to, Date date, int nPlaces, float price, String driverName)
 			throws RideAlreadyExistException, RideMustBeLaterThanTodayException {
 		System.out.println(
@@ -257,7 +291,7 @@ public class DataAccess {
 		
 
 	}
-
+**/
 	/**
 	 * This method retrieves the rides from two locations on a given date
 	 * 
@@ -1020,7 +1054,27 @@ public class DataAccess {
 			return null;
 		}
 	}
+	
+	private void executeTransaction(Runnable operation) {
+	    try {
+	        db.getTransaction().begin();
+	        operation.run();
+	        db.getTransaction().commit();
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	        db.getTransaction().rollback();
+	    }
+	}
+	
+	public void deleteDiscount(Discount discount) {
+	    executeTransaction(() -> db.remove(discount));
+	}
 
+	public void updateDiscount(Discount discount) {
+	    executeTransaction(() -> db.merge(discount));
+	}
+	
+/*
 	public void deleteDiscount(Discount dis) {
 		try {
 			db.getTransaction().begin();
@@ -1042,7 +1096,7 @@ public class DataAccess {
 			db.getTransaction().rollback();
 		}
 	}
-
+**/
 	public Discount getDiscount(String kodea) {
 		TypedQuery<Discount> query = db.createQuery("SELECT d FROM Discount d WHERE d.kodea = :kodea", Discount.class);
 		query.setParameter("kodea", kodea);
@@ -1075,7 +1129,76 @@ public class DataAccess {
 		TypedQuery<User> query = db.createQuery("SELECT u FROM User u", User.class);
 		return query.getResultList();
 	}
+	
+	private void performUserDeletion(User user) {
+	    db.getTransaction().begin();
+	    user = db.merge(user);
+	    db.remove(user);
+	    db.getTransaction().commit();
+	}
+	
+	private void deleteAlerts(List<Alert> alerts) {
+	    if (alerts != null) {
+	        for (Alert alert : alerts) {
+	            deleteAlert(alert.getAlertNumber());
+	        }
+	    }
+	}
+	
+	private void rejectBookings(List<Booking> bookings) {
+	    if (bookings != null) {
+	        for (Booking booking : bookings) {
+	            booking.setStatus("Rejected");
+	            booking.getRide().setnPlaces(booking.getRide().getnPlaces() + booking.getSeats());
+	        }
+	    }
+	}
+	
+	private void handleUserDeletion(User user) {
+	    List<Booking> bookings = getBookedRides(user.getUsername());
+	    rejectBookings(bookings);
 
+	    List<Alert> alerts = getAlertsByUsername(user.getUsername());
+	    deleteAlerts(alerts);
+	}
+	
+	private void deleteCars(List<Car> cars) {
+	    if (cars != null) {
+	        for (int i = cars.size() - 1; i >= 0; i--) {
+	            deleteCar(cars.get(i));
+	        }
+	    }
+	}
+	
+	private void cancelRides(List<Ride> rides) {
+	    if (rides != null) {
+	        for (Ride ride : rides) {
+	            cancelRide(ride);
+	        }
+	    }
+	}
+	
+	private void handleDriverDeletion(User user) {
+	    List<Ride> rides = getRidesByDriver(user.getUsername());
+	    cancelRides(rides);
+
+	    Driver driver = getDriver(user.getUsername());
+	    deleteCars(driver.getCars());
+	}
+	
+	public void deleteUser(User user) {
+	    try {
+	        if (user.getMota().equals("Driver")) {
+	            handleDriverDeletion(user);
+	        } else {
+	            handleUserDeletion(user);
+	        }
+	        performUserDeletion(user);
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	    }
+	}
+/*
 	public void deleteUser(User us) {
 		try {
 			if (us.getMota().equals("Driver")) {
@@ -1116,7 +1239,7 @@ public class DataAccess {
 			e.printStackTrace();
 		}
 	}
-
+**/
 	public List<Alert> getAlertsByUsername(String username) {
 		try {
 			db.getTransaction().begin();
@@ -1163,7 +1286,67 @@ public class DataAccess {
 		}
 
 	}
+	
+	private boolean isRideMatchingAlert(Ride ride, Alert alert) {
+	    return UtilDate.datesAreEqualIgnoringTime(ride.getDate(), alert.getDate()) 
+	        && ride.getFrom().equals(alert.getFrom()) 
+	        && ride.getTo().equals(alert.getTo()) 
+	        && ride.getnPlaces() > 0;
+	}
+	
+	private boolean updateAlertsStatus(List<Alert> alerts, List<Ride> rides) {
+	    boolean alertFound = false;
 
+	    for (Alert alert : alerts) {
+	        boolean found = false;
+	        for (Ride ride : rides) {
+	            if (isRideMatchingAlert(ride, alert)) {
+	                alert.setFound(true);
+	                found = true;
+	                if (alert.isActive()) {
+	                    alertFound = true;
+	                }
+	                break;
+	            }
+	        }
+	        if (!found) {
+	            alert.setFound(false);
+	        }
+	        db.merge(alert);
+	    }
+
+	    return alertFound;
+	}
+	
+	private List<Alert> findAlertsByUsername(String username) {
+	    TypedQuery<Alert> alertQuery = db.createQuery("SELECT a FROM Alert a WHERE a.traveler.username = :username", Alert.class);
+	    alertQuery.setParameter("username", username);
+	    return alertQuery.getResultList();
+	}
+
+	private List<Ride> findUpcomingRides() {
+	    TypedQuery<Ride> rideQuery = db.createQuery("SELECT r FROM Ride r WHERE r.date > CURRENT_DATE AND r.active = true", Ride.class);
+	    return rideQuery.getResultList();
+	}
+	
+	public boolean updateAlertaAurkituak(String username) {
+	    try {
+	        db.getTransaction().begin();
+
+	        List<Alert> alerts = findAlertsByUsername(username);
+	        List<Ride> rides = findUpcomingRides();
+
+	        boolean alertFound = updateAlertsStatus(alerts, rides);
+
+	        db.getTransaction().commit();
+	        return alertFound;
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	        db.getTransaction().rollback();
+	        return false;
+	    }
+	}
+/*
 	public boolean updateAlertaAurkituak(String username) {
 		try {
 			db.getTransaction().begin();
@@ -1205,7 +1388,7 @@ public class DataAccess {
 			return false;
 		}
 	}
-
+**/
 	public boolean createAlert(Alert alert) {
 		try {
 			db.getTransaction().begin();

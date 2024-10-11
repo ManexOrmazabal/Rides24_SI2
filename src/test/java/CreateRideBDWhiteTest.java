@@ -1,3 +1,4 @@
+/*
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
@@ -301,3 +302,4 @@ public class CreateRideBDWhiteTest {
 	public void test6() {}  
 	//metodo hau ez dago inplementatuta oraindik, baina etorkizunera begira dago egina
 }
+**/

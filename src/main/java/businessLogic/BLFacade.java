@@ -9,6 +9,7 @@ import java.util.List;
 
 
 import domain.Ride;
+import domain.RideDetails;
 import domain.Traveler;
 import domain.User;
 
@@ -67,7 +68,7 @@ public interface BLFacade {
 	 *                                           the driver
 	 */
 	@WebMethod
-	public Ride createRide(String from, String to, Date date, int nPlaces, float price, String driverName)
+	public Ride createRide(RideDetails rideDetails, String driverName)
 			throws RideMustBeLaterThanTodayException, RideAlreadyExistException;
 
 	/**

@@ -514,11 +514,10 @@ public class DataAccess {
 		}
 	}
 
-	public void addMovement(User user, String eragiketa, double amount) {
+	public void addMovement(Movement movement) {
 		try {
 			db.getTransaction().begin();
 
-			Movement movement = new Movement(user, eragiketa, amount);
 			db.persist(movement);
 			db.getTransaction().commit();
 		} catch (Exception e) {
@@ -526,7 +525,61 @@ public class DataAccess {
 			db.getTransaction().rollback();
 		}
 	}
+	
+	public boolean bookRide(String username, Ride ride, int seats, double desk) {
+	    try {
+	        db.getTransaction().begin();
 
+	        Traveler traveler = getTraveler(username);
+	        if (!isTravelerValid(traveler) || !isRideAvailable(ride, seats) || !isBookingAffordable(traveler, ride, seats, desk)) {
+	            return false;
+	        }
+
+	        Booking booking = createBooking(ride, traveler, seats, desk);
+	        updateRideAndTraveler(ride, traveler, booking, seats);
+	        
+	        db.getTransaction().commit();
+	        return true;
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	        db.getTransaction().rollback();
+	        return false;
+	    }
+	}
+
+	private boolean isTravelerValid(Traveler traveler) {
+	    return traveler != null;
+	}
+
+	private boolean isRideAvailable(Ride ride, int seats) {
+	    return ride.getnPlaces() >= seats;
+	}
+
+	private boolean isBookingAffordable(Traveler traveler, Ride ride, int seats, double desk) {
+	    double ridePriceDesk = (ride.getPrice() - desk) * seats;
+	    return traveler.getMoney() >= ridePriceDesk;
+	}
+
+	private Booking createBooking(Ride ride, Traveler traveler, int seats, double desk) {
+	    Booking booking = new Booking(ride, traveler, seats);
+	    booking.setTraveler(traveler);
+	    booking.setDeskontua(desk);
+	    db.persist(booking);
+	    return booking;
+	}
+
+	private void updateRideAndTraveler(Ride ride, Traveler traveler, Booking booking, int seats) {
+	    ride.setnPlaces(ride.getnPlaces() - seats);
+	    traveler.addBookedRide(booking);
+	    double availableBalance = traveler.getMoney();
+	    traveler.setMoney(availableBalance - ((ride.getPrice() - booking.getDeskontua()) * seats));
+	    traveler.setIzoztatutakoDirua(traveler.getIzoztatutakoDirua() + ((ride.getPrice() - booking.getDeskontua()) * seats));
+	    db.merge(ride);
+	    db.merge(traveler);
+	}
+
+	
+	/*
 	public boolean bookRide(String username, Ride ride, int seats, double desk) {
 		try {
 			db.getTransaction().begin();
@@ -565,6 +618,7 @@ public class DataAccess {
 			return false;
 		}
 	}
+	**/
 
 	public List<Movement> getAllMovements(User user) {
 		TypedQuery<Movement> query = db.createQuery("SELECT m FROM Movement m WHERE m.user = :user", Movement.class);
@@ -578,7 +632,33 @@ public class DataAccess {
 		db.getTransaction().commit();
 		return trav.getBookedRides();
 	}
+	
+	
+	public <T> void updateEntity(T entity) {
+	    try {
+	        db.getTransaction().begin();
+	        db.merge(entity);
+	        db.getTransaction().commit();
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	        db.getTransaction().rollback();
+	    }
+	}
+	
+	public void updateTraveler(Traveler traveler) {
+	    updateEntity(traveler);
+	}
 
+	public void updateDriver(Driver driver) {
+	    updateEntity(driver);
+	}
+
+	public void updateUser(User user) {
+	    updateEntity(user);
+	}
+
+	
+	/*
 	public void updateTraveler(Traveler traveler) {
 		try {
 			db.getTransaction().begin();
@@ -611,6 +691,7 @@ public class DataAccess {
 			db.getTransaction().rollback();
 		}
 	}
+	**/
 
 	public List<Booking> getPastBookedRides(String username) {
 		TypedQuery<Booking> query = db.createQuery(
@@ -694,8 +775,53 @@ public class DataAccess {
 	        db.getTransaction().rollback();
 	    }
 	}
-
 	
+	public void cancelRide(Ride ride) {
+	    try {
+	        db.getTransaction().begin();
+	        for (Booking booking : ride.getBookings()) {
+	            cancelBooking(booking);
+	        }
+	        deactivateRide(ride);
+	        db.getTransaction().commit();
+	    } catch (Exception e) {
+	        handleTransactionFailure(e);
+	    }
+	}
+
+	private void cancelBooking(Booking booking) {
+	    if (booking.getStatus().equals("Accepted") || booking.getStatus().equals("NotDefined")) {
+	        refundTraveler(booking);
+	    }
+	    booking.setStatus("Rejected");
+	    db.merge(booking);
+	}
+
+	private void refundTraveler(Booking booking) {
+	    Traveler traveler = booking.getTraveler();
+	    double price = booking.prezioaKalkulatu();
+	    
+	    traveler.setIzoztatutakoDirua(traveler.getIzoztatutakoDirua() - price);
+	    traveler.setMoney(traveler.getMoney() + price);
+	    db.merge(traveler);
+	    Movement movement = new Movement(traveler, "BookDeny",price);
+	    addMovement(movement);
+	}
+
+	private void deactivateRide(Ride ride) {
+	    ride.setActive(false);
+	    db.merge(ride);
+	}
+	
+	private void handleTransactionFailure(Exception e) {
+	    e.printStackTrace();  // Muestra el error en la consola para depuración
+	    if (db.getTransaction().isActive()) {
+	        db.getTransaction().rollback();  // Revertir la transacción si está activa
+	    }
+	}
+
+
+	/*
 	public void cancelRide(Ride ride) {
 		try {
 			db.getTransaction().begin();
@@ -728,6 +854,7 @@ public class DataAccess {
 			e.printStackTrace();
 		}
 	}
+	**/
 
 	public List<Ride> getRidesByDriver(String username) {
 		try {

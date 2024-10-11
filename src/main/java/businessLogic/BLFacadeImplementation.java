@@ -236,7 +236,8 @@ public class BLFacadeImplementation implements BLFacade {
 	@Override
 	public void addMovement(User user, String eragiketa, double amount) {
 		dbManager.open();
-		dbManager.addMovement(user, eragiketa, amount);
+		Movement movement = new Movement(user,eragiketa,amount);
+		dbManager.addMovement(movement);
 		dbManager.close();
 	}
 

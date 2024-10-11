@@ -337,12 +337,55 @@ public class DataAccess {
 		System.out.println("DataAcess closed");
 	}
 
+	// Método genérico para buscar usuarios
+	private <T> T findUser(String username, Class<T> userType) {
+	    TypedQuery<T> query = db.createQuery("SELECT u FROM " + userType.getSimpleName() + " u WHERE u.username = :username", userType);
+	    query.setParameter("username", username);
+	    List<T> resultList = query.getResultList();
+	    return resultList.isEmpty() ? null : resultList.get(0);
+	}
+	
+	// Refactorización en getDriver, getTraveler
+	public Driver getDriver(String erab) {
+	    return findUser(erab, Driver.class);
+	}
+
+	public Traveler getTraveler(String erab) {
+	    return findUser(erab, Traveler.class);
+	}
+	
+/*
+	public Driver getDriver(String erab) {
+		TypedQuery<Driver> query = db.createQuery("SELECT d FROM Driver d WHERE d.username = :username", Driver.class);
+		query.setParameter("username", erab);
+		List<Driver> resultList = query.getResultList();
+		if (resultList.isEmpty()) {
+			return null;
+		} else {
+			return resultList.get(0);
+		}
+	}
+	
+	public Traveler getTraveler(String erab) {
+		TypedQuery<Traveler> query = db.createQuery("SELECT t FROM Traveler t WHERE t.username = :username",
+				Traveler.class);
+		query.setParameter("username", erab);
+		List<Traveler> resultList = query.getResultList();
+		if (resultList.isEmpty()) {
+			return null;
+		} else {
+			return resultList.get(0);
+		}
+	}
+
+	**/
+	
 	public User getUser(String erab) {
 		TypedQuery<User> query = db.createQuery("SELECT u FROM User u WHERE u.username = :username", User.class);
 		query.setParameter("username", erab);
 		return query.getSingleResult();
 	}
-
+	
 	public double getActualMoney(String erab) {
 		TypedQuery<Double> query = db.createQuery("SELECT u.money FROM User u WHERE u.username = :username",
 				Double.class);
@@ -377,40 +420,6 @@ public class DataAccess {
 		boolean isAdmin=((erab.compareTo("admin")==0) && (passwd.compareTo(adminPass)==0));
 		return travelerCount > 0 || driverCount > 0 || isAdmin;
 	}
-
-	public Driver getDriver(String erab) {
-		TypedQuery<Driver> query = db.createQuery("SELECT d FROM Driver d WHERE d.username = :username", Driver.class);
-		query.setParameter("username", erab);
-		List<Driver> resultList = query.getResultList();
-		if (resultList.isEmpty()) {
-			return null;
-		} else {
-			return resultList.get(0);
-		}
-	}
-
-	public Traveler getTraveler(String erab) {
-		TypedQuery<Traveler> query = db.createQuery("SELECT t FROM Traveler t WHERE t.username = :username",
-				Traveler.class);
-		query.setParameter("username", erab);
-		List<Traveler> resultList = query.getResultList();
-		if (resultList.isEmpty()) {
-			return null;
-		} else {
-			return resultList.get(0);
-		}
-	}
-
-	/*public Admin getAdmin(String erab) {
-		TypedQuery<Admin> query = db.createQuery("SELECT a FROM Admin a WHERE t.username = :username", Admin.class);
-		query.setParameter("username", erab);
-		List<Admin> resultList = query.getResultList();
-		if (resultList.isEmpty()) {
-			return null;
-		} else {
-			return resultList.get(0);
-		}
-	}*/
 
 	public String getMotabyUsername(String erab) {
 		TypedQuery<String> driverQuery = db.createQuery("SELECT d.mota FROM Driver d WHERE d.username = :username",
@@ -622,6 +631,7 @@ public class DataAccess {
 		}
 	}
 
+/*	
 	public List<Booking> getBookingFromDriver(String username) {
 		try {
 			db.getTransaction().begin();
@@ -647,7 +657,45 @@ public class DataAccess {
 			return null;
 		}
 	}
+**/
+	public List<Booking> getBookingFromDriver(String username) {
+	    try {
+	        Driver driver = getDriverByUsername(username);
+	        return getActiveBookings(driver);
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	        rollbackTransaction();
+	        return null;
+	    }
+	}
 
+	private Driver getDriverByUsername(String username) {
+	    db.getTransaction().begin();
+	    TypedQuery<Driver> query = db.createQuery("SELECT d FROM Driver d WHERE d.username = :username",
+	            Driver.class);
+	    query.setParameter("username", username);
+	    Driver driver = query.getSingleResult();
+	    db.getTransaction().commit();
+	    return driver;
+	}
+
+	private List<Booking> getActiveBookings(Driver driver) {
+	    List<Booking> bookings = new ArrayList<>();
+	    for (Ride ride : driver.getCreatedRides()) {
+	        if (ride.isActive()) {
+	            bookings.addAll(ride.getBookings());
+	        }
+	    }
+	    return bookings;
+	}
+
+	private void rollbackTransaction() {
+	    if (db.getTransaction().isActive()) {
+	        db.getTransaction().rollback();
+	    }
+	}
+
+	
 	public void cancelRide(Ride ride) {
 		try {
 			db.getTransaction().begin();
@@ -706,7 +754,41 @@ public class DataAccess {
 			return null;
 		}
 	}
+	
+	public boolean addCar(String username, Car kotxe) {
+	    try {
+	        if (isCarAlreadyAdded(username, kotxe.getMatrikula())) {
+	            return false;
+	        }
+	        
+	        addCarToDriver(username, kotxe);
+	        return true;
+	    } catch (Exception e) {
+	        handleTransactionRollback();
+	        e.printStackTrace();
+	        return false;
+	    }
+	}
 
+	private boolean isCarAlreadyAdded(String username, String matrikula) {
+	    return isAdded(username, matrikula);
+	}
+
+	private void addCarToDriver(String username, Car kotxe) {
+	    db.getTransaction().begin();
+	    Driver driver = getDriver(username);
+	    driver.addCar(kotxe);
+	    db.persist(driver);
+	    db.getTransaction().commit();
+	}
+
+	private void handleTransactionRollback() {
+	    if (db.getTransaction().isActive()) {
+	        db.getTransaction().rollback();
+	    }
+	}
+
+/*
 	public boolean addCar(String username, Car kotxe) {
 		try {
 			boolean b = isAdded(username, kotxe.getMatrikula());
@@ -724,7 +806,7 @@ public class DataAccess {
 			return false;
 		}
 	}
-
+**/
 	public boolean isAdded(String username, String matr) {
 		boolean era = false;
 		for (Car kotxe : getDriver(username).getCars()) {
@@ -733,8 +815,9 @@ public class DataAccess {
 			}
 		}
 		return era;
-	}
-
+	}	
+	
+	/*
 	public boolean erreklamazioaBidali(String nor, String nori, Date gaur, Booking booking, String textua,
 			boolean aurk) {
 		try {
@@ -749,6 +832,21 @@ public class DataAccess {
 			db.getTransaction().rollback();
 			return false;
 		}
+	}
+	**/
+	
+	public boolean erreklamazioaBidali(ComplaintRequest request) {
+	    try {
+	        db.getTransaction().begin();
+	        Complaint erreklamazioa = new Complaint(request.getSender(), request.getRecipient(), request.getDate(), request.getBooking(), request.getText(), request.isUrgent());
+	        db.persist(erreklamazioa);
+	        db.getTransaction().commit();
+	        return true;
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	        db.getTransaction().rollback();
+	        return false;
+	    }
 	}
 
 	public void updateComplaint(Complaint erreklamazioa) {

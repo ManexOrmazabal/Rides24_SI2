@@ -1,6 +1,7 @@
 package businessLogic;
 
 import java.util.logging.Logger;
+import java.util.NoSuchElementException;
 import java.util.Date;
 import java.util.List;
 
@@ -67,6 +68,15 @@ public class BLFacadeImplementation implements BLFacade {
 		return departLocations;
 
 	}
+	
+	@Override
+    public ExtendedIterator<String> getDepartingCitiesIterator() {
+        dbManager.open();
+        List<String> departLocations = dbManager.getDepartCities(); // Supongamos que devuelve una lista
+        dbManager.close();
+        return new CityIterator(departLocations);
+    }
+
 
 	/**
 	 * {@inheritDoc}

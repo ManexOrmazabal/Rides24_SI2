@@ -186,4 +186,7 @@ public interface BLFacade {
 
 	public Complaint getComplaintsByBook(Booking bo);
 
+	ExtendedIterator<String> getDepartingCitiesIterator();
+
+
 }

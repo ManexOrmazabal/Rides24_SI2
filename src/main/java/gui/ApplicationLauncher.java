@@ -1,69 +1,36 @@
 package gui;
 
-import java.net.URL;
 import java.util.Locale;
-
 import javax.swing.UIManager;
-import javax.xml.namespace.QName;
-import javax.xml.ws.Service;
-
-import configuration.ConfigXML;
-import dataAccess.DataAccess;
 import businessLogic.BLFacade;
-import businessLogic.BLFacadeImplementation;
+import businessLogic.BLFacadeFactory;
+import businessLogic.BLFacadeLocal;
+import businessLogic.ExtendedIterator;
+import configuration.ConfigXML;
 
 public class ApplicationLauncher {
 
-	public static void main(String[] args) {
-
-		ConfigXML c = ConfigXML.getInstance();
-
-		System.out.println(c.getLocale());
-
-		Locale.setDefault(new Locale(c.getLocale()));
-
-		System.out.println("Locale: " + Locale.getDefault());
-
-		try {
-
-			BLFacade appFacadeInterface;
-			UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
-
-			if (c.isBusinessLogicLocal()) {
-
-				DataAccess da = new DataAccess();
-				appFacadeInterface = new BLFacadeImplementation(da);
-
-			}
-
-			else { // If remote
-
-				String serviceName = "http://" + c.getBusinessLogicNode() + ":" + c.getBusinessLogicPort() + "/ws/"
-						+ c.getBusinessLogicName() + "?wsdl";
-
-				URL url = new URL(serviceName);
-
-				// 1st argument refers to wsdl document above
-				// 2nd argument is service name, refer to wsdl document above
-				QName qname = new QName("http://businessLogic/", "BLFacadeImplementationService");
-
-				Service service = Service.create(url, qname);
-
-				appFacadeInterface = service.getPort(BLFacade.class);
-			}
-
-			MainGUI.setBussinessLogic(appFacadeInterface);
-			MainGUI a = new MainGUI();
-			a.setVisible(true);
-
-		} catch (Exception e) {
-			// a.jLabelSelectOption.setText("Error: "+e.toString());
-			// a.jLabelSelectOption.setForeground(Color.RED);
-
-			System.out.println("Error in ApplicationLauncher: " + e.toString());
-		}
-		// a.pack();
-
+	public static void main(String[]	args)	{
+//		the	BL	is	local
+	boolean isLocal =	true;
+	BLFacade	blFacade =	new BLFacadeLocal();
+	ExtendedIterator<String>	i =	blFacade.getDepartingCitiesIterator();
+	String c;
+	System.out.println("_____________________");
+	System.out.println("FROM	LAST	TO	FIRST");
+	i.goLast();	//	Go	to	last	element
+	while (i.hasPrevious())	{
+	c =	i.previous();
+	System.out.println(c);
 	}
-
+	System.out.println();
+	System.out.println("_____________________");
+	System.out.println("FROM	FIRST	TO	LAST");
+	i.goFirst();	//	Go	to	first	element
+	while (i.hasNext())	{
+	c =	i.next();
+	System.out.println(c);
+	}
+	}
 }
+

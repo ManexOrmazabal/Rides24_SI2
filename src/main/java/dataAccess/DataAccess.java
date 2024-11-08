@@ -34,7 +34,7 @@ public class DataAccess {
 	ConfigXML c = ConfigXML.getInstance();
 	
 	private String adminPass="admin";
-	
+	//aaa
 	public DataAccess() {
 	    if (c.isDatabaseInitialized()) {
 	        String fileName = c.getDbFilename();
